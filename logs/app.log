@@ -1,0 +1,341 @@
+2025/02/28 16:56:33.806 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:07:54.136 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:08:22.769 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|      508.6µs| nomatch|[44m GET     [0m /inner/home
+2025/02/28 17:08:22.890 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2025/02/28 17:08:26.501 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    31.8519ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:08:26.508 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2025/02/28 17:08:26.508 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2025/02/28 17:08:26.513 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/layui.js
+2025/02/28 17:08:26.513 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      542.2µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2025/02/28 17:08:26.543 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/02/28 17:08:26.547 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2025/02/28 17:08:26.549 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0661ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2025/02/28 17:08:27.376 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2025/02/28 17:08:27.376 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/aiwrap.png
+2025/02/28 17:08:27.388 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0056ms|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2025/02/28 17:08:27.403 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2025/02/28 17:08:27.447 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      505.4µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2025/02/28 17:08:27.455 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2025/02/28 17:08:27.509 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/zlkt.ico
+2025/02/28 17:08:29.462 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /change_captcha
+2025/02/28 17:08:31.547 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    27.4358ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:08:32.913 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /change_captcha
+2025/02/28 17:08:34.364 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /change_captcha
+2025/02/28 17:08:35.818 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /change_captcha
+2025/02/28 17:08:36.339 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /change_captcha
+2025/02/28 17:08:38.376 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /change_captcha
+2025/02/28 17:09:52.808 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:11:21.262 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:11:27.338 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    26.6725ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:11:40.129 [C] [config.go:176]  the request url is  /
+2025/02/28 17:11:40.129 [C] [config.go:177]  Handler crashed with error <Ormer.QueryTable> table name: `user` not exists
+2025/02/28 17:11:40.129 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:11:40.129 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm.go:440
+2025/02/28 17:11:40.129 [C] [config.go:183]  D:/ions_project/controllers/login/login_controller.go:36
+2025/02/28 17:11:40.130 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:835
+2025/02/28 17:11:40.130 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:11:40.130 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:11:40.130 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:11:40.130 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:12:41.937 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:12:46.303 [E] [login_controller.go:39]  <QuerySeter> no row found
+2025/02/28 17:12:46.303 [I] [login_controller.go:47]  登录的post请求，用户名密码错误，登录信息：username:小太阳;pwd:41ac35bff37746dfe319b8d314cccec0
+2025/02/28 17:12:46.304 [C] [config.go:176]  the request url is  /
+2025/02/28 17:12:46.304 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/lcontroller/post.tpl
+2025/02/28 17:12:46.304 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:12:46.304 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/28 17:12:46.304 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/28 17:12:46.304 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/28 17:12:46.304 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/28 17:12:46.304 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/28 17:12:46.304 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:12:46.304 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:12:46.304 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:12:46.305 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:12:49.371 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    26.6606ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/28 17:12:51.911 [E] [login_controller.go:39]  <QuerySeter> no row found
+2025/02/28 17:12:51.911 [I] [login_controller.go:47]  登录的post请求，用户名密码错误，登录信息：username:小太阳;pwd:41ac35bff37746dfe319b8d314cccec0
+2025/02/28 17:12:51.911 [C] [config.go:176]  the request url is  /
+2025/02/28 17:12:51.911 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/lcontroller/post.tpl
+2025/02/28 17:12:51.911 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:12:51.911 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/28 17:12:51.911 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/28 17:12:51.911 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/28 17:12:51.911 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/28 17:12:51.911 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/28 17:12:51.911 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:12:51.911 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:12:51.911 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:12:51.912 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:14:51.160 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    31.9476ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/28 17:14:54.950 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:小太阳;pwd:41ac35bff37746dfe319b8d314cccec0
+2025/02/28 17:14:54.951 [C] [config.go:176]  the request url is  /
+2025/02/28 17:14:54.951 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/lcontroller/post.tpl
+2025/02/28 17:14:54.952 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:14:54.952 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/28 17:14:54.952 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/28 17:14:54.952 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/28 17:14:54.952 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/28 17:14:54.952 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/28 17:14:54.952 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:14:54.952 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:14:54.952 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:14:54.952 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:15:21.926 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:15:36.876 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    28.8382ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/28 17:15:40.148 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:15:40.149 [C] [config.go:176]  the request url is  /
+2025/02/28 17:15:40.149 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/lcontroller/post.tpl
+2025/02/28 17:15:40.149 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:15:40.149 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/28 17:15:40.149 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/28 17:15:40.149 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/28 17:15:40.149 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/28 17:15:40.149 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/28 17:15:40.149 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:15:40.149 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:15:40.149 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:15:40.149 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:16:16.203 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    33.6075ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/28 17:16:18.920 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:16:18.920 [C] [config.go:176]  the request url is  /
+2025/02/28 17:16:18.920 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/lcontroller/post.tpl
+2025/02/28 17:16:18.920 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:16:18.920 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/28 17:16:18.920 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/28 17:16:18.921 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/28 17:16:18.921 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/28 17:16:18.921 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/28 17:16:18.921 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:16:18.921 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:16:18.921 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:16:18.921 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:18:29.902 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:18:33.282 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    26.5345ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/28 17:18:36.670 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:18:36.671 [C] [config.go:176]  the request url is  /
+2025/02/28 17:18:36.671 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/lcontroller/post.tpl
+2025/02/28 17:18:36.671 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:18:36.671 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/28 17:18:36.671 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/28 17:18:36.671 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/28 17:18:36.671 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/28 17:18:36.671 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/28 17:18:36.671 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:18:36.671 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:18:36.671 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:18:36.671 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:19:45.177 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:19:45.625 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    30.6071ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:20:45.067 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5642ms|   match|[44m GET     [0m /home   r:/home
+2025/02/28 17:20:45.087 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/reload.min.js
+2025/02/28 17:21:48.538 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:21:49.250 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    26.1028ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:22:17.782 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:22:17.783 [C] [config.go:176]  the request url is  /
+2025/02/28 17:22:17.783 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/lcontroller/post.tpl
+2025/02/28 17:22:17.783 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:22:17.783 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/28 17:22:17.783 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/28 17:22:17.783 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/28 17:22:17.783 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/28 17:22:17.783 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/28 17:22:17.783 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:22:17.783 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:22:17.783 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:22:17.783 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:23:15.364 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     25.716ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/28 17:23:19.415 [I] [login_controller.go:53]  登录的post请求验证码错误，验证码信息:17
+2025/02/28 17:23:19.416 [C] [config.go:176]  the request url is  /
+2025/02/28 17:23:19.416 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/lcontroller/post.tpl
+2025/02/28 17:23:19.416 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:23:19.416 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/28 17:23:19.416 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/28 17:23:19.416 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/28 17:23:19.416 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/28 17:23:19.416 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/28 17:23:19.416 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:23:19.416 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:23:19.416 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:23:19.416 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:23:28.072 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    28.3155ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/28 17:23:32.023 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:23:32.025 [C] [config.go:176]  the request url is  /
+2025/02/28 17:23:32.025 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/lcontroller/post.tpl
+2025/02/28 17:23:32.025 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:23:32.025 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/28 17:23:32.025 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/28 17:23:32.025 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/28 17:23:32.025 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/28 17:23:32.025 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/28 17:23:32.025 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:23:32.025 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:23:32.025 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:23:32.025 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:24:55.747 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:24:56.347 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    28.4065ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:25:30.312 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:25:30.312 [C] [config.go:176]  the request url is  /
+2025/02/28 17:25:30.312 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/lcontroller/post.tpl
+2025/02/28 17:25:30.312 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:25:30.312 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/28 17:25:30.312 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/28 17:25:30.312 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/28 17:25:30.312 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/28 17:25:30.312 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/28 17:25:30.312 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:25:30.312 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:25:30.312 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:25:30.313 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:25:50.319 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    26.9926ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:26:52.863 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:27:31.179 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:27:32.003 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    28.4867ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:27:41.141 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    27.8207ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:28:17.966 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:28:17.967 [C] [config.go:176]  the request url is  /
+2025/02/28 17:28:17.967 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/lcontroller/post.tpl
+2025/02/28 17:28:17.967 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:28:17.967 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/28 17:28:17.967 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/28 17:28:17.967 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/28 17:28:17.967 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/28 17:28:17.967 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/28 17:28:17.967 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:28:17.967 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:28:17.967 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:28:17.967 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:30:56.321 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:31:02.119 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    26.1031ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/28 17:31:05.539 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:31:05.540 [C] [config.go:176]  the request url is  /
+2025/02/28 17:31:05.540 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/lcontroller/post.tpl
+2025/02/28 17:31:05.540 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:31:05.540 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/28 17:31:05.540 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/28 17:31:05.540 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/28 17:31:05.540 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/28 17:31:05.540 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/28 17:31:05.540 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:31:05.540 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:31:05.540 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:31:05.540 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:33:57.461 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:33:58.148 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    28.0329ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:33:58.911 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    26.0941ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:34:09.529 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:34:09.530 [C] [config.go:176]  the request url is  /
+2025/02/28 17:34:09.530 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/lcontroller/post.tpl
+2025/02/28 17:34:09.530 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:34:09.530 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/28 17:34:09.530 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/28 17:34:09.530 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/28 17:34:09.530 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/28 17:34:09.530 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/28 17:34:09.530 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:34:09.530 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:34:09.530 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:34:09.530 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:34:44.465 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:34:44.863 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    27.2087ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:34:51.084 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:34:51.085 [C] [config.go:176]  the request url is  /
+2025/02/28 17:34:51.085 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/lcontroller/post.tpl
+2025/02/28 17:34:51.085 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:34:51.085 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/28 17:34:51.085 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/28 17:34:51.085 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/28 17:34:51.085 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/28 17:34:51.085 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/28 17:34:51.085 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:34:51.085 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:34:51.085 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:34:51.085 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:35:10.057 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:35:10.942 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    26.7494ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:35:19.284 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:35:19.285 [C] [config.go:176]  the request url is  /
+2025/02/28 17:35:19.285 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/lcontroller/post.tpl
+2025/02/28 17:35:19.285 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:35:19.285 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/28 17:35:19.285 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/28 17:35:19.285 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/28 17:35:19.285 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/28 17:35:19.285 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/28 17:35:19.285 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:35:19.285 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:35:19.285 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:35:19.285 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:35:53.113 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:35:53.630 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    25.4679ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:35:59.003 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    24.9797ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:36:05.850 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:36:05.850 [C] [config.go:176]  the request url is  /
+2025/02/28 17:36:05.851 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/lcontroller/post.tpl
+2025/02/28 17:36:05.851 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:36:05.851 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/28 17:36:05.851 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/28 17:36:05.851 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/28 17:36:05.851 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/28 17:36:05.851 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/28 17:36:05.851 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:36:05.851 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:36:05.851 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:36:05.851 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:38:10.258 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    26.7257ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:38:10.523 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:38:13.171 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    27.1225ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:38:16.403 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    26.2086ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:38:22.254 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:38:29.847 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    27.6604ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/28 17:38:32.499 [I] [login_controller.go:69]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:38:32.500 [C] [config.go:176]  the request url is  /
+2025/02/28 17:38:32.500 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/lcontroller/post.tpl
+2025/02/28 17:38:32.500 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:38:32.500 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/28 17:38:32.500 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/28 17:38:32.500 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/28 17:38:32.500 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/28 17:38:32.500 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/28 17:38:32.500 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:38:32.500 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:38:32.500 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:38:32.500 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:40:25.647 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    27.0513ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/28 17:40:36.470 [I] [login_controller.go:69]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:40:36.471 [C] [config.go:176]  the request url is  /
+2025/02/28 17:40:36.471 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/lcontroller/post.tpl
+2025/02/28 17:40:36.471 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/02/28 17:40:36.471 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/28 17:40:36.471 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/28 17:40:36.471 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/28 17:40:36.471 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/28 17:40:36.471 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/28 17:40:36.471 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/02/28 17:40:36.471 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/02/28 17:40:36.471 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/28 17:40:36.471 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/28 17:42:39.617 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    27.5331ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/28 17:42:42.103 [I] [login_controller.go:69]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:42:42.104 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      1.035ms|   match|[46m POST    [0m /     r:/
+2025/02/28 17:42:52.006 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    23.9139ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/28 17:42:54.733 [I] [login_controller.go:69]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:42:54.734 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      1.706ms|   match|[46m POST    [0m /     r:/
+2025/02/28 17:43:47.661 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:44:01.422 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    49.1605ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:44:12.752 [I] [login_controller.go:69]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:44:12.752 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.7735ms|   match|[46m POST    [0m /     r:/
+2025/02/28 17:45:04.244 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:45:04.811 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    27.2735ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:45:06.131 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2025/02/28 17:45:14.676 [I] [login_controller.go:69]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:45:14.676 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|        747µs|   match|[46m POST    [0m /     r:/
+2025/02/28 17:45:32.650 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    25.2671ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/28 17:45:35.387 [I] [login_controller.go:69]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:45:35.387 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      505.8µs|   match|[46m POST    [0m /     r:/
+2025/02/28 17:46:19.148 [I] [app.go:215]  http server Running on http://:8089
+2025/02/28 17:46:19.583 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    26.4066ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:46:22.558 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    25.4581ms|   match|[44m GET     [0m /     r:/
+2025/02/28 17:46:37.858 [I] [login_controller.go:69]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/02/28 17:46:37.858 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.2665ms|   match|[46m POST    [0m /     r:/
+2025/02/28 17:46:37.870 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.6746ms|   match|[44m GET     [0m /home   r:/home
