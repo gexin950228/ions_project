@@ -339,3 +339,43 @@
 2025/02/28 17:46:37.858 [I] [login_controller.go:69]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
 2025/02/28 17:46:37.858 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.2665ms|   match|[46m POST    [0m /     r:/
 2025/02/28 17:46:37.870 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.6746ms|   match|[44m GET     [0m /home   r:/home
+2025/03/03 16:44:14.399 [I] [app.go:215]  http server Running on http://:8089
+2025/03/03 16:44:15.085 [I] [app.go:215]  http server Running on http://:8089
+2025/03/03 16:50:34.994 [D] [router.go:925]  | 10.161.252.112|[42m 200 [0m|    30.0803ms|   match|[44m GET     [0m /     r:/
+2025/03/03 16:51:42.893 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|        521µs| nomatch|[44m GET     [0m /index_ch.html
+2025/03/03 16:51:42.893 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|        521µs| nomatch|[44m GET     [0m /cap.js
+2025/03/03 16:51:42.893 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|        521µs| nomatch|[46m POST    [0m /favicon.ico
+2025/03/03 16:51:42.893 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|        521µs| nomatch|[44m GET     [0m /login.asp
+2025/03/03 16:51:42.893 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|        521µs| nomatch|[44m GET     [0m /login.html
+2025/03/03 16:51:42.918 [D] [router.go:925]  | 10.161.252.112|[42m 200 [0m|    26.0048ms|   match|[44m GET     [0m /     r:/
+2025/03/03 16:51:43.266 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/03/03 16:51:43.266 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/03/03 16:51:43.723 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/03/03 16:51:44.127 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/03/03 16:51:44.344 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/03/03 16:51:51.677 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/03/03 16:51:53.386 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|      508.5µs| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/03/03 16:51:56.596 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/03/03 16:52:03.309 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/03/03 16:52:04.416 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/03/03 16:52:07.879 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/03/03 16:52:08.488 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/03/03 16:58:41.558 [D] [router.go:925]  | 10.161.252.112|[42m 200 [0m|     32.767ms|   match|[44m GET     [0m /     r:/
+2025/03/03 16:59:55.117 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/03/03 16:59:55.117 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/03/03 16:59:55.117 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/03/03 16:59:55.353 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/03/03 16:59:55.353 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/03/03 16:59:55.579 [D] [router.go:925]  | 10.161.252.112|[42m 200 [0m|    27.1261ms|   match|[44m GET     [0m /     r:/
+2025/03/03 16:59:55.802 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/03/03 16:59:56.173 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/03/03 16:59:56.173 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/03/03 16:59:56.369 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/03/03 16:59:56.422 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/03/03 16:59:57.264 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/03/03 16:59:57.481 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/03/03 16:59:58.503 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/03/03 16:59:59.047 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/03/03 16:59:59.437 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/03/03 17:00:00.074 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/03/03 17:00:00.963 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp

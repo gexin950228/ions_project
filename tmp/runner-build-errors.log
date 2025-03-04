@@ -1,0 +1,10 @@
+# ions_project/routers
+routers\router.go:24:35: undefined: user
+routers\router.go:25:37: undefined: user
+routers\router.go:26:37: undefined: user
+routers\router.go:27:40: undefined: user
+routers\router.go:28:37: undefined: user
+routers\router.go:29:40: undefined: user
+routers\router.go:30:38: undefined: user
+routers\router.go:31:38: undefined: user
+routers\router.go:32:42: undefined: user
