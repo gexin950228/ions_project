@@ -145,3 +145,91 @@ func (u *UserController) Delete() {
 	logs.Info(ret)
 	u.Redirect(beego.URLFor("UserController.List"), http.StatusFound)
 }
+
+func (u *UserController) ResetPassword() {
+	id, _ := u.GetInt("id")
+
+	o := orm.NewOrm()
+	newPassword := utils.GetMd5Str("Admin@123456")
+	_, err := o.QueryTable("sys_user").Filter("id", id).Update(orm.Params{"password": newPassword})
+	if err != nil {
+		logs.Error(fmt.Sprintf("更新id为%d的用户密码发生错误，错误信息为: %s", id, err.Error()))
+	}
+	ret := fmt.Sprintf("用户id:%d,重置密码成功", id)
+	logs.Info(ret)
+	u.Redirect(beego.URLFor("UserController.List"), http.StatusFound)
+}
+
+func (u *UserController) ToUpdate() {
+	id, _ := u.GetInt("id")
+	o := orm.NewOrm()
+	user_data := auth.User{}
+	err := o.QueryTable("sys_user").Filter("id", id).One(&user_data)
+	if err != nil {
+		logs.Error(fmt.Sprintf("查询id为%d的用户出错，错误信息: %s", id, err.Error()))
+	}
+	u.Data["user"] = user_data
+	u.TplName = "user/user_edit.html"
+}
+
+func (u *UserController) DoUpdate() {
+	uid, _ := u.GetInt("uid")
+	username := u.GetString("username")
+	password := u.GetString("password")
+	age, _ := u.GetInt("age")
+	gender, _ := u.GetInt("gender")
+	phone := u.GetString("phone")
+	addr := u.GetString("addr")
+	is_active, _ := u.GetInt("is_active")
+	o := orm.NewOrm()
+	qs := o.QueryTable("sys_user").Filter("id", uid)
+	message_map := map[string]interface{}{}
+	new_password := utils.GetMd5Str(password)
+	if password == "" {
+		_, err := qs.Update(orm.Params{
+			"username":  username,
+			"age":       age,
+			"gender":    gender,
+			"phone":     phone,
+			"addr":      addr,
+			"is_active": is_active,
+		})
+		if err != nil {
+			ret := fmt.Sprintf("更新失败，用户id:%d", uid)
+			logs.Error(ret)
+			message_map["code"] = 10001
+			message_map["msg"] = "更新失败"
+		} else {
+			ret := fmt.Sprintf("更新成功，用户id:%d", uid)
+			logs.Info(ret)
+			message_map["code"] = 200
+			message_map["msg"] = "更新成功"
+		}
+	} else {
+		_, err := qs.Update(orm.Params{
+			"username":  username,
+			"password":  new_password,
+			"age":       age,
+			"gender":    gender,
+			"phone":     phone,
+			"addr":      addr,
+			"is_active": is_active,
+		})
+
+		if err != nil {
+
+			ret := fmt.Sprintf("更新失败，用户id:%d", uid)
+			logs.Error(ret)
+			message_map["code"] = 10001
+			message_map["msg"] = "更新失败"
+		} else {
+			ret := fmt.Sprintf("更新成功，用户id:%d", uid)
+			logs.Info(ret)
+			message_map["code"] = 200
+			message_map["msg"] = "更新成功"
+		}
+	}
+
+	u.Data["json"] = message_map
+	u.ServeJSON()
+}
