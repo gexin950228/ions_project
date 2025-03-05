@@ -4,6 +4,7 @@ import (
 	"github.com/astaxie/beego"
 	"ions_project/controllers"
 	"ions_project/controllers/login"
+	"ions_project/controllers/user"
 )
 
 func init() {
