@@ -16,79 +16,84 @@ type HomeController struct {
 }
 
 func (c *HomeController) Get() {
+	// 后端首页
 	o := orm.NewOrm()
-	userId := c.GetSession("id").(int)
-	user := auth.User{Id: userId}
 
-	_, err := o.LoadRelated(&user, "Role")
-	if err != nil {
-		logs.Error(err)
-	}
+	userId := c.GetSession("id")
+	// interface --> int
+	user := auth.User{Id: userId.(int)}
 
-	var authArr []int
+	o.LoadRelated(&user, "Role")
+
+	auth_arr := []int{}
 	for _, role := range user.Role {
-		roleData := auth.Role{Id: role.Id}
-		_, err := o.LoadRelated(&roleData, "Auth")
-		if err != nil {
-			logs.Error(err)
+		role_data := auth.Role{Id: role.Id}
+		o.LoadRelated(&role_data, "Auth")
+		for _, auth_date := range role_data.Auth {
+			auth_arr = append(auth_arr, auth_date.Id)
 		}
-		for _, authData := range roleData.Auth {
-			authArr = append(authArr, authData.Id)
-		}
+
 	}
 	qs := o.QueryTable("sys_auth")
-	var auths []auth.Auth
-	_, err = qs.Filter("id__in", authArr).OrderBy("-weight").All(&auths)
-	if err != nil {
-		logs.Error(err)
-	}
-	var trees []auth.Tree
-	var treeData auth.Tree
-	var pid int
-	for _, authData := range auths {
-		pid = authData.Id
-		treeData = auth.Tree{Id: authData.Id, AuthName: authData.AuthName, UrlFor: authData.UrlFor, Weight: authData.Weight, Children: []*auth.Tree{}}
-		GetChildNode(pid, &treeData)
-		trees = append(trees, treeData)
-	}
-	err = o.QueryTable("sys_auth").Filter("id", userId).One(&user)
-	if err != nil {
-		logs.Error(fmt.Sprintf("查询用户信息出错: %s", err.Error()))
+
+	auths := []auth.Auth{}
+	qs.Filter("pid", 0).Filter("id__in", auth_arr).OrderBy("-weight").All(&auths)
+	//"select * from sys_user where id in (1,2,3,1)"
+
+	trees := []auth.Tree{}
+	for _, auth_data := range auths { // 一级菜单
+
+		pid := auth_data.Id // 根据pid获取所有的子解点
+		tree_data := auth.Tree{Id: auth_data.Id, AuthName: auth_data.AuthName, UrlFor: auth_data.UrlFor, Weight: auth_data.Weight, Children: []*auth.Tree{}}
+		GetChildNode(pid, &tree_data)
+		trees = append(trees, tree_data)
+
 	}
 
-	// 消息通知，发送消息，使用定时任务
+	//for _,tree_data := range trees{
+	//	for _,tree_data2 := range tree_data.Children{
+	//		fmt.Println(tree_data2)
+	//	}
+	//}
+
+	o.QueryTable("sys_user").Filter("id", userId).One(&user)
+
+	// 消息通知,发送消息，使用定时任务优化
 	qs1 := o.QueryTable("sys_cars_apply")
-	var carsApply []auth.CarsApply
-	_, err = qs1.Filter("user_id", userId).Filter("return_status", 0).Filter("notify_tag", 0).All(&carsApply)
-	curTime, _ := time.Parse("2006-01-02", time.Now().Format("2006-01-02"))
-	for _, apply := range carsApply {
-		returnDate := apply.ReturnDate
-		ret := curTime.Sub(returnDate)
-		content := fmt.Sprintf("%s用户的借用车辆归还时间为:%v，请尽快归还", user.UserName, returnDate.Format("2006-01-02"))
-		if ret > 0 { // 已逾期
-			messageNotify := auth.MessageNotify{
-				Content: content,
+	cars_apply := []auth.CarsApply{}
+	qs1.Filter("user_id", userId.(int)).Filter("return_status", 0).Filter("notify_tag", 0).All(&cars_apply)
+
+	cur_time, _ := time.Parse("2006-01-02", time.Now().Format("2006-01-02"))
+
+	for _, apply := range cars_apply {
+		return_date := apply.ReturnDate
+		ret := cur_time.Sub(return_date)
+		content := fmt.Sprintf("%s用户，你借的车辆归还时间为%v,已经预期，请尽快归还!!", user.UserName, return_date.Format("2006-01-02"))
+		if ret > 0 { // 已经逾期
+			message_notify := auth.MessageNotify{
 				Flag:    1,
+				Title:   "车辆归还逾期",
+				Content: content,
 				User:    &user,
 				ReadTag: 0,
 			}
-			_, err := o.Insert(&messageNotify)
-			if err != nil {
-				logs.Error(err)
-			}
+			o.Insert(&message_notify)
 		}
+
 		apply.NotifyTag = 1
-		_, err = o.Update(&apply)
-		if err != nil {
-			logs.Error(err)
-		}
+
+		o.Update(&apply)
+
 	}
+
 	// 展示消息,使用websocket优化
+
 	qs2 := o.QueryTable("sys_message_notify")
-	notifyCount, _ := qs2.Filter("read_tag", 0).Count()
-	c.Data["user"] = user
+	notify_count, _ := qs2.Filter("read_tag", 0).Count()
+
+	c.Data["notify_count"] = notify_count
 	c.Data["trees"] = trees
-	c.Data["notify_count"] = notifyCount
+	c.Data["user"] = user
 	c.TplName = "index.html"
 
 }

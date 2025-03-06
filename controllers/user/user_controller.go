@@ -10,6 +10,7 @@ import (
 	"math"
 	"net/http"
 	"strconv"
+	"strings"
 )
 
 type UserController struct {
@@ -26,7 +27,7 @@ func (u *UserController) List() {
 		logs.Error(err)
 		currentPage = 1
 	}
-	offsetNum := (pagePerNum - 1) * currentPage
+	offsetNum := (currentPage - 1) * pagePerNum
 	kw := u.GetString("kw")
 	var count int64 = 0
 	ret := fmt.Sprintf("当前页;%d,查询条件：%s", currentPage, kw)
@@ -57,11 +58,12 @@ func (u *UserController) List() {
 	} else {
 		nextPage = currentPage
 	}
-	pageMap := utils.Paginator(currentPage, pagePerNum, count)
+	page_map := utils.Paginator(currentPage, pagePerNum, count)
+	fmt.Println("pageMap", page_map)
 	u.Data["users"] = users
 	u.Data["kw"] = kw
 	u.Data["count"] = count
-	u.Data["page_map"] = pageMap
+	u.Data["page_map"] = page_map
 	u.Data["nextPage"] = nextPage
 	u.Data["currentPage"] = currentPage
 	u.Data["prePage"] = prePage
@@ -70,7 +72,7 @@ func (u *UserController) List() {
 }
 
 func (u *UserController) ToAdd() {
-	u.TplName = "user/salary_slip_import.html"
+	u.TplName = "user/user_add.html"
 }
 
 func (u *UserController) DoAdd() {
@@ -231,5 +233,39 @@ func (u *UserController) DoUpdate() {
 	}
 
 	u.Data["json"] = message_map
+	u.ServeJSON()
+}
+
+func (u *UserController) MuliDelete() {
+	ids := u.GetString("ids")
+	newIds := ids[1 : len(ids)-1]
+	idArr := strings.Split(newIds, ",")
+
+	var user auth.User
+	o := orm.NewOrm()
+	qs := o.QueryTable("sys_user")
+	var errArr []string
+	for _, id := range idArr {
+		idInt, _ := strconv.Atoi(id)
+		err := qs.Filter("id", idInt).One(&user)
+		if err != nil {
+			errArr = append(errArr, err.Error())
+			logs.Error(fmt.Sprintf("查询id为%d的用户失败，错误信息: %s", idInt, err.Error()))
+		}
+		_, err = qs.Filter("id", idInt).Update(orm.Params{"is_delete": 1})
+		if err != nil {
+			logs.Error(fmt.Sprintf("删除id为%d的用户出错，错误信息: %s", idInt, err.Error()))
+			errArr = append(errArr, err.Error())
+		}
+	}
+	var repInfo map[string]interface{}
+	if len(errArr) > 0 {
+		repInfo["code"] = "500"
+		repInfo["msg"] = errArr
+	} else {
+		repInfo["code"] = "200"
+		repInfo["msg"] = "删除成功"
+	}
+	u.Data["json"] = repInfo
 	u.ServeJSON()
 }

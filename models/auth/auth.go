@@ -147,13 +147,14 @@ func init() {
 
 	ret := fmt.Sprintf("host:%s|port:%s|db:%s", host, port, db)
 	logs.Info(ret)
-	//orm.RegisterModel(
-	//	new(Auth),
-	//	new(Role),
-	//	new(User),
-	//	new(CarBrand),
-	//	new(Cars),
-	//	new(CarsApply),
-	//	new(MessageNotify),
-	//)
+	orm.RegisterModel(
+		new(Auth),
+		new(Role),
+		new(User),
+		new(CarBrand),
+		new(Cars),
+		new(CarsApply),
+		new(MessageNotify),
+		new(Tree),
+	)
 }

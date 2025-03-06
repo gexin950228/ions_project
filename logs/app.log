@@ -379,3 +379,713 @@
 2025/03/03 16:59:59.437 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
 2025/03/03 17:00:00.074 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
 2025/03/03 17:00:00.963 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/03/06 13:54:09.988 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 13:54:10.679 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 13:54:11.626 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 13:54:12.378 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 13:54:13.049 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 13:54:13.774 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 13:54:14.500 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 13:54:15.325 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 13:54:15.988 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 13:54:16.679 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 13:54:17.323 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 13:54:22.153 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 13:55:27.443 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 13:55:37.958 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    27.6815ms|   match|[44m GET     [0m /     r:/
+2025/03/06 13:55:37.981 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      691.4µs|   match|[44m GET     [0m /static/css/font.css
+2025/03/06 13:55:37.981 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.2227ms|   match|[44m GET     [0m /static/css/xadmin.css
+2025/03/06 13:55:37.983 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0617ms|   match|[44m GET     [0m /static/lib/layui/layui.js
+2025/03/06 13:55:37.984 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0665ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2025/03/06 13:55:37.984 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.6021ms|   match|[44m GET     [0m /static/js/xadmin.js
+2025/03/06 13:55:37.985 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      760.4µs|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2025/03/06 13:55:37.986 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|        528µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2025/03/06 13:55:37.992 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      1.801ms|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/03/06 13:55:38.887 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0787ms|   match|[44m GET     [0m /static/images/aiwrap.png
+2025/03/06 13:55:38.888 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6098ms|   match|[44m GET     [0m /static/images/bg.png
+2025/03/06 13:55:38.898 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      523.2µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2025/03/06 13:55:38.902 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      792.9µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2025/03/06 13:55:38.914 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      541.6µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2025/03/06 13:55:38.934 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      507.4µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2025/03/06 13:55:49.863 [I] [login_controller.go:69]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/06 13:55:49.863 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     7.3564ms|   match|[46m POST    [0m /     r:/
+2025/03/06 13:55:49.880 [C] [config.go:176]  the request url is  /main/index
+2025/03/06 13:55:49.880 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/06 13:55:49.880 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 13:55:49.880 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/06 13:55:49.880 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/06 13:55:49.880 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/06 13:55:49.880 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/06 13:55:49.880 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:41
+2025/03/06 13:55:49.880 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/06 13:55:49.880 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 13:55:49.880 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 13:55:49.880 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 13:55:49.881 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 13:55:49.938 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2025/03/06 14:01:21.883 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 14:01:29.497 [C] [config.go:176]  the request url is  /main/index
+2025/03/06 14:01:29.497 [C] [config.go:177]  Handler crashed with error interface conversion: interface {} is nil, not int
+2025/03/06 14:01:29.497 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 14:01:29.497 [C] [config.go:183]  D:/go/src/runtime/iface.go:275
+2025/03/06 14:01:29.497 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:20
+2025/03/06 14:01:29.497 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/06 14:01:29.497 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 14:01:29.497 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 14:01:29.497 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 14:01:29.497 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 14:04:14.595 [C] [config.go:176]  the request url is  /main/index
+2025/03/06 14:04:14.595 [C] [config.go:177]  Handler crashed with error interface conversion: interface {} is nil, not int
+2025/03/06 14:04:14.595 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 14:04:14.595 [C] [config.go:183]  D:/go/src/runtime/iface.go:275
+2025/03/06 14:04:14.595 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:20
+2025/03/06 14:04:14.595 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/06 14:04:14.595 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 14:04:14.595 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 14:04:14.595 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 14:04:14.595 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 14:04:15.030 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 14:04:15.989 [C] [config.go:176]  the request url is  /main/index
+2025/03/06 14:04:15.990 [C] [config.go:177]  Handler crashed with error interface conversion: interface {} is nil, not string
+2025/03/06 14:04:15.990 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 14:04:15.990 [C] [config.go:183]  D:/go/src/runtime/iface.go:275
+2025/03/06 14:04:15.990 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:21
+2025/03/06 14:04:15.991 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/06 14:04:15.991 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 14:04:15.991 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 14:04:15.991 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 14:04:15.991 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 14:04:17.977 [C] [config.go:176]  the request url is  /main/index
+2025/03/06 14:04:17.977 [C] [config.go:177]  Handler crashed with error interface conversion: interface {} is nil, not string
+2025/03/06 14:04:17.977 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 14:04:17.978 [C] [config.go:183]  D:/go/src/runtime/iface.go:275
+2025/03/06 14:04:17.978 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:21
+2025/03/06 14:04:17.978 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/06 14:04:17.978 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 14:04:17.978 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 14:04:17.978 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 14:04:17.978 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 14:04:44.680 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 14:04:46.180 [C] [config.go:176]  the request url is  /main/index
+2025/03/06 14:04:46.180 [C] [config.go:177]  Handler crashed with error interface conversion: interface {} is nil, not string
+2025/03/06 14:04:46.180 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 14:04:46.180 [C] [config.go:183]  D:/go/src/runtime/iface.go:275
+2025/03/06 14:04:46.180 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:21
+2025/03/06 14:04:46.180 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/06 14:04:46.180 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 14:04:46.180 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 14:04:46.181 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 14:04:46.181 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 14:04:48.494 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    30.7295ms|   match|[44m GET     [0m /     r:/
+2025/03/06 14:04:56.712 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    25.3604ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/06 14:04:59.544 [I] [login_controller.go:69]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/06 14:04:59.544 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0856ms|   match|[46m POST    [0m /     r:/
+2025/03/06 14:04:59.555 [C] [config.go:176]  the request url is  /main/index
+2025/03/06 14:04:59.555 [C] [config.go:177]  Handler crashed with error interface conversion: interface {} is int, not string
+2025/03/06 14:04:59.555 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 14:04:59.555 [C] [config.go:183]  D:/go/src/runtime/iface.go:275
+2025/03/06 14:04:59.555 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:21
+2025/03/06 14:04:59.555 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/06 14:04:59.555 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 14:04:59.555 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 14:04:59.555 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 14:04:59.555 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 14:06:21.330 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 14:06:23.938 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    29.8733ms|   match|[44m GET     [0m /     r:/
+2025/03/06 14:06:36.192 [I] [login_controller.go:69]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/06 14:06:36.193 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.8811ms|   match|[46m POST    [0m /     r:/
+2025/03/06 14:06:36.205 [C] [config.go:176]  the request url is  /main/index
+2025/03/06 14:06:36.205 [C] [config.go:177]  Handler crashed with error interface conversion: interface {} is int, not int64
+2025/03/06 14:06:36.205 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 14:06:36.205 [C] [config.go:183]  D:/go/src/runtime/iface.go:275
+2025/03/06 14:06:36.205 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:21
+2025/03/06 14:06:36.205 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/06 14:06:36.205 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 14:06:36.205 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 14:06:36.205 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 14:06:36.205 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 14:07:08.532 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 14:07:16.303 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    30.7569ms|   match|[44m GET     [0m /     r:/
+2025/03/06 14:07:25.180 [I] [login_controller.go:69]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/06 14:07:25.181 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.6198ms|   match|[46m POST    [0m /     r:/
+2025/03/06 14:07:25.195 [C] [config.go:176]  the request url is  /main/index
+2025/03/06 14:07:25.195 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/06 14:07:25.195 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 14:07:25.195 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/06 14:07:25.195 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/06 14:07:25.195 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/06 14:07:25.195 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/06 14:07:25.195 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:42
+2025/03/06 14:07:25.195 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/06 14:07:25.195 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 14:07:25.195 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 14:07:25.195 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 14:07:25.195 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 14:09:41.422 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 14:09:45.652 [C] [config.go:176]  the request url is  /main/index
+2025/03/06 14:09:45.652 [C] [config.go:177]  Handler crashed with error interface conversion: interface {} is nil, not int
+2025/03/06 14:09:45.652 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 14:09:45.652 [C] [config.go:183]  D:/go/src/runtime/iface.go:275
+2025/03/06 14:09:45.652 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:22
+2025/03/06 14:09:45.652 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/06 14:09:45.652 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 14:09:45.652 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 14:09:45.652 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 14:09:45.652 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 14:09:53.459 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    29.5408ms|   match|[44m GET     [0m /     r:/
+2025/03/06 14:10:04.587 [I] [login_controller.go:69]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/06 14:10:04.587 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0429ms|   match|[46m POST    [0m /     r:/
+2025/03/06 14:10:04.598 [C] [config.go:176]  the request url is  /main/index
+2025/03/06 14:10:04.598 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/06 14:10:04.598 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 14:10:04.598 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/06 14:10:04.598 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/06 14:10:04.598 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/06 14:10:04.598 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/06 14:10:04.598 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:42
+2025/03/06 14:10:04.598 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/06 14:10:04.598 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 14:10:04.598 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 14:10:04.598 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 14:10:04.599 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 14:13:17.648 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 14:15:47.736 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 14:15:52.272 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    28.0601ms|   match|[44m GET     [0m /     r:/
+2025/03/06 14:16:08.462 [I] [login_controller.go:55]  登录的post请求验证码错误，验证码信息:18
+2025/03/06 14:16:08.462 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.7419ms|   match|[46m POST    [0m /     r:/
+2025/03/06 14:16:10.389 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    25.2715ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/06 14:16:13.455 [I] [login_controller.go:69]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/06 14:16:13.455 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      510.9µs|   match|[46m POST    [0m /     r:/
+2025/03/06 14:16:13.491 [C] [config.go:176]  the request url is  /main/index
+2025/03/06 14:16:13.491 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/06 14:16:13.491 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 14:16:13.491 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/06 14:16:13.491 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/06 14:16:13.491 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/06 14:16:13.491 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/06 14:16:13.491 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:40
+2025/03/06 14:16:13.491 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/06 14:16:13.491 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 14:16:13.492 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 14:16:13.492 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 14:16:13.492 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 14:19:05.228 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 14:26:44.431 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 14:35:05.423 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 14:35:13.591 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    26.8562ms|   match|[44m GET     [0m /     r:/
+2025/03/06 14:35:25.191 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/06 14:35:25.191 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0803ms|   match|[46m POST    [0m /     r:/
+2025/03/06 14:35:25.202 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/06 14:35:25.202 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 14:35:25.204 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.7342ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 14:35:25.214 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      545.6µs|   match|[44m GET     [0m /static//css/font.css
+2025/03/06 14:35:25.214 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      545.6µs|   match|[44m GET     [0m /static//css/xadmin.css
+2025/03/06 14:35:25.214 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static//js/xadmin.js
+2025/03/06 14:35:25.214 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/layui.js
+2025/03/06 14:35:25.221 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      537.9µs|   match|[44m GET     [0m /static//lib/layui/css/layui.css
+2025/03/06 14:35:27.341 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/lay/modules/laydate.js
+2025/03/06 14:35:27.356 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/font/iconfont.woff
+2025/03/06 14:35:27.359 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      534.2µs|   match|[44m GET     [0m /static//lib/layui/lay/modules/form.js
+2025/03/06 14:35:27.360 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/css/modules/laydate/default/laydate.css
+2025/03/06 14:35:27.365 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      525.2µs|   match|[44m GET     [0m /static//lib/layui/lay/modules/layer.js
+2025/03/06 14:35:27.379 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/css/modules/layer/default/layer.css
+2025/03/06 14:35:27.379 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/lay/modules/element.js
+2025/03/06 14:35:50.462 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/css/modules/layer/default/loading-1.gif
+2025/03/06 14:35:50.462 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/css/modules/layer/default/icon.png
+2025/03/06 14:35:50.462 [C] [config.go:176]  the request url is  /main/user/to_add
+2025/03/06 14:35:50.462 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/user/salary_slip_import.html
+2025/03/06 14:35:50.462 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 14:35:50.462 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/03/06 14:35:50.462 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/03/06 14:35:50.462 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/03/06 14:35:50.462 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/03/06 14:35:50.462 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/03/06 14:35:50.462 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 14:35:50.462 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 14:35:50.462 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 14:35:50.462 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 14:38:43.444 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 14:38:54.350 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/06 14:38:54.350 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 14:38:54.353 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      3.943ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 14:39:01.912 [D] [router.go:925]  | 10.161.252.114|[42m 200 [0m|    27.6821ms|   match|[44m GET     [0m /     r:/
+2025/03/06 14:40:58.650 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/03/06 14:40:58.650 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/03/06 14:40:58.650 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/03/06 14:40:58.897 [D] [router.go:925]  | 10.161.252.114|[42m 200 [0m|    28.1285ms|   match|[44m GET     [0m /     r:/
+2025/03/06 14:40:58.927 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/03/06 14:40:59.501 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/03/06 14:40:59.571 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/03/06 14:40:59.811 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/03/06 14:40:59.811 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/03/06 14:40:59.964 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/03/06 14:41:00.574 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/03/06 14:41:08.430 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/03/06 14:41:09.130 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/03/06 14:41:09.487 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/03/06 14:41:09.693 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/03/06 14:41:10.095 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/03/06 14:41:10.191 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/03/06 14:41:10.298 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/03/06 14:41:34.406 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/06 14:41:34.406 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 14:41:34.408 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.3462ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 14:42:04.609 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 14:46:30.832 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 14:46:36.140 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/06 14:46:36.140 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 14:46:36.143 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.7981ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 14:46:45.842 [I] [user_controller.go:125]  用户id:1,停用成功
+2025/03/06 14:46:45.842 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      7.482ms|   match|[46m POST    [0m /main/user/is_active   r:/main/user/is_active
+2025/03/06 14:46:46.874 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/06 14:46:46.874 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 14:46:46.877 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.3039ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 14:46:57.472 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/06 14:46:57.472 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 14:46:57.474 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.3093ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 14:47:21.990 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 14:47:39.450 [I] [user_controller.go:131]  用户id:1,启用成功
+2025/03/06 14:47:39.450 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     9.1455ms|   match|[46m POST    [0m /main/user/is_active   r:/main/user/is_active
+2025/03/06 14:47:40.467 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/06 14:47:40.468 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 14:47:40.471 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.4513ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 14:49:40.804 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    29.6879ms|   match|[44m GET     [0m /     r:/
+2025/03/06 14:50:02.271 [E] [login_controller.go:39]  <QuerySeter> no row found
+2025/03/06 14:50:02.271 [I] [login_controller.go:47]  登录的post请求，用户名密码错误，登录信息：username:高林飞;pwd:a3460f9e44e29b354e9d6bbdefeb4957
+2025/03/06 14:50:02.272 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0374ms|   match|[46m POST    [0m /     r:/
+2025/03/06 14:52:01.038 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    26.2306ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/06 14:52:04.816 [E] [login_controller.go:39]  <QuerySeter> no row found
+2025/03/06 14:52:04.816 [I] [login_controller.go:47]  登录的post请求，用户名密码错误，登录信息：username:杨鹏伟;pwd:6661d9991fb6905cfa23234c7d7cb419
+2025/03/06 14:52:04.816 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      544.8µs|   match|[46m POST    [0m /     r:/
+2025/03/06 14:54:26.823 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    25.7868ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/06 14:54:29.490 [E] [login_controller.go:39]  <QuerySeter> no row found
+2025/03/06 14:54:29.490 [I] [login_controller.go:47]  登录的post请求，用户名密码错误，登录信息：username:崔文珍;pwd:97981f4173c026e64bb16aeab2f2095b
+2025/03/06 14:54:29.490 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      504.6µs|   match|[46m POST    [0m /     r:/
+2025/03/06 14:56:06.611 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    25.3753ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/06 14:56:10.118 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:崔文珍;pwd:97981f4173c026e64bb16aeab2f2095b
+2025/03/06 14:56:10.118 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      506.8µs|   match|[46m POST    [0m /     r:/
+2025/03/06 14:56:10.128 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/06 14:56:10.128 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 14:56:10.130 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0921ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 14:56:10.825 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 14:56:11.513 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 14:56:55.245 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    28.7423ms|   match|[44m GET     [0m /     r:/
+2025/03/06 14:56:55.486 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    28.7712ms|   match|[44m GET     [0m /     r:/
+2025/03/06 14:57:27.217 [E] [login_controller.go:39]  <QuerySeter> no row found
+2025/03/06 14:57:27.217 [I] [login_controller.go:47]  登录的post请求，用户名密码错误，登录信息：username:周航;pwd:d1b0337dbab095205a80fa160e60cd0f
+2025/03/06 14:57:27.217 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      1.266ms|   match|[46m POST    [0m /     r:/
+2025/03/06 14:58:13.767 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    25.1539ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/06 14:58:16.030 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:周航;pwd:d1b0337dbab095205a80fa160e60cd0f
+2025/03/06 14:58:16.030 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      505.5µs|   match|[46m POST    [0m /     r:/
+2025/03/06 14:58:16.041 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/06 14:58:16.041 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 14:58:16.043 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6826ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 14:58:20.953 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/06 14:58:20.953 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 14:58:20.956 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.1439ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 14:58:30.789 [I] [user_controller.go:34]  当前页;2,查询条件：
+2025/03/06 14:58:30.791 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0957ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 14:58:37.734 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 14:58:37.738 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.1528ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 15:05:46.159 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.3454ms|   match|[44m GET     [0m /main/user/to_edit   r:/main/user/to_edit
+2025/03/06 15:05:47.468 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      670.6µs|   match|[44m GET     [0m /static/lib/layui/font/iconfont.woff
+2025/03/06 15:07:09.712 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 15:07:09.716 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.0649ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 15:07:13.271 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 15:07:13.272 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5775ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 15:07:15.586 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 15:07:15.590 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.4666ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 15:07:28.771 [C] [config.go:176]  the request url is  /main/user/muli_delete
+2025/03/06 15:07:28.771 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2025/03/06 15:07:28.771 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 15:07:28.771 [C] [config.go:183]  D:/go/src/runtime/map_faststr.go:225
+2025/03/06 15:07:28.771 [C] [config.go:183]  D:/ions_project/controllers/user/user_controller.go:265
+2025/03/06 15:07:28.771 [C] [config.go:183]  D:/go/src/reflect/value.go:581
+2025/03/06 15:07:28.771 [C] [config.go:183]  D:/go/src/reflect/value.go:365
+2025/03/06 15:07:28.771 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2025/03/06 15:07:28.771 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 15:07:28.771 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 15:07:28.771 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 15:07:28.771 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 15:07:29.797 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/06 15:07:29.797 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 15:07:29.799 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5695ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 15:08:18.103 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    29.4858ms|   match|[44m GET     [0m /     r:/
+2025/03/06 15:08:18.329 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    28.6116ms|   match|[44m GET     [0m /     r:/
+2025/03/06 15:08:29.996 [E] [login_controller.go:39]  <QuerySeter> no row found
+2025/03/06 15:08:29.996 [I] [login_controller.go:47]  登录的post请求，用户名密码错误，登录信息：username:程镇;pwd:096d5026a0a9047c9731907db892a98f
+2025/03/06 15:08:29.996 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      557.6µs|   match|[46m POST    [0m /     r:/
+2025/03/06 15:09:51.087 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    24.9789ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/06 15:09:53.333 [E] [login_controller.go:39]  <QuerySeter> no row found
+2025/03/06 15:09:53.333 [I] [login_controller.go:47]  登录的post请求，用户名密码错误，登录信息：username:董男;pwd:e191052792665afbce9d9dd37b50b416
+2025/03/06 15:09:53.333 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      661.5µs|   match|[46m POST    [0m /     r:/
+2025/03/06 15:11:02.385 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    37.3987ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/06 15:11:05.174 [E] [login_controller.go:39]  <QuerySeter> no row found
+2025/03/06 15:11:05.174 [I] [login_controller.go:47]  登录的post请求，用户名密码错误，登录信息：username:王鸿林;pwd:5befbd9439dae6139a5f943fb78480f4
+2025/03/06 15:11:05.174 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      569.2µs|   match|[46m POST    [0m /     r:/
+2025/03/06 15:13:39.421 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    28.7727ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/06 15:13:42.514 [E] [login_controller.go:39]  <QuerySeter> no row found
+2025/03/06 15:13:42.514 [I] [login_controller.go:59]  登录的post请求，该用户已停用，用户名：崔昭，状态：停用
+2025/03/06 15:13:42.514 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      508.2µs|   match|[46m POST    [0m /     r:/
+2025/03/06 15:14:05.142 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    27.5507ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/06 15:14:07.774 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:崔昭;pwd:228fff960314cd9590bf6b5a7704ea64
+2025/03/06 15:14:07.774 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      504.7µs|   match|[46m POST    [0m /     r:/
+2025/03/06 15:14:07.785 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/06 15:14:07.785 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 15:14:07.787 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1006ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 15:14:12.472 [I] [user_controller.go:34]  当前页;2,查询条件：
+2025/03/06 15:14:12.475 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6746ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 15:14:17.513 [I] [user_controller.go:34]  当前页;2,查询条件：
+2025/03/06 15:14:17.517 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.3799ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 15:14:27.677 [C] [config.go:176]  the request url is  /main/user/to_add
+2025/03/06 15:14:27.677 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/user/salary_slip_import.html
+2025/03/06 15:14:27.677 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 15:14:27.677 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/03/06 15:14:27.677 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/03/06 15:14:27.677 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/03/06 15:14:27.677 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/03/06 15:14:27.677 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/03/06 15:14:27.678 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 15:14:27.678 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 15:14:27.678 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 15:14:27.678 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 16:40:35.483 [C] [config.go:176]  the request url is  /main/user/to_add
+2025/03/06 16:40:35.483 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/user/salary_slip_import.html
+2025/03/06 16:40:35.483 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 16:40:35.483 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/03/06 16:40:35.483 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/03/06 16:40:35.483 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/03/06 16:40:35.483 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/03/06 16:40:35.483 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/03/06 16:40:35.483 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 16:40:35.483 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 16:40:35.483 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 16:40:35.483 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 16:42:00.415 [C] [config.go:176]  the request url is  /main/user/to_add
+2025/03/06 16:42:00.415 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/user/salary_slip_import.html
+2025/03/06 16:42:00.416 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 16:42:00.416 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/03/06 16:42:00.416 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/03/06 16:42:00.416 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/03/06 16:42:00.416 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/03/06 16:42:00.416 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/03/06 16:42:00.416 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 16:42:00.416 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 16:42:00.416 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 16:42:00.416 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 16:45:18.278 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 16:45:18.282 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.9257ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 16:45:18.976 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 16:45:19.670 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 16:45:23.325 [I] [user_controller.go:34]  当前页;2,查询条件：
+2025/03/06 16:45:23.330 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.3701ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 16:45:25.993 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 16:45:25.997 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.1319ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 16:45:30.301 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 16:45:30.305 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.3322ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 16:45:32.545 [I] [user_controller.go:34]  当前页;2,查询条件：
+2025/03/06 16:45:32.547 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.2748ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 16:45:35.960 [C] [config.go:176]  the request url is  /main/user/to_add
+2025/03/06 16:45:35.960 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/user/salary_slip_import.html
+2025/03/06 16:45:35.960 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 16:45:35.960 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/03/06 16:45:35.960 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/03/06 16:45:35.960 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/03/06 16:45:35.960 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/03/06 16:45:35.960 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/03/06 16:45:35.960 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 16:45:35.960 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 16:45:35.960 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 16:45:35.960 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 16:46:18.523 [I] [user_controller.go:34]  当前页;2,查询条件：
+2025/03/06 16:46:18.528 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.0576ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 16:46:22.927 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 16:46:22.931 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.8407ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 16:49:19.947 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    27.3911ms|   match|[44m GET     [0m /     r:/
+2025/03/06 16:49:20.374 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|       28.6ms|   match|[44m GET     [0m /     r:/
+2025/03/06 16:49:35.354 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    25.6361ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/06 16:49:37.482 [E] [login_controller.go:39]  <QuerySeter> no row found
+2025/03/06 16:49:37.482 [I] [login_controller.go:47]  登录的post请求，用户名密码错误，登录信息：username:尉俊杰;pwd:414d783f3e7150e9c5ff749647c32f24
+2025/03/06 16:49:37.482 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.1279ms|   match|[46m POST    [0m /     r:/
+2025/03/06 16:51:02.675 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    23.7766ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/06 16:51:05.765 [E] [login_controller.go:39]  <QuerySeter> no row found
+2025/03/06 16:51:05.765 [I] [login_controller.go:47]  登录的post请求，用户名密码错误，登录信息：username:乔建康;pwd:8b934cf409ac0baf4c5e134d965a7508
+2025/03/06 16:51:05.765 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      509.8µs|   match|[46m POST    [0m /     r:/
+2025/03/06 16:52:41.281 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    24.6813ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/06 16:52:46.089 [E] [login_controller.go:39]  <QuerySeter> no row found
+2025/03/06 16:52:46.089 [I] [login_controller.go:59]  登录的post请求，该用户已停用，用户名：张迪，状态：停用
+2025/03/06 16:52:46.089 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      509.4µs|   match|[46m POST    [0m /     r:/
+2025/03/06 16:56:01.897 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    25.0611ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/06 16:56:05.421 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:张迪;pwd:f78dfa141476f3397e53289da944f6cb
+2025/03/06 16:56:05.421 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      505.7µs|   match|[46m POST    [0m /     r:/
+2025/03/06 16:56:05.434 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/06 16:56:05.434 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 16:56:05.436 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.8058ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 16:56:08.900 [I] [user_controller.go:34]  当前页;3,查询条件：
+2025/03/06 16:56:08.905 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.5653ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 16:56:14.694 [I] [user_controller.go:34]  当前页;2,查询条件：
+2025/03/06 16:56:14.697 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.1773ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 16:56:19.713 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 16:56:19.716 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6224ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 16:59:33.188 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 17:00:19.480 [D] [router.go:925]  | 10.161.252.112|[42m 200 [0m|    24.8614ms|   match|[44m GET     [0m /     r:/
+2025/03/06 17:00:45.382 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 17:00:53.044 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:00:53.046 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      2.201ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:00:53.239 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 17:00:54.212 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 17:00:55.678 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.3935ms|   match|[44m GET     [0m /main/user/to_add   r:/main/user/to_add
+2025/03/06 17:01:31.064 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|      531.1µs| nomatch|[44m GET     [0m /index.html
+2025/03/06 17:01:31.064 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|      531.1µs| nomatch|[44m GET     [0m /cap.js
+2025/03/06 17:01:31.064 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|      531.1µs| nomatch|[44m GET     [0m /index_ch.html
+2025/03/06 17:01:31.064 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|      531.1µs| nomatch|[44m GET     [0m /func/web_main/validate
+2025/03/06 17:01:31.088 [D] [router.go:925]  | 10.161.252.112|[42m 200 [0m|    25.3862ms|   match|[44m GET     [0m /     r:/
+2025/03/06 17:01:31.569 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/03/06 17:01:31.772 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/03/06 17:01:31.834 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/03/06 17:01:32.195 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/03/06 17:01:42.974 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/03/06 17:01:43.110 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/03/06 17:01:44.873 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/03/06 17:01:45.868 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/03/06 17:01:47.631 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/03/06 17:01:49.343 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/03/06 17:01:50.094 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/03/06 17:01:53.009 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/03/06 17:01:58.780 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/03/06 17:19:06.079 [I] [user_controller.go:103]  插入数据成功，数据信息：username:周一轮|md5_password:fbbd712d1222cd48af3616ad46e27642|age:30|gender:1|phone:16728365413|addr:北京市顺义区;is_active:1
+2025/03/06 17:19:06.079 [C] [config.go:176]  the request url is  /main/user/do_add
+2025/03/06 17:19:06.079 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/doadd.tpl
+2025/03/06 17:19:06.079 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 17:19:06.079 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/03/06 17:19:06.079 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/03/06 17:19:06.079 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/03/06 17:19:06.079 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/03/06 17:19:06.079 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/03/06 17:19:06.079 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 17:19:06.079 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 17:19:06.079 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 17:19:06.080 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 17:19:06.083 [E] [user_controller.go:95]  插入数据信息：username:周一轮|md5_password:fbbd712d1222cd48af3616ad46e27642|age:30|gender:1|phone:16728365413|addr:北京市顺义区;is_active:1
+2025/03/06 17:19:06.083 [E] [user_controller.go:96]  添加数据出错,错误信息:Error 1062: Duplicate entry '周一轮' for key 'user_name'
+2025/03/06 17:19:06.083 [C] [config.go:176]  the request url is  /main/user/do_add
+2025/03/06 17:19:06.083 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/doadd.tpl
+2025/03/06 17:19:06.083 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 17:19:06.083 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/03/06 17:19:06.083 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/03/06 17:19:06.083 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/03/06 17:19:06.083 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/03/06 17:19:06.083 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/03/06 17:19:06.083 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 17:19:06.084 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 17:19:06.084 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 17:19:06.084 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 17:19:06.084 [E] [user_controller.go:95]  插入数据信息：username:周一轮|md5_password:fbbd712d1222cd48af3616ad46e27642|age:30|gender:1|phone:16728365413|addr:北京市顺义区;is_active:1
+2025/03/06 17:19:06.084 [E] [user_controller.go:96]  添加数据出错,错误信息:Error 1062: Duplicate entry '周一轮' for key 'user_name'
+2025/03/06 17:19:06.084 [E] [user_controller.go:95]  插入数据信息：username:周一轮|md5_password:fbbd712d1222cd48af3616ad46e27642|age:30|gender:1|phone:16728365413|addr:北京市顺义区;is_active:1
+2025/03/06 17:19:06.084 [E] [user_controller.go:96]  添加数据出错,错误信息:Error 1062: Duplicate entry '周一轮' for key 'user_name'
+2025/03/06 17:19:06.085 [C] [config.go:176]  the request url is  /main/user/do_add
+2025/03/06 17:19:06.085 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/doadd.tpl
+2025/03/06 17:19:06.085 [C] [config.go:176]  the request url is  /main/user/do_add
+2025/03/06 17:19:06.085 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 17:19:06.085 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/doadd.tpl
+2025/03/06 17:19:06.085 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/03/06 17:19:06.085 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 17:19:06.085 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/03/06 17:19:06.085 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/03/06 17:19:06.085 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/03/06 17:19:06.085 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/03/06 17:19:06.085 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/03/06 17:19:06.085 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/03/06 17:19:06.085 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/03/06 17:19:06.085 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 17:19:06.085 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/03/06 17:19:06.085 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 17:19:06.085 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 17:19:06.085 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/03/06 17:19:06.085 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 17:19:06.085 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 17:19:06.085 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 17:19:06.086 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 17:19:06.086 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 17:23:56.284 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 17:23:58.348 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:23:58.353 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.2272ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:24:04.455 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0345ms|   match|[44m GET     [0m /main/user/to_add   r:/main/user/to_add
+2025/03/06 17:24:59.463 [I] [user_controller.go:103]  插入数据成功，数据信息：username:刘冬寒|md5_password:06f5b251b87f1926082f62813e44a34e|age:36|gender:2|phone:18726542345|addr:北京市丰台区;is_active:1
+2025/03/06 17:24:59.463 [C] [config.go:176]  the request url is  /main/user/do_add
+2025/03/06 17:24:59.463 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/doadd.tpl
+2025/03/06 17:24:59.463 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 17:24:59.463 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/03/06 17:24:59.463 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/03/06 17:24:59.463 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/03/06 17:24:59.464 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/03/06 17:24:59.464 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/03/06 17:24:59.464 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 17:24:59.464 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 17:24:59.464 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 17:24:59.464 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 17:25:50.960 [I] [user_controller.go:34]  当前页;2,查询条件：
+2025/03/06 17:25:50.964 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.5319ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:25:53.756 [I] [user_controller.go:34]  当前页;3,查询条件：
+2025/03/06 17:25:53.760 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.9644ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:26:58.465 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 17:26:59.421 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5609ms|   match|[44m GET     [0m /main/user/to_add   r:/main/user/to_add
+2025/03/06 17:27:02.256 [I] [user_controller.go:34]  当前页;3,查询条件：
+2025/03/06 17:27:02.260 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.6992ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:28:24.278 [I] [user_controller.go:34]  当前页;3,查询条件：
+2025/03/06 17:28:24.281 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.7053ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:28:29.830 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:28:29.835 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.2726ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:28:50.645 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0261ms|   match|[44m GET     [0m /main/user/to_add   r:/main/user/to_add
+2025/03/06 17:34:35.620 [I] [user_controller.go:103]  插入数据成功，数据信息：username:董俊|md5_password:9af99420312652f8b5a03bdf3eee6f70|age:24|gender:1|phone:17625344256|addr:北京市;is_active:1
+2025/03/06 17:34:35.620 [C] [config.go:176]  the request url is  /main/user/do_add
+2025/03/06 17:34:35.620 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/doadd.tpl
+2025/03/06 17:34:35.620 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 17:34:35.620 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/03/06 17:34:35.620 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/03/06 17:34:35.621 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/03/06 17:34:35.621 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/03/06 17:34:35.621 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/03/06 17:34:35.621 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 17:34:35.621 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 17:34:35.621 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 17:34:35.621 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 17:36:26.730 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 17:36:27.212 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:36:27.215 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6008ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:36:28.910 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:36:28.913 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.7253ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:36:30.117 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:36:30.119 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0944ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:36:32.344 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:36:32.347 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.3459ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:36:35.035 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:36:35.039 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.9244ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:36:39.284 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:36:39.288 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.8988ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:38:42.587 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 17:39:59.779 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:39:59.782 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.6695ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:41:11.423 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 17:41:12.018 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:41:12.021 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.1242ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:41:39.141 [I] [user_controller.go:34]  当前页;5,查询条件：
+2025/03/06 17:41:39.144 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.9183ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:41:44.463 [I] [user_controller.go:34]  当前页;5,查询条件：
+2025/03/06 17:41:44.467 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.7395ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:45:43.340 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 17:45:44.029 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 17:45:44.560 [I] [user_controller.go:34]  当前页;5,查询条件：
+2025/03/06 17:45:44.562 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6087ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:45:52.151 [I] [user_controller.go:34]  当前页;4,查询条件：
+2025/03/06 17:45:52.152 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5682ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:45:55.335 [I] [user_controller.go:34]  当前页;3,查询条件：
+2025/03/06 17:45:55.339 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.0705ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:46:02.432 [I] [user_controller.go:34]  当前页;4,查询条件：
+2025/03/06 17:46:02.434 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.7802ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:46:11.958 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0449ms|   match|[44m GET     [0m /main/user/to_add   r:/main/user/to_add
+2025/03/06 17:46:55.634 [I] [user_controller.go:104]  插入数据成功，数据信息：username:张维嘉|md5_password:ac0e76b5df23ba5a88400caa20c78147|age:35|gender:1|phone:18765243217|addr:山东省胃还是;is_active:1
+2025/03/06 17:46:55.635 [C] [config.go:176]  the request url is  /main/user/do_add
+2025/03/06 17:46:55.635 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/doadd.tpl
+2025/03/06 17:46:55.635 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 17:46:55.636 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/03/06 17:46:55.636 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/03/06 17:46:55.636 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/03/06 17:46:55.636 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/03/06 17:46:55.636 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/03/06 17:46:55.636 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 17:46:55.636 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 17:46:55.636 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 17:46:55.636 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 17:46:59.407 [I] [user_controller.go:34]  当前页;4,查询条件：
+2025/03/06 17:46:59.410 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.8024ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:47:11.292 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      2.307ms|   match|[44m GET     [0m /main/user/to_edit   r:/main/user/to_edit
+2025/03/06 17:47:46.959 [I] [user_controller.go:229]  更新成功，用户id:20
+2025/03/06 17:47:46.959 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     6.0843ms|   match|[46m POST    [0m /main/user/do_edit   r:/main/user/do_edit
+2025/03/06 17:47:49.007 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/06 17:47:49.007 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:47:49.009 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0957ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:47:58.761 [I] [user_controller.go:34]  当前页;4,查询条件：
+2025/03/06 17:47:58.763 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1128ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:50:26.049 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 17:50:27.399 [I] [user_controller.go:34]  当前页;4,查询条件：
+2025/03/06 17:50:27.402 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.3345ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:50:29.226 [I] [user_controller.go:34]  当前页;4,查询条件：
+2025/03/06 17:50:29.228 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5768ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:50:33.107 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5942ms|   match|[44m GET     [0m /main/user/to_add   r:/main/user/to_add
+2025/03/06 17:51:22.478 [I] [user_controller.go:104]  插入数据成功，数据信息：username:杨芳|md5_password:0f95d306b3421159db7fc4ad2a19d51b|age:34|gender:2|phone:15782736541|addr:北京市;is_active:1
+2025/03/06 17:51:22.478 [C] [config.go:176]  the request url is  /main/user/do_add
+2025/03/06 17:51:22.478 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/doadd.tpl
+2025/03/06 17:51:22.478 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 17:51:22.478 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/03/06 17:51:22.478 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/03/06 17:51:22.478 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/03/06 17:51:22.478 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/03/06 17:51:22.478 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/03/06 17:51:22.478 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 17:51:22.479 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 17:51:22.479 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 17:51:22.479 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 17:51:22.490 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/06 17:51:22.490 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:51:22.492 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0781ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:51:27.213 [I] [user_controller.go:34]  当前页;4,查询条件：
+2025/03/06 17:51:27.215 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0945ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:53:27.486 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 17:53:28.329 [I] [user_controller.go:34]  当前页;4,查询条件：
+2025/03/06 17:53:28.331 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1864ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:53:44.430 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      1.578ms|   match|[44m GET     [0m /main/user/to_add   r:/main/user/to_add
+2025/03/06 17:54:16.632 [I] [user_controller.go:104]  插入数据成功，数据信息：username:马同森|md5_password:7f8199dc9c8242840398aef00d6bbdc0|age:43|gender:1|phone:17625431098|addr:北京市东城区;is_active:1
+2025/03/06 17:54:16.633 [C] [config.go:176]  the request url is  /main/user/do_add
+2025/03/06 17:54:16.633 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/doadd.tpl
+2025/03/06 17:54:16.633 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/06 17:54:16.633 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/03/06 17:54:16.634 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/03/06 17:54:16.634 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/03/06 17:54:16.634 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/03/06 17:54:16.634 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/03/06 17:54:16.634 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/06 17:54:16.634 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/06 17:54:16.634 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/06 17:54:16.634 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/06 17:54:16.642 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/06 17:54:16.642 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:54:16.645 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.2623ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:54:22.058 [I] [user_controller.go:34]  当前页;4,查询条件：
+2025/03/06 17:54:22.060 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6186ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:55:03.493 [I] [user_controller.go:34]  当前页;4,查询条件：
+2025/03/06 17:55:03.496 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.7288ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:55:06.122 [I] [user_controller.go:34]  当前页;3,查询条件：
+2025/03/06 17:55:06.125 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.1411ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:55:09.681 [I] [user_controller.go:34]  当前页;2,查询条件：
+2025/03/06 17:55:09.685 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.0612ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:55:12.358 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:55:12.361 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|       3.14ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:56:04.348 [I] [user_controller.go:34]  当前页;3,查询条件：
+2025/03/06 17:56:04.350 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0932ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:56:11.782 [I] [user_controller.go:34]  当前页;2,查询条件：
+2025/03/06 17:56:11.784 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.6446ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:56:30.933 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:56:30.934 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.6168ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:56:35.897 [I] [user_controller.go:34]  当前页;4,查询条件：
+2025/03/06 17:56:35.901 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      3.612ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:56:38.408 [I] [user_controller.go:34]  当前页;3,查询条件：
+2025/03/06 17:56:38.410 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1541ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:58:02.372 [I] [app.go:215]  http server Running on http://:8089
+2025/03/06 17:58:04.613 [I] [user_controller.go:34]  当前页;3,查询条件：
+2025/03/06 17:58:04.615 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.7518ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:58:07.097 [I] [user_controller.go:34]  当前页;2,查询条件：
+2025/03/06 17:58:07.100 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.8537ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:58:10.381 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:58:10.384 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.9085ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:58:16.697 [I] [user_controller.go:34]  当前页;4,查询条件：
+2025/03/06 17:58:16.700 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.8491ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:58:20.721 [I] [user_controller.go:34]  当前页;3,查询条件：
+2025/03/06 17:58:20.723 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.5979ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:58:22.846 [I] [user_controller.go:34]  当前页;2,查询条件：
+2025/03/06 17:58:22.848 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0888ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:58:27.626 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:58:27.629 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.9189ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/06 17:58:51.255 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/06 17:58:51.258 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6431ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list

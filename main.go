@@ -6,7 +6,6 @@ import (
 	"github.com/astaxie/beego/logs"
 	"github.com/astaxie/beego/orm"
 	_ "github.com/go-sql-driver/mysql"
-	"ions_project/models/auth"
 	_ "ions_project/routers"
 )
 
@@ -30,15 +29,15 @@ func init() {
 
 	ret := fmt.Sprintf("host:%s|port:%s|db:%s", host, port, db)
 	logs.Info(ret)
-	orm.RegisterModel(
-		new(auth.Auth),
-		new(auth.Role),
-		new(auth.User),
-		new(auth.CarBrand),
-		new(auth.Cars),
-		new(auth.CarsApply),
-		new(auth.MessageNotify),
-	)
+	//orm.RegisterModel(
+	//	new(auth.Auth),
+	//	new(auth.Role),
+	//	new(auth.User),
+	//	new(auth.CarBrand),
+	//	new(auth.Cars),
+	//	new(auth.CarsApply),
+	//	new(auth.MessageNotify),
+	//)
 }
 
 func main() {

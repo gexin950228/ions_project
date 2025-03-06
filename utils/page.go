@@ -20,7 +20,7 @@ func Paginator(page, pageNum int, nums int64) map[string]interface{} {
 	case page >= totalpages-5 && totalpages > 5: //最后5页
 		start := totalpages - 5 + 1
 		firstpage = page - 1
-		lastpage = int(math.Min(float64(totalpages), float64(page+1)))
+		lastpage = int(math.Min(float64(totalpages), float64(page+1))) - 1
 		num_pages = make([]int, 5)
 		for i, _ := range num_pages {
 			num_pages[i] = start + i
@@ -33,14 +33,14 @@ func Paginator(page, pageNum int, nums int64) map[string]interface{} {
 			num_pages[i] = start + i
 		}
 		firstpage = page - 1
-		lastpage = page + 1
+		lastpage = totalpages - 1
 	default:
 		num_pages = make([]int, int(math.Min(5, float64(totalpages))))
 		for i, _ := range num_pages {
 			num_pages[i] = i + 1
 		}
 		firstpage = int(math.Max(float64(1), float64(page-1)))
-		lastpage = page
+		lastpage = pageNum - 1
 	}
 	paginatorMap := make(map[string]interface{})
 	// 中间的页码数字

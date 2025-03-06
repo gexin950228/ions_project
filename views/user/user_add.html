@@ -154,11 +154,16 @@
                         success:function (data) {
                             var code = data["code"];
                             if(code == 200){
+                                console.log("start")
                                 ions_alert.alertSuccessToast(data["msg"]);
-                                setTimeout(reload_list,2000);  // 2s
+                                setTimeout(reload_list, 1000)
+                                console.log("end")
 
                             }else {
+                                console.log("start")
                                 ions_alert.alertErrorToast(data["msg"])
+                                reload_list(reload_list, 1000)
+                                console.log("end")
                             }
                         },
                         fail:function (data) {

@@ -43,28 +43,24 @@ func (c *LController) Post() {
 	isOk := utils.VerifyCaptcha(captchaId, captcha)
 	retMap := map[string]interface{}{}
 	if !isExist {
-		fmt.Println("11111111111111111111111111111111111111111111111111111111111111111")
 		ret := fmt.Sprintf("登录的post请求，用户名密码错误，登录信息：username:%s;pwd:%s", username, md5Pass)
 		logs.Info(ret)
 		retMap["code"] = 10001
 		retMap["msg"] = "用户名或者密码错误"
 		c.Data["json"] = retMap
 	} else if !isOk {
-		fmt.Println("22222222222222222222222222222222222222222222222222222222222222222")
 		ret := fmt.Sprintf("登录的post请求验证码错误，验证码信息:%v", captcha)
 		logs.Info(ret)
 		retMap["code"] = 10002
 		retMap["msg"] = "验证码错误"
 		c.Data["json"] = retMap
 	} else if userInfo.IsActive == 0 {
-		fmt.Println("333333333333333333333333333333333333333333333333333333333333333333333")
 		ret := fmt.Sprintf("登录的post请求，该用户已停用，用户名：%s，状态：停用", username)
 		logs.Info(ret)
 		retMap["code"] = 10003
 		retMap["msg"] = "该用户已停用，请联系管理员"
 		c.Data["json"] = retMap
 	} else {
-		fmt.Println("444444444444444444444444444444444444444444444444444444444444444444444")
 		ret := fmt.Sprintf("登录的post请求，登录成功，登录信息：username:%s;pwd:%s", username, md5Pass)
 		logs.Info(ret)
 		c.SetSession("id", userInfo.Id)
