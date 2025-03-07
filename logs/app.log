@@ -1089,3 +1089,388 @@
 2025/03/06 17:58:27.629 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.9189ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
 2025/03/06 17:58:51.255 [I] [user_controller.go:34]  当前页;1,查询条件：
 2025/03/06 17:58:51.258 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6431ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 08:47:23.634 [I] [app.go:215]  http server Running on http://:8089
+2025/03/07 08:47:24.573 [I] [app.go:215]  http server Running on http://:8089
+2025/03/07 09:13:08.438 [I] [app.go:215]  http server Running on http://:8089
+2025/03/07 09:13:09.696 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    29.9774ms|   match|[44m GET     [0m /     r:/
+2025/03/07 09:13:09.711 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2025/03/07 09:13:09.712 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2025/03/07 09:13:09.714 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      520.4µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2025/03/07 09:13:09.715 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|     1.1979ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2025/03/07 09:13:09.715 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|     1.7223ms|   match|[44m GET     [0m /static/lib/layui/layui.js
+2025/03/07 09:13:09.715 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|     1.7223ms|   match|[44m GET     [0m /static/js/xadmin.js
+2025/03/07 09:13:09.716 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|     2.2598ms|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2025/03/07 09:13:09.731 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      503.9µs|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/03/07 09:13:11.562 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|     1.0316ms|   match|[44m GET     [0m /static/images/aiwrap.png
+2025/03/07 09:13:11.563 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|     1.5457ms|   match|[44m GET     [0m /static/images/bg.png
+2025/03/07 09:13:11.577 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      507.1µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2025/03/07 09:13:11.582 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      730.1µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2025/03/07 09:13:11.587 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      588.1µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2025/03/07 09:13:11.595 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      553.1µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2025/03/07 09:13:11.655 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.4724ms|   match|[44m GET     [0m /static/images/zlkt.ico
+2025/03/07 09:13:11.662 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|        510µs| nomatch|[44m GET     [0m /favicon.ico
+2025/03/07 09:13:21.480 [E] [login_controller.go:39]  <QuerySeter> no row found
+2025/03/07 09:13:21.480 [I] [login_controller.go:59]  登录的post请求，该用户已停用，用户名：杨鹏伟，状态：停用
+2025/03/07 09:13:21.480 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.7428ms|   match|[46m POST    [0m /     r:/
+2025/03/07 09:15:40.138 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     27.337ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/07 09:15:47.070 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:杨鹏伟;pwd:899853b23b085f11f64df4b40c4394b6
+2025/03/07 09:15:47.070 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1655ms|   match|[46m POST    [0m /     r:/
+2025/03/07 09:15:47.083 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/07 09:15:47.083 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/07 09:15:47.085 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.2315ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 09:15:47.100 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//css/font.css
+2025/03/07 09:15:47.100 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//css/xadmin.css
+2025/03/07 09:15:47.102 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/layui.js
+2025/03/07 09:15:47.102 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//js/xadmin.js
+2025/03/07 09:15:47.105 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/css/layui.css
+2025/03/07 09:15:48.181 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      507.6µs|   match|[44m GET     [0m /static//lib/layui/lay/modules/laydate.js
+2025/03/07 09:15:48.203 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/lay/modules/form.js
+2025/03/07 09:15:48.203 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      506.7µs|   match|[44m GET     [0m /static//lib/layui/font/iconfont.woff
+2025/03/07 09:15:48.204 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|     1.0303ms|   match|[44m GET     [0m /static//lib/layui/css/modules/laydate/default/laydate.css
+2025/03/07 09:15:48.207 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/lay/modules/layer.js
+2025/03/07 09:15:48.223 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/css/modules/layer/default/layer.css
+2025/03/07 09:15:48.228 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/lay/modules/element.js
+2025/03/07 09:15:51.561 [I] [user_controller.go:34]  当前页;2,查询条件：
+2025/03/07 09:15:51.565 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.3982ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 09:15:52.552 [I] [user_controller.go:34]  当前页;3,查询条件：
+2025/03/07 09:15:52.555 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      2.946ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 09:15:54.245 [I] [user_controller.go:34]  当前页;4,查询条件：
+2025/03/07 09:15:54.248 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0654ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 09:15:58.102 [I] [user_controller.go:34]  当前页;4,查询条件：
+2025/03/07 09:15:58.104 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.4402ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 09:16:01.723 [I] [user_controller.go:34]  当前页;3,查询条件：
+2025/03/07 09:16:01.726 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1011ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 09:16:11.034 [I] [user_controller.go:34]  当前页;2,查询条件：
+2025/03/07 09:16:11.037 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.8558ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 09:17:39.417 [I] [app.go:215]  http server Running on http://:8089
+2025/03/07 09:17:40.006 [I] [user_controller.go:34]  当前页;2,查询条件：
+2025/03/07 09:17:40.009 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.3555ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 09:17:48.845 [I] [user_controller.go:34]  当前页;4,查询条件：
+2025/03/07 09:17:48.847 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1189ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 09:17:51.763 [I] [user_controller.go:34]  当前页;3,查询条件：
+2025/03/07 09:17:51.767 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      4.147ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 09:19:05.788 [I] [app.go:215]  http server Running on http://:8089
+2025/03/07 09:19:18.064 [I] [user_controller.go:34]  当前页;3,查询条件：
+2025/03/07 09:19:18.067 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6749ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 09:19:21.589 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/07 09:19:21.592 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.2377ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 09:19:24.806 [I] [user_controller.go:34]  当前页;4,查询条件：
+2025/03/07 09:19:24.809 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.4804ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 09:19:27.035 [I] [user_controller.go:34]  当前页;3,查询条件：
+2025/03/07 09:19:27.037 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.3422ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 09:23:04.882 [I] [user_controller.go:34]  当前页;4,查询条件：
+2025/03/07 09:23:04.885 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.8566ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 09:23:10.637 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/07 09:23:10.642 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.7549ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 09:26:21.899 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/07 09:26:21.899 [I] [user_controller.go:34]  当前页;1,查询条件：高林飞
+2025/03/07 09:26:21.904 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.0041ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 09:26:35.736 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/07 09:26:35.736 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/07 09:26:35.739 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.5098ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 09:28:29.864 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 09:28:29.864 [C] [config.go:177]  Handler crashed with error interface conversion: interface {} is nil, not int
+2025/03/07 09:28:29.864 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 09:28:29.864 [C] [config.go:183]  D:/go/src/runtime/iface.go:275
+2025/03/07 09:28:29.864 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:24
+2025/03/07 09:28:29.864 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 09:28:29.864 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 09:28:29.864 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 09:28:29.864 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 09:28:29.865 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:06:36.087 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    28.0653ms|   match|[44m GET     [0m /     r:/
+2025/03/07 14:06:36.786 [I] [app.go:215]  http server Running on http://:8089
+2025/03/07 14:06:37.471 [I] [app.go:215]  http server Running on http://:8089
+2025/03/07 14:06:44.454 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/home
+2025/03/07 14:06:50.282 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     28.741ms|   match|[44m GET     [0m /     r:/
+2025/03/07 14:07:00.799 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:杨鹏伟;pwd:899853b23b085f11f64df4b40c4394b6
+2025/03/07 14:07:00.799 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.1721ms|   match|[46m POST    [0m /     r:/
+2025/03/07 14:07:00.809 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/07 14:07:00.809 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/07 14:07:00.811 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.6302ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 14:07:28.660 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:07:28.660 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/07 14:07:28.660 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:07:28.660 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/07 14:07:28.660 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/07 14:07:28.660 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/07 14:07:28.660 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/07 14:07:28.660 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:40
+2025/03/07 14:07:28.660 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:07:28.660 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:07:28.661 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:07:28.661 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:07:28.661 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:10:59.068 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:10:59.068 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/07 14:10:59.068 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:10:59.068 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/07 14:10:59.068 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/07 14:10:59.068 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/07 14:10:59.068 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/07 14:10:59.068 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:40
+2025/03/07 14:10:59.068 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:10:59.068 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:10:59.068 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:10:59.068 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:10:59.068 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:11:00.156 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:11:00.156 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/07 14:11:00.156 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:11:00.156 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/07 14:11:00.156 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/07 14:11:00.156 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/07 14:11:00.156 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/07 14:11:00.156 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:40
+2025/03/07 14:11:00.156 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:11:00.156 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:11:00.156 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:11:00.156 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:11:00.156 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:11:01.178 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:11:01.178 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/07 14:11:01.178 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:11:01.178 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/07 14:11:01.178 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/07 14:11:01.178 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/07 14:11:01.178 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/07 14:11:01.178 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:40
+2025/03/07 14:11:01.178 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:11:01.178 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:11:01.178 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:11:01.178 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:11:01.179 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:11:02.294 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:11:02.294 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/07 14:11:02.294 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:11:02.294 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/07 14:11:02.294 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/07 14:11:02.294 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/07 14:11:02.294 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/07 14:11:02.294 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:40
+2025/03/07 14:11:02.294 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:11:02.294 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:11:02.294 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:11:02.294 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:11:02.294 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:11:02.940 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:11:02.940 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/07 14:11:02.941 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:11:02.941 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/07 14:11:02.941 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/07 14:11:02.941 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/07 14:11:02.941 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/07 14:11:02.941 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:40
+2025/03/07 14:11:02.941 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:11:02.941 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:11:02.941 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:11:02.941 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:11:02.941 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:11:04.394 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:11:04.394 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/07 14:11:04.394 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:11:04.394 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/07 14:11:04.394 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/07 14:11:04.394 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/07 14:11:04.394 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/07 14:11:04.394 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:40
+2025/03/07 14:11:04.395 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:11:04.395 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:11:04.395 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:11:04.395 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:11:04.395 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:11:04.781 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:11:04.781 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/07 14:11:04.781 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:11:04.781 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/07 14:11:04.781 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/07 14:11:04.781 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/07 14:11:04.781 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/07 14:11:04.782 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:40
+2025/03/07 14:11:04.782 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:11:04.782 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:11:04.782 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:11:04.782 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:11:04.782 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:11:05.050 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:11:05.050 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/07 14:11:05.050 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:11:05.050 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/07 14:11:05.050 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/07 14:11:05.050 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/07 14:11:05.050 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/07 14:11:05.050 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:40
+2025/03/07 14:11:05.050 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:11:05.050 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:11:05.050 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:11:05.050 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:11:05.050 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:11:05.252 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:11:05.252 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/07 14:11:05.252 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:11:05.252 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/07 14:11:05.252 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/07 14:11:05.252 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/07 14:11:05.252 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/07 14:11:05.252 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:40
+2025/03/07 14:11:05.252 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:11:05.252 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:11:05.252 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:11:05.252 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:11:05.252 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:11:05.426 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:11:05.426 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/07 14:11:05.426 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:11:05.426 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/07 14:11:05.427 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/07 14:11:05.427 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/07 14:11:05.427 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/07 14:11:05.427 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:40
+2025/03/07 14:11:05.427 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:11:05.427 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:11:05.427 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:11:05.427 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:11:05.427 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:11:59.128 [I] [app.go:215]  http server Running on http://:8089
+2025/03/07 14:12:00.104 [I] [app.go:215]  http server Running on http://:8089
+2025/03/07 14:13:00.821 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:13:00.821 [C] [config.go:177]  Handler crashed with error interface conversion: interface {} is nil, not int
+2025/03/07 14:13:00.821 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:13:00.821 [C] [config.go:183]  D:/go/src/runtime/iface.go:275
+2025/03/07 14:13:00.822 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:24
+2025/03/07 14:13:00.822 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:13:00.822 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:13:00.822 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:13:00.822 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:13:00.822 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:14:56.004 [I] [app.go:215]  http server Running on http://:8089
+2025/03/07 14:15:00.146 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:15:00.146 [C] [config.go:177]  Handler crashed with error interface conversion: interface {} is nil, not int
+2025/03/07 14:15:00.146 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:15:00.146 [C] [config.go:183]  D:/go/src/runtime/iface.go:275
+2025/03/07 14:15:00.146 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:25
+2025/03/07 14:15:00.146 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:15:00.146 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:15:00.146 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:15:00.146 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:15:00.146 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:15:13.543 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    27.5108ms|   match|[44m GET     [0m /     r:/
+2025/03/07 14:15:23.954 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    24.8872ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/07 14:15:27.006 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/07 14:15:27.006 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0302ms|   match|[46m POST    [0m /     r:/
+2025/03/07 14:15:27.016 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/07 14:15:27.016 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/07 14:15:27.018 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1051ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 14:15:36.478 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:15:36.478 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/07 14:15:36.478 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:15:36.478 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/07 14:15:36.478 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/07 14:15:36.478 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/07 14:15:36.478 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/07 14:15:36.478 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:43
+2025/03/07 14:15:36.478 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:15:36.478 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:15:36.478 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:15:36.478 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:15:36.478 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:16:44.988 [I] [app.go:215]  http server Running on http://:8089
+2025/03/07 14:16:46.682 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    28.4581ms|   match|[44m GET     [0m /     r:/
+2025/03/07 14:16:56.347 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    25.0757ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/07 14:16:59.491 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/07 14:16:59.491 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      507.9µs|   match|[46m POST    [0m /     r:/
+2025/03/07 14:16:59.501 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/07 14:16:59.501 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/07 14:16:59.503 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0843ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 14:17:08.724 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:17:08.724 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/07 14:17:08.724 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:17:08.724 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/07 14:17:08.724 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/07 14:17:08.724 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/07 14:17:08.724 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/07 14:17:08.724 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:44
+2025/03/07 14:17:08.724 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:17:08.724 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:17:08.724 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:17:08.724 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:17:08.724 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:19:23.143 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:19:23.143 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/07 14:19:23.143 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:19:23.143 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/07 14:19:23.143 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/07 14:19:23.143 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/07 14:19:23.143 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/07 14:19:23.143 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:44
+2025/03/07 14:19:23.143 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:19:23.143 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:19:23.143 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:19:23.143 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:19:23.143 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:19:57.766 [I] [app.go:215]  http server Running on http://:8089
+2025/03/07 14:22:29.692 [I] [app.go:215]  http server Running on http://:8089
+2025/03/07 14:22:31.129 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:22:31.129 [C] [config.go:177]  Handler crashed with error interface conversion: interface {} is nil, not int
+2025/03/07 14:22:31.129 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:22:31.129 [C] [config.go:183]  D:/go/src/runtime/iface.go:275
+2025/03/07 14:22:31.129 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:24
+2025/03/07 14:22:31.129 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:22:31.129 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:22:31.129 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:22:31.129 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:22:31.130 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:22:41.530 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    27.1477ms|   match|[44m GET     [0m /     r:/
+2025/03/07 14:22:50.412 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/07 14:22:50.412 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.1411ms|   match|[46m POST    [0m /     r:/
+2025/03/07 14:22:50.421 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/07 14:22:50.421 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/07 14:22:50.423 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6486ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/07 14:22:59.175 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:22:59.175 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/07 14:22:59.175 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:22:59.175 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/07 14:22:59.175 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/07 14:22:59.175 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/07 14:22:59.175 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/07 14:22:59.175 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:42
+2025/03/07 14:22:59.175 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:22:59.175 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:22:59.175 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:22:59.175 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:22:59.175 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:27:30.346 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:27:30.346 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/07 14:27:30.346 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:27:30.346 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/07 14:27:30.346 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/07 14:27:30.346 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/07 14:27:30.346 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/07 14:27:30.346 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:42
+2025/03/07 14:27:30.346 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:27:30.346 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:27:30.346 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:27:30.347 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:27:30.347 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:27:31.779 [C] [config.go:176]  the request url is  /main/index
+2025/03/07 14:27:31.779 [C] [config.go:177]  Handler crashed with error operator `in` need at least one args
+2025/03/07 14:27:31.779 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/07 14:27:31.779 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:1173
+2025/03/07 14:27:31.779 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db_tables.go:380
+2025/03/07 14:27:31.779 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/db.go:990
+2025/03/07 14:27:31.779 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/orm/orm_queryset.go:213
+2025/03/07 14:27:31.779 [C] [config.go:183]  D:/ions_project/controllers/home_controller.go:42
+2025/03/07 14:27:31.779 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:833
+2025/03/07 14:27:31.779 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/07 14:27:31.779 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/07 14:27:31.779 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/07 14:27:31.779 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/07 14:37:16.019 [D] [router.go:925]  | 10.161.252.114|[42m 200 [0m|    27.7138ms|   match|[44m GET     [0m /     r:/
+2025/03/07 14:38:38.145 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/03/07 14:38:38.354 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/03/07 14:38:38.354 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/03/07 14:38:38.566 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/03/07 14:38:38.566 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/03/07 14:38:39.189 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/03/07 14:38:39.614 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/03/07 14:38:41.611 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js

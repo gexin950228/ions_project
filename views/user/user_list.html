@@ -140,7 +140,7 @@
         <div class="page">
             <div>
                 <span>总页数:{{.countPage}}</span>
-                <a class="prev" href="{{urlfor "UserController.Get"}}?page={{.page_map.firstpage}}&kw={{.kw}}">首页</a>
+                <a class="first" href="{{urlfor "UserController.Get"}}?page={{.page_map.firstpage}}&kw={{.kw}}">首页</a>
                 <a class="prev" href="{{urlfor "UserController.Get"}}?page={{.prePage}}&kw={{.kw}}">上一页</a>
 
                 {{/*中间页码*/}}

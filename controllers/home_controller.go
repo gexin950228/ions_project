@@ -29,6 +29,8 @@ func (c *HomeController) Get() {
 	for _, role := range user.Role {
 		role_data := auth.Role{Id: role.Id}
 		o.LoadRelated(&role_data, "Auth")
+		fmt.Println("=====================================")
+		fmt.Printf("role_data: %v\n", role_data)
 		for _, auth_date := range role_data.Auth {
 			auth_arr = append(auth_arr, auth_date.Id)
 		}
