@@ -25,6 +25,7 @@ type Role struct {
 	Id         int       `orm:"pk;auto"`
 	RoleName   string    `orm:"size(64)"`
 	IsActive   int       `orm:"column(is_active)"`
+	Desc       string    `orm:"-"`
 	IsDelete   int       `orm:"column(is_delete)"`
 	CreateTime time.Time `orm:"type(datetime);auto_now;description(创建时间)"`
 	Auth       []*Auth   `orm:"rel(m2m)"`
@@ -87,7 +88,7 @@ type CarsApply struct {
 	NotifyTag    int       `orm:"description(1:已发送通知，0：未发送通知);default(0)"`
 }
 
-// 消息通知
+// MessageNotify 消息通知
 type MessageNotify struct {
 	Id      int    `orm:"pk;auto"`
 	Flag    int    `orm:"description(1:车辆逾期，2:所有通知);default(1)"`
@@ -137,6 +138,7 @@ func init() {
 	// username:pwd@tcp(ip:port)/db?charset=utf8&loc=Local
 	dataSource := username + ":" + pwd + "@tcp(" + host + ":" + port + ")/" + db + "?charset=utf8&loc=Local"
 	err := orm.RegisterDriver("mysql", orm.DRMySQL)
+	orm.Debug = true
 	if err != nil {
 		fmt.Println(err)
 	}

@@ -97,9 +97,9 @@
     </div>
     <script>
         $(function  () {
-            layui.use('form', function () {
-                var form = layui.form;
-
+            layui.use('form', function (message) {
+                var form = layui.form
+                ,layer = layui.layer;
                 //监听提交
                 form.on('submit(add)', function (data) {
                     var auth_parent_id = document.getElementById("auth_parent_id").value;
@@ -108,9 +108,9 @@
                     var auth_desc = document.getElementById("auth_desc").value;
                     var is_active = $("input[name=is_active]:checked").val();
                     var auth_weight = document.getElementById("auth_weight").value;
-
+                    alert({{urlfor "AuthController.DoAdd"}});
                     $.ajax({
-                        url: "{{urlfor "AuthController.DoAdd"}}",
+                        url: "{{ urlfor "AuthController.DoAdd" }}",
                         type: "POST",
                         data: {
                             "auth_parent_id": auth_parent_id,
@@ -121,27 +121,20 @@
                             "auth_weight": auth_weight
                         },
                         success: function (data) {
-                            var code = data["code"];
-                            if(code == 200){
-                                alert(data["msg"]);
-                                var index = parent.layer.getFrameIndex(window.name);
-                                //关闭当前frame
-                                parent.layer.close(index);
-                                window.location.href = "{{urlfor "AuthController.List"}}"
-                                // ions_alert.alertSuccessToast(data["msg"]);
-                                // setTimeout(reload_list,2000);
-                            }else {
-                                ions_alert.alertErrorToast(data["msg"]);
-                                setTimeout(reload_list,20000);
-                            }
-
+                            let code = data["code"];
+                            alert(code)
+                            ions_alert.alertSuccessToast(data["msg"]);
+                            let index = parent.layer.getFrameIndex(window.name);
+                            //关闭当前frame
+                            parent.layer.close(index);
+                            // window.location.href = "{{urlfor "AuthController.List"}}"
+                            ions_alert.alertSuccessToast(data["msg"]);
+                                setTimeout(reload_list,2000);
                         },
                         fail: function (data) {
                             alert("添加数据失败，重新添加");
                         }
                     });
-
-
                     function reload_list() {
                         // 获得frame索引
                         var index = parent.layer.getFrameIndex(window.name);
@@ -149,16 +142,8 @@
                         parent.layer.close(index);
                         window.location.href = "{{urlfor "AuthController.List"}}"
                     }
-
-
-
-
                 });
-
-
             });
-
-
         });
 
     </script>

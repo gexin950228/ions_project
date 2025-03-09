@@ -18,18 +18,25 @@ type HomeController struct {
 func (c *HomeController) Get() {
 	// 后端首页
 	o := orm.NewOrm()
-
 	userId := c.GetSession("id")
-	// interface --> int
-	user := auth.User{Id: userId.(int)}
-
+	var uid int
+	if userId == nil {
+		uid = 1
+	} else {
+		fmt.Println(userId)
+		uid = userId.(int)
+	}
+	//// interface --> int
+	user := auth.User{Id: uid}
+	//
 	o.LoadRelated(&user, "Role")
 
-	auth_arr := []int{}
+	fmt.Println("========================================")
+	fmt.Printf("user roles:%#v\n", user.Role)
+	var auth_arr []int
 	for _, role := range user.Role {
 		role_data := auth.Role{Id: role.Id}
 		o.LoadRelated(&role_data, "Auth")
-		fmt.Println("=====================================")
 		fmt.Printf("role_data: %v\n", role_data)
 		for _, auth_date := range role_data.Auth {
 			auth_arr = append(auth_arr, auth_date.Id)
@@ -58,12 +65,12 @@ func (c *HomeController) Get() {
 	//	}
 	//}
 
-	o.QueryTable("sys_user").Filter("id", userId).One(&user)
+	o.QueryTable("sys_user").Filter("id", uid).One(&user)
 
 	// 消息通知,发送消息，使用定时任务优化
 	qs1 := o.QueryTable("sys_cars_apply")
 	cars_apply := []auth.CarsApply{}
-	qs1.Filter("user_id", userId.(int)).Filter("return_status", 0).Filter("notify_tag", 0).All(&cars_apply)
+	qs1.Filter("user_id", uid).Filter("return_status", 0).Filter("notify_tag", 0).All(&cars_apply)
 
 	cur_time, _ := time.Parse("2006-01-02", time.Now().Format("2006-01-02"))
 
@@ -92,7 +99,7 @@ func (c *HomeController) Get() {
 
 	qs2 := o.QueryTable("sys_message_notify")
 	notify_count, _ := qs2.Filter("read_tag", 0).Count()
-
+	fmt.Printf("trees: %v\n", trees)
 	c.Data["notify_count"] = notify_count
 	c.Data["trees"] = trees
 	c.Data["user"] = user

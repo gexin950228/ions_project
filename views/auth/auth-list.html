@@ -53,7 +53,7 @@
       </div>
       <xblock>
         <button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量删除</button>
-        <button class="layui-btn" onclick="x_admin_show('添加菜单','{{urlfor "AuthController.ToAdd"}}',600,400)"><i class="layui-icon"></i>添加</button>
+        <button class="layui-btn" onclick="x_admin_show('添加菜单','{{urlfor "AuthController.ToAuthAdd"}}',600,400)"><i class="layui-icon"></i>添加</button>
         <span class="x-right" style="line-height:40px">共有数据：{{.count}} 条</span>
       </xblock>
       <table class="layui-table">
@@ -126,19 +126,15 @@
         <div>
             <span>总页数:{{.countPage}}</span>
           <a class="prev" href="{{urlfor "AuthController.List"}}?page={{.page_map.firstpage}}">首页</a>
-          <a class="prev" href="{{urlfor "AuthController.List"}}?page={{.prePage}}">上一页</a>
-          {{/*<span class="current">{{.currentPage}}</span>*/}}
-
-            {{/*中间页码*/}}
-
+          <a class="prev" href="{{urlfor "AuthController.List"}}?page={{.page_map.prePage}}">上一页</a>
             {{range .page_map.num_pages}}
                     {{if eq $.page_map.currpage .}}
-                        <span class="current">{{.}}</span>
+                        <span class="current" >{{.}}</span>
                     {{else}}
-                        <span>{{.}}</span>
+                        <a class="next" href="{{urlfor "AuthController.List"}}?page={{.}}">{{.}}</a>
                     {{end}}
 
-            {{end}}
+          {{end}}
           <a class="next" href="{{urlfor "AuthController.List"}}?page={{.nextPage}}">下一页</a>
           <a class="next" href="{{urlfor "AuthController.List"}}?page={{.page_map.lastpage}}">尾页</a>
         </div>

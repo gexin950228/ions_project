@@ -109,7 +109,7 @@
                           console.log(code, data);
                           if(code === "200"){
                               // alert(data["msg"])
-                              window.location.href="{{urlfor "UserController.List"}}"
+                              window.location.href="{{urlfor "HomeController.Get"}}"
                           }else {
                               ions_alert.alertError(data["msg"])
                           }

@@ -58,12 +58,11 @@ func (u *UserController) List() {
 	} else {
 		nextPage = currentPage
 	}
-	page_map := utils.Paginator(currentPage, pagePerNum, count)
-	fmt.Println("pageMap", page_map)
+	pageMap := utils.Paginator(currentPage, pagePerNum, count)
 	u.Data["users"] = users
 	u.Data["kw"] = kw
 	u.Data["count"] = count
-	u.Data["page_map"] = page_map
+	u.Data["page_map"] = pageMap
 	u.Data["nextPage"] = nextPage
 	u.Data["currentPage"] = currentPage
 	u.Data["prePage"] = prePage
@@ -76,6 +75,7 @@ func (u *UserController) ToAdd() {
 }
 
 func (u *UserController) DoAdd() {
+	fmt.Println("进入")
 	username := u.GetString("username")
 	password := u.GetString("password")
 	age, _ := u.GetInt("age")
@@ -89,6 +89,7 @@ func (u *UserController) DoAdd() {
 	userData := auth.User{UserName: username, Password: new_password, Age: age, Gender: gender, Phone: phoneInt64, Addr: addr, IsActive: is_active}
 	_, err := o.Insert(&userData)
 	message_map := make(map[string]interface{})
+	fmt.Println(age, username, gender, addr, new_password, phoneInt64, is_active)
 	if err != nil {
 		ret1 := fmt.Sprintf("插入数据信息：username:%s|md5_password:%s|age:%d|gender:%d|phone:%s|"+
 			"addr:%s;is_active:%d", username, new_password, age, gender, phone, addr, is_active)
@@ -163,14 +164,22 @@ func (u *UserController) ResetPassword() {
 }
 
 func (u *UserController) ToUpdate() {
-	id, _ := u.GetInt("id")
-	o := orm.NewOrm()
-	user_data := auth.User{}
-	err := o.QueryTable("sys_user").Filter("id", id).One(&user_data)
-	if err != nil {
-		logs.Error(fmt.Sprintf("查询id为%d的用户出错，错误信息: %s", id, err.Error()))
+	userId := u.GetSession("id")
+	var uid int
+	if userId == nil {
+		uid = 1
+	} else {
+		fmt.Println(userId)
+		uid = userId.(int)
 	}
-	u.Data["user"] = user_data
+	o := orm.NewOrm()
+	userData := auth.User{}
+	err := o.QueryTable("sys_user").Filter("id", uid).One(&userData)
+	fmt.Printf("user_data:%v\n", userData)
+	if err != nil {
+		logs.Error(fmt.Sprintf("查询id为%d的用户出错，错误信息: %s", uid, err.Error()))
+	}
+	u.Data["user"] = userData
 	u.TplName = "user/user_edit.html"
 }
 

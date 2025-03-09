@@ -43,9 +43,7 @@
     <div class="left-nav">
       <div id="side-nav">
         <ul id="nav">
-
             {{range .trees}}
-
                 <li>
                     <a href="javascript:;">
                         <i class="iconfont">&#xe6b8;</i>
@@ -53,10 +51,8 @@
                         <i class="iconfont nav_right">&#xe697;</i>
                     </a>
                     {{range .Children}}
-
                         <ul class="sub-menu">
                             <li>
-                                {{/*<a _href="{{urlfor "UserController.List"}}">*/}}
                                 <a _href="{{urlfor .UrlFor}}">
                                     <i class="iconfont">&#xe6a7;</i>
                                     <cite>{{.AuthName}}</cite>

@@ -7,6 +7,12 @@ func Paginator(page, pageNum int, nums int64) map[string]interface{} {
 
 	var firstpage int //前一页地址
 	var lastpage int  //后一页地址
+	var prepage int
+	if page == 1 {
+		prepage = 1
+	} else if page >= 2 {
+		prepage = page - 1
+	}
 	//根据nums总数，和pageNum每页数量 生成分页总数
 	totalpages := int(math.Ceil(float64(nums) / float64(pageNum))) //page总数
 	if page > totalpages {
@@ -20,7 +26,7 @@ func Paginator(page, pageNum int, nums int64) map[string]interface{} {
 	case page >= totalpages-5 && totalpages > 5: //最后5页
 		start := totalpages - 5 + 1
 		firstpage = 1
-		lastpage = int(math.Min(float64(totalpages), float64(page+1))) - 1
+		lastpage = int(math.Min(float64(totalpages), float64(page+1)))
 		num_pages = make([]int, 5)
 		for i, _ := range num_pages {
 			num_pages[i] = start + i
@@ -33,14 +39,14 @@ func Paginator(page, pageNum int, nums int64) map[string]interface{} {
 			num_pages[i] = start + i
 		}
 		firstpage = page - 1
-		lastpage = totalpages - 1
+		lastpage = totalpages
 	default:
 		num_pages = make([]int, int(math.Min(5, float64(totalpages))))
 		for i, _ := range num_pages {
 			num_pages[i] = i + 1
 		}
 		firstpage = 1
-		lastpage = pageNum - 1
+		lastpage = totalpages
 	}
 	paginatorMap := make(map[string]interface{})
 	// 中间的页码数字
@@ -53,5 +59,6 @@ func Paginator(page, pageNum int, nums int64) map[string]interface{} {
 	paginatorMap["lastpage"] = lastpage
 	// 当前页
 	paginatorMap["currpage"] = page
+	paginatorMap["prePage"] = prepage
 	return paginatorMap
 }
