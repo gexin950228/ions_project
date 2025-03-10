@@ -4,6 +4,7 @@ import (
 	"github.com/astaxie/beego"
 	"ions_project/controllers"
 	"ions_project/controllers/auth"
+	"ions_project/controllers/cars"
 	"ions_project/controllers/login"
 	"ions_project/controllers/user"
 )
@@ -37,5 +38,8 @@ func init() {
 	beego.Router("/main/auth/list", &auth.AuthController{}, "get:List")
 	beego.Router("/main/auth/to_auth_add", &auth.AuthController{}, "get:ToAuthAdd")
 	beego.Router("/main/auth/auth_add", &auth.AuthController{}, "post:DoAdd")
+
+	// cars
+	beego.Router("/main/cars/list", &cars.CarsController{}, "get:List")
 
 }

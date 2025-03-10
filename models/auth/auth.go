@@ -18,7 +18,7 @@ type Auth struct {
 	CreateTime time.Time `orm:"auto_now_add;type(datetime);description(创建时间)"`
 	IsActive   int       `orm:"column(is_active);description(1启用，0停用)"`
 	IsDelete   int       `orm:"columns(is_delete);description(1删除，0未删除)"`
-	Weight     int       `orm:"description(权重，数值越大，权重越大)"`
+	Weight     int       `orm:"column(weight);description(权重，数值越大，权重越大)"`
 }
 
 type Role struct {

@@ -17,63 +17,48 @@ type HomeController struct {
 
 func (c *HomeController) Get() {
 	// 后端首页
+	orm.Debug = true
 	o := orm.NewOrm()
-	userId := c.GetSession("id")
 	var uid int
+	userId := c.GetSession("id")
 	if userId == nil {
 		uid = 1
 	} else {
-		fmt.Println(userId)
 		uid = userId.(int)
 	}
-	//// interface --> int
 	user := auth.User{Id: uid}
-	//
 	o.LoadRelated(&user, "Role")
+	fmt.Println("================================================")
+	fmt.Printf("用戶%d的角色有: %+v\n", userId, &user.Role)
 
-	fmt.Println("========================================")
-	fmt.Printf("user roles:%#v\n", user.Role)
 	var auth_arr []int
 	for _, role := range user.Role {
+		fmt.Println(role)
 		role_data := auth.Role{Id: role.Id}
 		o.LoadRelated(&role_data, "Auth")
 		fmt.Printf("role_data: %v\n", role_data)
 		for _, auth_date := range role_data.Auth {
 			auth_arr = append(auth_arr, auth_date.Id)
 		}
-
 	}
 	qs := o.QueryTable("sys_auth")
-
 	auths := []auth.Auth{}
 	qs.Filter("pid", 0).Filter("id__in", auth_arr).OrderBy("-weight").All(&auths)
 	//"select * from sys_user where id in (1,2,3,1)"
-
 	trees := []auth.Tree{}
 	for _, auth_data := range auths { // 一级菜单
-
 		pid := auth_data.Id // 根据pid获取所有的子解点
 		tree_data := auth.Tree{Id: auth_data.Id, AuthName: auth_data.AuthName, UrlFor: auth_data.UrlFor, Weight: auth_data.Weight, Children: []*auth.Tree{}}
 		GetChildNode(pid, &tree_data)
 		trees = append(trees, tree_data)
-
 	}
-
-	//for _,tree_data := range trees{
-	//	for _,tree_data2 := range tree_data.Children{
-	//		fmt.Println(tree_data2)
-	//	}
-	//}
-
+	fmt.Printf("trees: %v\n", trees)
 	o.QueryTable("sys_user").Filter("id", uid).One(&user)
-
-	// 消息通知,发送消息，使用定时任务优化
 	qs1 := o.QueryTable("sys_cars_apply")
 	cars_apply := []auth.CarsApply{}
 	qs1.Filter("user_id", uid).Filter("return_status", 0).Filter("notify_tag", 0).All(&cars_apply)
 
 	cur_time, _ := time.Parse("2006-01-02", time.Now().Format("2006-01-02"))
-
 	for _, apply := range cars_apply {
 		return_date := apply.ReturnDate
 		ret := cur_time.Sub(return_date)
@@ -88,15 +73,10 @@ func (c *HomeController) Get() {
 			}
 			o.Insert(&message_notify)
 		}
-
 		apply.NotifyTag = 1
-
 		o.Update(&apply)
-
 	}
-
 	// 展示消息,使用websocket优化
-
 	qs2 := o.QueryTable("sys_message_notify")
 	notify_count, _ := qs2.Filter("read_tag", 0).Count()
 	fmt.Printf("trees: %v\n", trees)
@@ -104,7 +84,6 @@ func (c *HomeController) Get() {
 	c.Data["trees"] = trees
 	c.Data["user"] = user
 	c.TplName = "index.html"
-
 }
 
 func (c *HomeController) Add() {}
