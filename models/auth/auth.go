@@ -19,13 +19,14 @@ type Auth struct {
 	IsActive   int       `orm:"column(is_active);description(1启用，0停用)"`
 	IsDelete   int       `orm:"columns(is_delete);description(1删除，0未删除)"`
 	Weight     int       `orm:"column(weight);description(权重，数值越大，权重越大)"`
+	PName      string    `orm:"size(50);column(p_name)"`
 }
 
 type Role struct {
 	Id         int       `orm:"pk;auto"`
 	RoleName   string    `orm:"size(64)"`
 	IsActive   int       `orm:"column(is_active)"`
-	Desc       string    `orm:"-"`
+	Desc       string    `orm:"size(255)"`
 	IsDelete   int       `orm:"column(is_delete)"`
 	CreateTime time.Time `orm:"type(datetime);auto_now;description(创建时间)"`
 	Auth       []*Auth   `orm:"rel(m2m)"`

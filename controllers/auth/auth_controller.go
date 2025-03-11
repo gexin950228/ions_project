@@ -36,11 +36,16 @@ func (a *AuthController) List() {
 	}
 	offset := (currentPage - 1) * pagePerNum
 	page_map := utils.Paginator(currentPage, pagePerNum, count)
-	fmt.Println("==============================")
-	fmt.Printf("page_map: %v\n", page_map)
 	var auths []auth.Auth
 	qs1 := o.QueryTable("sys_auth")
 	qs1.Filter("is_delete", 0).Offset(offset).Limit(pagePerNum).All(&auths)
+	for _, sAuth := range auths {
+		pid := sAuth.Pid
+		var pAuth auth.Auth
+		qs2 := o.QueryTable("sys_auth")
+		qs2.Filter("id", pid).One(&pAuth)
+		sAuth.PName = pAuth.AuthName
+	}
 	fmt.Println(auths)
 	a.Data["auths"] = auths
 	a.Data["nextPage"] = nextPage
@@ -56,7 +61,7 @@ func (a *AuthController) ToAuthAdd() {
 	qs := o.QueryTable("sys_auth")
 	qs.Filter("is_delete", 0).All(&auths)
 	a.Data["auths"] = auths
-	a.TplName = "auth/auth-add.html"
+	a.TplName = "auth/role_list.html"
 }
 
 func (a *AuthController) DoAdd() {

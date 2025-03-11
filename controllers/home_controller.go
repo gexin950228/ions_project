@@ -28,9 +28,6 @@ func (c *HomeController) Get() {
 	}
 	user := auth.User{Id: uid}
 	o.LoadRelated(&user, "Role")
-	fmt.Println("================================================")
-	fmt.Printf("用戶%d的角色有: %+v\n", userId, &user.Role)
-
 	var auth_arr []int
 	for _, role := range user.Role {
 		fmt.Println(role)
@@ -52,7 +49,6 @@ func (c *HomeController) Get() {
 		GetChildNode(pid, &tree_data)
 		trees = append(trees, tree_data)
 	}
-	fmt.Printf("trees: %v\n", trees)
 	o.QueryTable("sys_user").Filter("id", uid).One(&user)
 	qs1 := o.QueryTable("sys_cars_apply")
 	cars_apply := []auth.CarsApply{}

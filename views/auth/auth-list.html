@@ -63,7 +63,7 @@
             </th>
             <th >权限名称</th>
             <th >URL地址</th>
-            <th >父节点id</th>
+            <th >父节点</th>
             <th >描述</th>
             <th >创建时间</th>
             <th >状态</th>
@@ -84,7 +84,7 @@
                 {{urlfor .UrlFor}}
               {{end}}
             </td>
-            <td>{{.Pid}}</td>
+            <td>{{.PName}}</td>
             <td>{{.Desc}}</td>
             <td>{{date .CreateTime "Y-m-d H:m:s"}}</td>
             <td>

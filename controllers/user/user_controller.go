@@ -107,6 +107,7 @@ func (u *UserController) DoAdd() {
 		message_map["msg"] = "添加成功"
 		u.Data["json"] = message_map
 	}
+	u.ServeJSON()
 }
 
 func (u *UserController) IsActive() {

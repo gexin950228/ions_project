@@ -1,6 +1,8 @@
 package utils
 
-import "math"
+import (
+	"math"
+)
 
 // Paginator 分页方法，根据传递过来的当前页数，每页数，总数
 func Paginator(page, pageNum int, nums int64) map[string]interface{} {

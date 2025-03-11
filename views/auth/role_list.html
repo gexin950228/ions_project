@@ -32,8 +32,9 @@
         <a>
           <cite>角色列表</cite></a>
       </span>
-      <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href="javascript:location.replace(location.href);" title="刷新">
-        <i class="layui-icon" style="line-height:30px">ဂ</i></a>
+        <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href="javascript:location.replace(location.href);" title="刷新">
+            <i class="layui-icon" style="line-height:30px">ဂ</i>
+        </a>
     </div>
     <div class="x-body">
       <div class="layui-row">
@@ -42,7 +43,11 @@
           {{/*<input class="layui-input" placeholder="截止日" name="end" id="end">*/}}
           <input type="text" id="username" value="{{.kw}}"  placeholder="请输入角色" autocomplete="off" class="layui-input">
           <button id="search_btn" class="layui-btn"><i class="layui-icon">&#xe615;</i></button>
-          <button id="clear_btn" class="layui-btn"><i class="layui-icon" style="line-height:30px">ဂ</i></button>
+          <button id="clear_btn" class="layui-btn">
+              <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href="javascript:location.replace(location.href);" title="刷新">
+              <i class="layui-icon" style="line-height:30px">ဂ</i>
+              </a>
+          </button>
         </form>
       </div>
       <xblock>
@@ -126,43 +131,22 @@
 
         </tbody>
       </table>
-      {{/*<div class="page">*/}}
-        {{/*<div>*/}}
-            {{/*<span>总页数:{{.countPage}}</span>*/}}
-          {{/*<a class="prev" href="{{urlfor "UserController.Get"}}?page={{.prePage}}">&lt;&lt;</a>*/}}
-          {{/*<a class="num" href="">1</a>*/}}
-          {{/*<span class="current">{{.currentPage}}</span>*/}}
-          {{/*<a class="num" href="">3</a>*/}}
-          {{/*<a class="num" href="">489</a>*/}}
-          {{/*<a class="next" href="{{urlfor "UserController.Get"}}?page={{.nextPage}}">&gt;&gt;</a>*/}}
-        {{/*</div>*/}}
-      {{/*</div>*/}}
-
         <div class="page">
             <div>
                 <span>总页数:{{.countPage}}</span>
-            {{/*首页和上一页*/}}
-            {{/*<a class="prev" href="{{urlfor "UserController.Get"}}?page={{.page_map.firstpage}}">&lt;&lt;</a>*/}}
+
                 <a class="prev" href="{{urlfor "RoleController.List"}}?page={{.page_map.firstpage}}">首页</a>
-            {{/*<a class="prev" href="{{urlfor "UserController.Get"}}?page={{.prePage}}">&lt;</a>*/}}
                 <a class="prev" href="{{urlfor "RoleController.List"}}?page={{.prePage}}">上一页</a>
+                {{range .page_map.num_pages}}
+                    {{if eq $.page_map.currpage .}}
+                        <a style="border: 0px  #E2E2E2;padding: 0" href="{{urlfor "RoleController.List"}}?page={{.}}"><span class="current">{{.}}</span></a>
+                    {{else}}
+                        <a style="border: 0px #E2E2E2;padding: 0" href="{{urlfor "RoleController.List"}}?page={{.}}"><span>{{.}}</span></a>
+                    {{end}}
+                {{end}}
 
-            {{/*中间页码*/}}
-            {{range .page_map.num_pages}}
-            {{if eq $.page_map.currpage .}}
-                <a style="border: 0px  #E2E2E2;padding: 0" href="{{urlfor "RoleController.List"}}?page={{.}}"><span class="current">{{.}}</span></a>
-            {{else}}
-                <a style="border: 0px #E2E2E2;padding: 0" href="{{urlfor "RoleController.List"}}?page={{.}}"><span>{{.}}</span></a>
-            {{end}}
-
-            {{end}}
-
-
-            {{/*下一页和尾页*/}}
-            {{/*<a class="next" href="{{urlfor "UserController.Get"}}?page={{.nextPage}}">&gt;</a>*/}}
-                <a class="next" href="{{urlfor "UserController.Get"}}?page={{.nextPage}}&kw={{.kw}}">下一页</a>
-            {{/*<a class="next" href="{{urlfor "UserController.Get"}}?page={{.page_map.lastpage}}">&gt;&gt;</a>*/}}
-                <a class="next" href="{{urlfor "UserController.Get"}}?page={{.page_map.lastpage}}&kw={{.kw}}">尾页</a>
+            <a class="next" href="{{urlfor "RoleController.List"}}?page={{.nextPage}}&kw={{.kw}}">下一页</a>
+            <a class="next" href="{{urlfor "RoleController.List"}}?page={{.lastpage}}&kw={{.kw}}">尾页</a>
             </div>
         </div>
 
@@ -189,7 +173,7 @@
               layer.confirm('确认要停用吗？',function(index){
                   layer.close(index);
                   $.ajax({
-                      url:"{{urlfor "UserController.IsActive"}}",
+                      url:"{{urlfor "RoleController.IsActive"}}",
                       type:"POST",
                       data:{
                           "is_active_val":is_active_val,
@@ -213,7 +197,7 @@
               layer.confirm('确认要启用吗？',function(index){
                   layer.close(index);
                   $.ajax({
-                      url:"{{urlfor "UserController.IsActive"}}",
+                      url:"{{urlfor "RoleController.IsActive"}}",
                       type:"POST",
                       data:{
                           "is_active_val":is_active_val,
@@ -236,7 +220,7 @@
       
       
       function reload_list() {
-          window.location.href = "{{urlfor "UserController.List"}}"
+          window.location.href = "{{urlfor "RoleController.List"}}"
       }
 
 
@@ -276,7 +260,7 @@
         layer.confirm('确认要批量删除吗？',function(index){
             layer.close(index);
             $.ajax({
-                url:"{{urlfor "UserController.MuliDelete"}}",
+                url:"{{urlfor "RoleController.MuliDelete"}}",
                 type:"POST",
                 data:{
                     "ids":JSON.stringify(ids)
@@ -299,7 +283,7 @@
       search_btn.onclick = function (ev) {
           ev.preventDefault();
           var kw = document.getElementById("username").value;
-          window.location.href = "{{urlfor "UserController.List"}}?kw=" + kw
+          window.location.href = "{{urlfor "RoleController.List"}}?kw=" + kw
       };
 
 
@@ -307,7 +291,7 @@
 
       clear_btn.onclick = function (ev) {
           ev.preventDefault();
-          window.location.href = "{{urlfor "UserController.List"}}"
+          window.location.href = "{{urlfor "RoleController.List"}}"
       }
 
 

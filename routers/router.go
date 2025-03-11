@@ -38,6 +38,21 @@ func init() {
 	beego.Router("/main/auth/list", &auth.AuthController{}, "get:List")
 	beego.Router("/main/auth/to_auth_add", &auth.AuthController{}, "get:ToAuthAdd")
 	beego.Router("/main/auth/auth_add", &auth.AuthController{}, "post:DoAdd")
+	beego.Router("/main/auth/role_list", &auth.RoleController{}, "get:List")
+	beego.Router("/main/auth/to_add", &auth.RoleController{}, "get:ToAdd")
+
+	// 角色模块
+	beego.Router("/main/role/list", &auth.RoleController{}, "get:List")
+	beego.Router("/main/role/to_add", &auth.RoleController{}, "get:ToAdd")
+	beego.Router("/main/role/do_add", &auth.RoleController{}, "post:DoAdd")
+	// 角色--用户
+	beego.Router("/main/role/to_role_user_add", &auth.RoleController{}, "get:ToRoleUser")
+	beego.Router("/main/role/do_role_user_add", &auth.RoleController{}, "post:DoRoleUser")
+
+	// 角色--权限
+	beego.Router("/main/role/to_role_auth_add", &auth.RoleController{}, "get:ToRoleAuth")
+	beego.Router("/main/role/get_auth_json", &auth.RoleController{}, "get:GetAuthJson")
+	beego.Router("/main/role/do_role_auth_add", &auth.RoleController{}, "post:DoRoleAuth")
 
 	// cars
 	beego.Router("/main/cars/list", &cars.CarsController{}, "get:List")
