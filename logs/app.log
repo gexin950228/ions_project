@@ -2384,3 +2384,921 @@
 2025/03/11 17:55:37.401 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.9792ms|   match|[44m GET     [0m /static/js/ztree/jquery.ztree.excheck.js
 2025/03/11 17:55:37.402 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.5004ms|   match|[44m GET     [0m /static/js/ztree/jquery.ztree.exedit.js
 2025/03/11 17:55:37.412 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      506.5µs|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/12 09:39:11.454 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 09:39:12.440 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 09:41:42.691 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 09:42:29.574 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    30.0377ms|   match|[44m GET     [0m /     r:/
+2025/03/12 09:42:34.857 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2025/03/12 09:42:50.611 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/12 09:42:50.611 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     6.5917ms|   match|[46m POST    [0m /     r:/
+2025/03/12 09:42:50.636 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    15.9049ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 09:42:54.312 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      505.4µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 09:43:01.055 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.9526ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/12 09:43:18.809 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/css/bootstrap-chosen.css.map
+2025/03/12 09:51:01.181 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 09:52:09.836 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.3911ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/12 09:52:10.450 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/css/bootstrap-chosen.css.map
+2025/03/12 09:52:37.082 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 09:52:37.082 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/12 09:52:37.086 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.1809ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/12 09:52:39.773 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.6758ms|   match|[44m GET     [0m /main/user/to_edit   r:/main/user/to_edit
+2025/03/12 09:52:40.435 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      507.2µs|   match|[44m GET     [0m /main/user/to_add   r:/main/user/to_add
+2025/03/12 09:53:31.130 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 09:53:34.702 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.9276ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/12 09:53:41.060 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     7.5542ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 09:53:42.274 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      506.6µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 09:53:51.246 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.3023ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/12 09:53:51.735 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/css/bootstrap-chosen.css.map
+2025/03/12 09:55:06.557 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 09:55:09.464 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    38.4645ms|   match|[44m GET     [0m /     r:/
+2025/03/12 09:55:14.121 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    27.8249ms|   match|[44m GET     [0m /     r:/
+2025/03/12 09:56:01.652 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/12 09:56:01.652 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.2245ms|   match|[46m POST    [0m /     r:/
+2025/03/12 09:56:01.673 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    10.8774ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 09:56:02.052 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      508.7µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 09:56:04.783 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5607ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/12 09:56:05.423 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/css/bootstrap-chosen.css.map
+2025/03/12 09:59:17.907 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 10:01:22.321 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    10.2775ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 10:01:22.975 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0383ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 10:01:42.788 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.3318ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 10:01:43.206 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      508.4µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 10:02:17.168 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      3.141ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 10:02:17.756 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0372ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 10:02:20.213 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.8365ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 10:02:20.836 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0393ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 10:03:12.106 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.1135ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 10:03:12.699 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      507.8µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 10:03:16.856 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 10:03:16.856 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 10:03:16.858 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 10:03:16.859 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.8404ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 10:03:21.593 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /main/auth/404.html
+2025/03/12 10:05:01.919 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|      524.9µs| nomatch|[44m GET     [0m /main/auth/404.html
+2025/03/12 10:06:00.447 [I] [role_controller.go:35]  当前页;2,查询条件：
+2025/03/12 10:06:00.448 [I] [role_controller.go:48]  当前页;2,查询条件：
+2025/03/12 10:06:00.450 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      2.802ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 10:06:01.908 [I] [role_controller.go:35]  当前页;4,查询条件：
+2025/03/12 10:06:01.909 [I] [role_controller.go:48]  当前页;4,查询条件：
+2025/03/12 10:06:01.910 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6184ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 10:06:03.495 [I] [role_controller.go:35]  当前页;3,查询条件：
+2025/03/12 10:06:03.496 [I] [role_controller.go:48]  当前页;3,查询条件：
+2025/03/12 10:06:03.498 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6092ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 10:06:41.205 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5597ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/12 10:06:41.707 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/css/bootstrap-chosen.css.map
+2025/03/12 10:08:42.243 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.1108ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/12 10:08:52.596 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/css/bootstrap-chosen.css.map
+2025/03/12 10:10:55.129 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.1006ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 10:10:55.783 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|        508µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 10:10:56.679 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 10:11:02.680 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 10:11:02.680 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 10:11:02.683 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 10:11:02.685 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|       5.01ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 10:11:06.114 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.9591ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/12 10:11:06.600 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/css/chosen-sprite.png
+2025/03/12 10:11:06.609 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/css/bootstrap-chosen.css.map
+2025/03/12 10:11:14.760 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    17.6028ms|   match|[46m POST    [0m /main/role/do_role_user_add   r:/main/role/do_role_user_add
+2025/03/12 10:11:14.799 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.2571ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/12 10:11:16.175 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 10:11:16.175 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 10:11:16.175 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 10:11:16.177 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0842ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 10:11:28.020 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|       1.76ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/12 10:11:28.053 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.1055ms|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/12 10:12:10.912 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 11:01:20.705 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.4067ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/12 11:01:20.737 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6133ms|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/12 11:01:21.408 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 11:01:22.104 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 11:01:28.343 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.5639ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/12 11:01:29.302 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.3565ms|   match|[44m GET     [0m /static/css/chosen-sprite@2x.png
+2025/03/12 11:01:29.305 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|      519.9µs| nomatch|[44m GET     [0m /static/css/bootstrap-chosen.css.map
+2025/03/12 11:01:32.702 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    19.9303ms|   match|[46m POST    [0m /main/role/do_role_user_add   r:/main/role/do_role_user_add
+2025/03/12 11:01:32.704 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    15.3992ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/12 11:01:33.970 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 11:01:33.970 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 11:01:33.971 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 11:01:33.974 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.5437ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 11:01:45.626 [I] [role_controller.go:35]  当前页;2,查询条件：
+2025/03/12 11:01:45.627 [I] [role_controller.go:48]  当前页;2,查询条件：
+2025/03/12 11:01:45.629 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.6922ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 11:01:50.028 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.8427ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/12 11:01:50.496 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/css/bootstrap-chosen.css.map
+2025/03/12 11:01:59.082 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.2847ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/12 11:01:59.566 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/css/bootstrap-chosen.css.map
+2025/03/12 11:05:51.263 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     9.9756ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 11:05:51.927 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      887.4µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 11:06:03.677 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.2184ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/12 11:06:03.702 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.1852ms|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/12 11:12:23.835 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.2225ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/12 11:12:23.859 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      506.5µs|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/12 11:24:52.701 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 11:24:52.701 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 11:24:52.702 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 11:24:52.704 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6191ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 11:24:52.716 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//css/font.css
+2025/03/12 11:24:52.718 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|     1.0427ms|   match|[44m GET     [0m /static//css/xadmin.css
+2025/03/12 11:24:52.719 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      524.2µs|   match|[44m GET     [0m /static//lib/layui/layui.js
+2025/03/12 11:24:52.719 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|     1.0562ms|   match|[44m GET     [0m /static//js/xadmin.js
+2025/03/12 11:24:52.724 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      531.3µs|   match|[44m GET     [0m /static//lib/layui/css/layui.css
+2025/03/12 11:24:53.343 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|     2.0954ms|   match|[44m GET     [0m /static//lib/layui/lay/modules/laydate.js
+2025/03/12 11:24:53.347 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      527.6µs|   match|[44m GET     [0m /static//lib/layui/font/iconfont.woff
+2025/03/12 11:24:53.350 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      517.6µs|   match|[44m GET     [0m /static//lib/layui/lay/modules/form.js
+2025/03/12 11:24:53.361 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|     1.0572ms|   match|[44m GET     [0m /static//lib/layui/css/modules/laydate/default/laydate.css
+2025/03/12 11:24:53.386 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      1.218ms|   match|[44m GET     [0m /static//lib/layui/lay/modules/layer.js
+2025/03/12 11:24:53.401 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      787.4µs|   match|[44m GET     [0m /static//lib/layui/css/modules/layer/default/layer.css
+2025/03/12 11:24:53.406 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      539.2µs|   match|[44m GET     [0m /static//lib/layui/lay/modules/element.js
+2025/03/12 11:24:58.647 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.0823ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/12 11:24:58.670 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      645.8µs|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/12 11:25:21.820 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 11:25:22.944 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 11:25:25.891 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.5872ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/12 11:25:25.911 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.1718ms|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/12 11:25:51.108 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 11:25:52.012 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 11:25:52.012 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 11:25:52.013 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 11:25:52.015 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.9372ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 11:25:54.437 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 11:25:54.437 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 11:25:54.438 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 11:25:54.439 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5629ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 11:25:59.279 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.6713ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/12 11:25:59.298 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      949.5µs|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/12 11:26:13.006 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.0019ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/12 11:26:13.022 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      505.2µs|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/12 13:40:20.024 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.9176ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/12 13:40:20.036 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      532.8µs|   match|[44m GET     [0m /static/css/font.css
+2025/03/12 13:40:20.036 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      532.8µs|   match|[44m GET     [0m /static/css/xadmin.css
+2025/03/12 13:40:20.040 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/03/12 13:40:20.059 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      722.5µs|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/12 13:40:20.726 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 13:40:21.424 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 13:40:58.350 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 13:40:59.344 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 13:41:01.368 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.6921ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/12 13:41:01.398 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5187ms|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/12 13:41:50.473 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 14:17:02.389 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.8442ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/12 14:17:02.424 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      647.1µs|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/12 14:17:47.585 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 14:17:52.129 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.8656ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/12 14:17:52.139 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      525.1µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2025/03/12 14:17:52.143 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|     2.2046ms|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2025/03/12 14:17:52.144 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|     3.2552ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2025/03/12 14:17:52.144 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      3.769ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2025/03/12 14:17:52.987 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/css/chosen-sprite.png
+2025/03/12 14:17:52.995 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|      555.4µs| nomatch|[44m GET     [0m /static/css/bootstrap-chosen.css.map
+2025/03/12 14:18:18.463 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 14:18:23.804 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.8078ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/12 14:18:23.836 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      510.6µs|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/12 14:19:51.634 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 14:22:49.452 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 14:22:58.066 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      2.462ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/12 14:22:58.101 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.5965ms|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/12 14:25:48.334 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 14:33:46.142 [D] [router.go:925]  | 10.161.252.114|[42m 200 [0m|    28.1305ms|   match|[44m GET     [0m /     r:/
+2025/03/12 14:35:03.823 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/03/12 14:35:03.825 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|      539.2µs| nomatch|[46m POST    [0m /favicon.ico
+2025/03/12 14:35:03.858 [D] [router.go:925]  | 10.161.252.114|[42m 200 [0m|    34.4016ms|   match|[44m GET     [0m /     r:/
+2025/03/12 14:35:04.911 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/03/12 14:35:16.576 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/03/12 14:35:19.617 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/03/12 14:35:29.031 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/03/12 14:35:29.764 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/03/12 14:35:33.290 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/03/12 14:35:35.488 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/03/12 14:35:43.532 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/03/12 14:35:44.306 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/03/12 14:35:46.945 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/03/12 14:35:54.723 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/03/12 14:35:57.009 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/03/12 14:35:57.770 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/03/12 14:36:01.491 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/03/12 14:36:06.606 [D] [router.go:925]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/03/12 15:01:23.811 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.3125ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/12 15:01:24.504 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 15:01:24.643 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|      535.8µs| nomatch|[44m GET     [0m /static/css/bootstrap-chosen.css.map
+2025/03/12 15:01:25.196 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 15:02:49.203 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.0942ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/12 15:02:49.229 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.3613ms|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/12 15:04:15.163 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      6.404ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 15:04:15.188 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/js/xadmin.js
+2025/03/12 15:04:15.669 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      506.3µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 15:04:15.671 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      521.7µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2025/03/12 15:04:15.673 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|     2.6366ms|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2025/03/12 15:04:15.688 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2025/03/12 15:04:15.700 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2025/03/12 15:04:15.710 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      627.7µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2025/03/12 15:04:15.739 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/font/iconfont.woff
+2025/03/12 15:04:15.807 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|     1.0235ms|   match|[44m GET     [0m /static/images/zlkt.ico
+2025/03/12 15:04:20.718 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6413ms|   match|[44m GET     [0m /main/auth/to_add   r:/main/auth/to_add
+2025/03/12 15:04:52.391 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.4204ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 15:04:52.890 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      549.7µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 15:04:57.011 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.8572ms|   match|[44m GET     [0m /main/auth/to_add   r:/main/auth/to_add
+2025/03/12 15:08:52.081 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.1751ms|   match|[44m GET     [0m /main/auth/to_add   r:/main/auth/to_add
+2025/03/12 15:08:56.787 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.4342ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/12 15:08:57.258 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/css/bootstrap-chosen.css.map
+2025/03/12 15:09:48.438 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 15:09:48.438 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 15:09:48.440 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 15:09:48.442 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      4.011ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:09:50.232 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      805.5µs|   match|[44m GET     [0m /static//lib/layui/css/modules/layer/default/loading-1.gif
+2025/03/12 15:09:50.233 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      530.3µs|   match|[44m GET     [0m /static//lib/layui/css/modules/layer/default/icon.png
+2025/03/12 15:09:50.234 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0731ms|   match|[44m GET     [0m /main/auth/to_add   r:/main/auth/to_add
+2025/03/12 15:12:37.242 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.2536ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 15:12:37.752 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      510.8µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 15:15:25.470 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 15:15:25.470 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 15:15:25.471 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 15:15:25.474 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.3363ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:15:26.921 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0432ms|   match|[44m GET     [0m /main/auth/to_add   r:/main/auth/to_add
+2025/03/12 15:15:45.363 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     6.3706ms|   match|[46m POST    [0m /main/role/do_add   r:/main/role/do_add
+2025/03/12 15:15:48.506 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.4171ms|   match|[46m POST    [0m /main/role/do_add   r:/main/role/do_add
+2025/03/12 15:18:22.741 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 15:18:39.420 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     8.5379ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 15:18:40.288 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      507.1µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 15:18:43.562 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 15:18:43.562 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 15:18:43.565 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 15:18:43.567 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.4787ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:18:45.985 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      1.051ms|   match|[44m GET     [0m /main/auth/to_add   r:/main/auth/to_add
+2025/03/12 15:18:56.790 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.5558ms|   match|[46m POST    [0m /main/role/do_add   r:/main/role/do_add
+2025/03/12 15:19:55.144 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 15:19:56.742 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 15:19:56.742 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 15:19:56.743 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 15:19:56.745 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.1938ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:19:59.140 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5587ms|   match|[44m GET     [0m /main/auth/to_add   r:/main/auth/to_add
+2025/03/12 15:20:08.424 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.1371ms|   match|[46m POST    [0m /main/role/do_add   r:/main/role/do_add
+2025/03/12 15:20:21.471 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.8037ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 15:20:21.968 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      1.035ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 15:20:26.777 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 15:20:26.777 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 15:20:26.778 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 15:20:26.780 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.1278ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:21:07.301 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      2.802ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/12 15:21:07.349 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      507.9µs|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/12 15:21:16.365 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /main/role/to_role——add
+2025/03/12 15:21:34.036 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.1757ms|   match|[44m GET     [0m /main/role/to_add   r:/main/role/to_add
+2025/03/12 15:22:15.099 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.1383ms|   match|[44m GET     [0m /main/role/to_add   r:/main/role/to_add
+2025/03/12 15:22:15.673 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 15:22:34.406 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.9338ms|   match|[46m POST    [0m /main/role/do_add   r:/main/role/do_add
+2025/03/12 15:23:55.583 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0357ms|   match|[44m GET     [0m /main/role/to_add   r:/main/role/to_add
+2025/03/12 15:23:56.046 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 15:23:57.027 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 15:23:59.977 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.0411ms|   match|[46m POST    [0m /main/role/do_add   r:/main/role/do_add
+2025/03/12 15:25:10.373 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /main/role/do_add
+2025/03/12 15:25:45.758 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 15:28:42.300 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 15:28:44.833 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.5554ms|   match|[46m POST    [0m /main/role/do_add   r:/main/role/do_add
+2025/03/12 15:28:56.781 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    39.6761ms|   match|[44m GET     [0m /     r:/
+2025/03/12 15:28:57.392 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|     1.1028ms|   match|[44m GET     [0m /static/images/bg.png
+2025/03/12 15:28:57.393 [D] [router.go:925]  |      127.0.0.1|[47m 304 [0m|      1.629ms|   match|[44m GET     [0m /static/images/aiwrap.png
+2025/03/12 15:29:09.589 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/12 15:29:09.589 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.2296ms|   match|[46m POST    [0m /     r:/
+2025/03/12 15:29:09.605 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     6.6243ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 15:29:10.093 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      507.3µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 15:29:14.263 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 15:29:14.263 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 15:29:14.264 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 15:29:14.266 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.5896ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:29:16.263 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0347ms|   match|[44m GET     [0m /main/auth/to_add   r:/main/auth/to_add
+2025/03/12 15:29:20.647 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.1775ms|   match|[46m POST    [0m /main/role/do_add   r:/main/role/do_add
+2025/03/12 15:30:22.540 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.1421ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 15:30:23.102 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 15:30:23.554 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.1482ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 15:30:27.208 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 15:30:27.208 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 15:30:27.209 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 15:30:27.210 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.3038ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:30:29.368 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|       1.04ms|   match|[44m GET     [0m /main/auth/to_add   r:/main/auth/to_add
+2025/03/12 15:30:48.214 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.9263ms|   match|[46m POST    [0m /main/role/do_add   r:/main/role/do_add
+2025/03/12 15:30:51.661 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 15:30:51.661 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 15:30:51.662 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 15:30:51.664 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.9063ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:31:10.485 [I] [role_controller.go:35]  当前页;5,查询条件：
+2025/03/12 15:31:10.486 [I] [role_controller.go:48]  当前页;5,查询条件：
+2025/03/12 15:31:10.487 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5537ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:31:11.031 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 15:31:57.770 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.9157ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 15:31:58.416 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      512.2µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 15:32:01.330 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 15:32:01.330 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 15:32:01.332 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 15:32:01.333 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.7087ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:32:03.189 [I] [role_controller.go:35]  当前页;5,查询条件：
+2025/03/12 15:32:03.189 [I] [role_controller.go:48]  当前页;5,查询条件：
+2025/03/12 15:32:03.191 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0836ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:32:09.846 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /main/auth/role_list
+2025/03/12 15:32:15.454 [I] [role_controller.go:35]  当前页;5,查询条件：
+2025/03/12 15:32:15.455 [I] [role_controller.go:48]  当前页;5,查询条件：
+2025/03/12 15:32:15.456 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5966ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:32:48.348 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      508.2µs|   match|[44m GET     [0m /main/auth/to_add   r:/main/auth/to_add
+2025/03/12 15:33:05.972 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.6552ms|   match|[46m POST    [0m /main/role/do_add   r:/main/role/do_add
+2025/03/12 15:33:07.993 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 15:33:07.993 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 15:33:07.994 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 15:33:07.995 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5509ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:33:58.151 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 15:34:00.972 [I] [role_controller.go:35]  当前页;5,查询条件：
+2025/03/12 15:34:00.973 [I] [role_controller.go:48]  当前页;5,查询条件：
+2025/03/12 15:34:00.975 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6148ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:34:06.561 [I] [role_controller.go:35]  当前页;5,查询条件：
+2025/03/12 15:34:06.562 [I] [role_controller.go:48]  当前页;5,查询条件：
+2025/03/12 15:34:06.563 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.8022ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:34:09.551 [I] [role_controller.go:35]  当前页;5,查询条件：
+2025/03/12 15:34:09.552 [I] [role_controller.go:48]  当前页;5,查询条件：
+2025/03/12 15:34:09.553 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1104ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:34:47.846 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      505.1µs|   match|[44m GET     [0m /main/auth/to_add   r:/main/auth/to_add
+2025/03/12 15:35:01.042 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.6194ms|   match|[46m POST    [0m /main/role/do_add   r:/main/role/do_add
+2025/03/12 15:35:03.053 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 15:35:03.053 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 15:35:03.053 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 15:35:03.055 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0995ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:35:06.954 [I] [role_controller.go:35]  当前页;5,查询条件：
+2025/03/12 15:35:06.954 [I] [role_controller.go:48]  当前页;5,查询条件：
+2025/03/12 15:35:06.956 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0917ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:37:01.356 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      506.3µs|   match|[44m GET     [0m /main/auth/to_add   r:/main/auth/to_add
+2025/03/12 15:37:14.225 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6115ms|   match|[46m POST    [0m /main/role/do_add   r:/main/role/do_add
+2025/03/12 15:37:16.271 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 15:37:16.271 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 15:37:16.271 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 15:37:16.273 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1156ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:37:21.299 [I] [role_controller.go:35]  当前页;5,查询条件：
+2025/03/12 15:37:21.299 [I] [role_controller.go:48]  当前页;5,查询条件：
+2025/03/12 15:37:21.301 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0842ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:37:24.975 [I] [role_controller.go:35]  当前页;4,查询条件：
+2025/03/12 15:37:24.976 [I] [role_controller.go:48]  当前页;4,查询条件：
+2025/03/12 15:37:24.978 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.2476ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:37:30.479 [I] [role_controller.go:35]  当前页;5,查询条件：
+2025/03/12 15:37:30.480 [I] [role_controller.go:48]  当前页;5,查询条件：
+2025/03/12 15:37:30.481 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.0965ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:37:33.065 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 15:37:33.066 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 15:37:33.067 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.5944ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 15:39:55.598 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 15:48:40.873 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:01:06.463 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:14:52.016 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:14:52.707 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:14:58.996 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /main/auth/role_list
+2025/03/12 16:16:16.887 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:16:16.888 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:16:16.889 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0945ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:16:17.474 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:16:24.981 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:16:24.981 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:16:24.983 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0513ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:16:32.733 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:16:32.733 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:16:32.734 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:16:32.734 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.6671ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:16:34.662 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:16:34.662 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:16:34.662 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:16:34.664 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.4204ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:16:38.327 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:16:38.327 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:16:38.328 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:16:38.332 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.7076ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:16:41.461 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:16:41.461 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:16:41.463 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1004ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:19:56.369 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:19:57.533 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:19:57.533 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:19:57.533 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:19:57.535 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.9159ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:31:44.131 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:32:46.741 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:32:46.930 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:32:46.930 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:32:46.931 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:32:46.933 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.6973ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:33:57.213 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:33:58.746 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.2676ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 16:33:59.319 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      505.3µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 16:34:02.416 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:34:02.416 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:34:02.417 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:34:02.419 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6714ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:34:59.914 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:34:59.914 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/12 16:34:59.919 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.2006ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/12 16:36:40.377 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:38:45.803 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:38:45.803 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:38:45.804 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:38:45.806 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.3326ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:39:51.644 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:39:51.644 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:39:51.645 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:39:51.647 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.2597ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:39:52.251 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:40:07.602 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:40:07.602 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:40:07.603 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:40:07.605 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.5881ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:40:08.184 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:43:17.285 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:43:17.285 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:43:17.286 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:43:17.287 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0533ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:43:17.851 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:44:47.641 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:44:47.641 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:44:47.642 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:44:47.644 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.4027ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:44:48.196 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:45:06.673 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:53:15.959 [D] [router.go:925]  | 10.161.252.112|[42m 200 [0m|    27.8186ms|   match|[44m GET     [0m /     r:/
+2025/03/12 16:53:25.011 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:53:25.494 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:53:25.494 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:53:25.495 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:53:25.496 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0807ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:53:26.863 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:53:26.863 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:53:26.864 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:53:26.865 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5757ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:53:28.321 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:53:28.321 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:53:28.322 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:53:28.323 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0878ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:55:07.196 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/03/12 16:55:07.196 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/03/12 16:55:07.196 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/03/12 16:55:07.223 [D] [router.go:925]  | 10.161.252.112|[42m 200 [0m|    26.5378ms|   match|[44m GET     [0m /     r:/
+2025/03/12 16:55:07.585 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|        677µs| nomatch|[44m GET     [0m /login.asp
+2025/03/12 16:55:08.937 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/03/12 16:55:10.199 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/03/12 16:55:18.443 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/03/12 16:55:21.270 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/03/12 16:55:22.980 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/03/12 16:55:25.321 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/03/12 16:55:30.869 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:55:30.869 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:55:30.869 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:55:30.870 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      1.548ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:55:31.439 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:55:37.169 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/03/12 16:55:38.792 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|      523.2µs| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/03/12 16:55:39.199 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|      532.7µs| nomatch|[44m GET     [0m /Page/Login/
+2025/03/12 16:55:39.513 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/03/12 16:55:39.959 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/03/12 16:55:42.093 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/03/12 16:55:42.521 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /main/auth/role_list
+2025/03/12 16:55:47.846 [D] [router.go:925]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/03/12 16:56:26.021 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     6.9597ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 16:56:26.596 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0334ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 16:56:29.319 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:56:29.319 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:56:29.320 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:56:29.323 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.9721ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:56:33.268 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /main/auth/role_list
+2025/03/12 16:56:41.864 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:56:41.864 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:56:41.864 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:56:41.865 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5544ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:57:33.860 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:57:33.860 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:57:33.861 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:57:33.863 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      3.124ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:57:34.422 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:58:33.496 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 16:59:00.560 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:59:00.560 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:59:00.561 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:59:00.563 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.1197ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 16:59:30.640 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 16:59:30.640 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 16:59:30.640 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 16:59:30.642 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.5435ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:00:23.371 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:01:41.528 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.1331ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 17:01:42.110 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.2666ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 17:01:50.362 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:01:50.362 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:01:50.363 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:01:50.366 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      4.236ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:02:57.602 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:07:29.113 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.7511ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 17:07:29.952 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.3841ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 17:07:30.656 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.7769ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 17:07:31.254 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      611.8µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 17:07:34.031 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:07:34.031 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:07:34.033 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:07:34.034 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.7778ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:09:43.216 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0326ms|   match|[44m GET     [0m /main/auth/to_add   r:/main/auth/to_add
+2025/03/12 17:09:48.837 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /main/auth/404.html
+2025/03/12 17:09:52.566 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:09:52.566 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:09:52.566 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:09:52.568 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.3478ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:10:09.067 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /main/auth/404.html
+2025/03/12 17:11:45.478 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.1136ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 17:11:46.128 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      512.5µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 17:11:49.957 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:11:49.957 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:11:49.959 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:11:49.960 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.3925ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:16:17.199 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:16:17.199 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:16:17.199 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:16:17.200 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5475ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:16:17.812 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:16:18.496 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:16:20.989 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /main/auth/role_list
+2025/03/12 17:16:34.938 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:16:34.938 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:16:34.938 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:16:34.939 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.8357ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:20:49.298 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:20:49.298 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:20:49.300 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:20:49.301 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.3397ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:20:49.862 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:20:54.343 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /main/auth/role_list
+2025/03/12 17:20:58.214 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:20:58.214 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:20:58.214 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:20:58.216 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0751ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:21:50.859 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:22:00.177 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|      508.7µs| nomatch|[46m POST    [0m /main/auth/role_list
+2025/03/12 17:22:13.973 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:22:13.973 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:22:13.973 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:22:13.975 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.3604ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:22:48.848 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:22:53.464 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:22:53.464 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:22:53.464 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:22:53.465 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5425ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:23:08.450 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     8.2404ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 17:23:08.766 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0496ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 17:23:09.543 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      3.121ms|   match|[44m GET     [0m /main/index   r:/main/index
+2025/03/12 17:23:10.079 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      506.6µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/12 17:23:13.848 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:23:13.848 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:23:13.849 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:23:13.850 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1115ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:24:29.306 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /main/auth/role_list
+2025/03/12 17:24:32.412 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:24:32.412 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:24:32.413 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:24:32.417 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.4487ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:26:01.457 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:26:01.457 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:26:01.458 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:26:01.460 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6072ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:26:02.057 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:26:05.748 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /main/auth/role_list
+2025/03/12 17:27:04.049 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:27:04.049 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:27:04.049 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:27:04.051 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1761ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:27:04.633 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:27:08.694 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /main/auth/role_list
+2025/03/12 17:27:25.388 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:27:26.377 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:27:27.253 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:27:27.253 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:27:27.253 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:27:27.255 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1245ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:27:31.989 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /main/auth/role_list
+2025/03/12 17:29:51.250 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:29:51.250 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:29:51.250 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:29:51.251 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.7207ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:29:51.801 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:30:15.366 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:30:15.366 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:30:15.367 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:30:15.368 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0683ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:30:15.922 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:30:20.613 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /main/auth/role_list
+2025/03/12 17:30:24.587 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:30:24.587 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:30:24.588 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:30:24.590 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.7459ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:31:07.593 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:31:08.469 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:31:08.469 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:31:08.470 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:31:08.471 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0855ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:31:11.634 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /main/role/is_active
+2025/03/12 17:31:24.273 [E] [role_controller.go:177]  <QuerySeter> no row found
+2025/03/12 17:31:24.273 [C] [config.go:176]  the request url is  /main/role/is_active
+2025/03/12 17:31:24.273 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2025/03/12 17:31:24.273 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/12 17:31:24.273 [C] [config.go:183]  D:/go/src/runtime/map_faststr.go:225
+2025/03/12 17:31:24.274 [C] [config.go:183]  D:/ions_project/controllers/auth/role_controller.go:192
+2025/03/12 17:31:24.274 [C] [config.go:183]  D:/go/src/reflect/value.go:581
+2025/03/12 17:31:24.274 [C] [config.go:183]  D:/go/src/reflect/value.go:365
+2025/03/12 17:31:24.274 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2025/03/12 17:31:24.274 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/12 17:31:24.274 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/12 17:31:24.274 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/12 17:31:24.274 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/12 17:31:42.339 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:31:51.378 [C] [config.go:176]  the request url is  /main/role/is_active
+2025/03/12 17:31:51.378 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2025/03/12 17:31:51.378 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/12 17:31:51.378 [C] [config.go:183]  D:/go/src/runtime/map_faststr.go:225
+2025/03/12 17:31:51.378 [C] [config.go:183]  D:/ions_project/controllers/auth/role_controller.go:199
+2025/03/12 17:31:51.378 [C] [config.go:183]  D:/go/src/reflect/value.go:581
+2025/03/12 17:31:51.378 [C] [config.go:183]  D:/go/src/reflect/value.go:365
+2025/03/12 17:31:51.378 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2025/03/12 17:31:51.378 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/12 17:31:51.378 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/12 17:31:51.379 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/12 17:31:51.379 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/12 17:31:51.388 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:31:51.388 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:31:51.389 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:31:51.390 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0922ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:32:53.174 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:32:53.174 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:32:53.175 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:32:53.176 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.7001ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:32:53.765 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:32:56.450 [C] [config.go:176]  the request url is  /main/role/is_active
+2025/03/12 17:32:56.450 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2025/03/12 17:32:56.450 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/12 17:32:56.450 [C] [config.go:183]  D:/go/src/runtime/map_faststr.go:225
+2025/03/12 17:32:56.450 [C] [config.go:183]  D:/ions_project/controllers/auth/role_controller.go:196
+2025/03/12 17:32:56.450 [C] [config.go:183]  D:/go/src/reflect/value.go:581
+2025/03/12 17:32:56.450 [C] [config.go:183]  D:/go/src/reflect/value.go:365
+2025/03/12 17:32:56.450 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2025/03/12 17:32:56.450 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/12 17:32:56.450 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/12 17:32:56.450 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/12 17:32:56.451 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/12 17:32:57.468 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:32:57.468 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:32:57.469 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:32:57.471 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6124ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:33:07.926 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.0362ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/12 17:33:08.385 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|      627.7µs| nomatch|[44m GET     [0m /static/css/chosen-sprite.png
+2025/03/12 17:33:13.736 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.7804ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/12 17:33:13.750 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      627.5µs|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/12 17:35:37.801 [C] [config.go:176]  the request url is  /main/role/is_active
+2025/03/12 17:35:37.801 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2025/03/12 17:35:37.801 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/12 17:35:37.801 [C] [config.go:183]  D:/go/src/runtime/map_faststr.go:225
+2025/03/12 17:35:37.801 [C] [config.go:183]  D:/ions_project/controllers/auth/role_controller.go:199
+2025/03/12 17:35:37.801 [C] [config.go:183]  D:/go/src/reflect/value.go:581
+2025/03/12 17:35:37.801 [C] [config.go:183]  D:/go/src/reflect/value.go:365
+2025/03/12 17:35:37.801 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2025/03/12 17:35:37.801 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/12 17:35:37.801 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/12 17:35:37.801 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/12 17:35:37.801 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/12 17:35:37.810 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:35:37.810 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:35:37.810 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:35:37.812 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0982ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:35:42.509 [C] [config.go:176]  the request url is  /main/role/is_active
+2025/03/12 17:35:42.509 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2025/03/12 17:35:42.509 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/12 17:35:42.509 [C] [config.go:183]  D:/go/src/runtime/map_faststr.go:225
+2025/03/12 17:35:42.509 [C] [config.go:183]  D:/ions_project/controllers/auth/role_controller.go:196
+2025/03/12 17:35:42.509 [C] [config.go:183]  D:/go/src/reflect/value.go:581
+2025/03/12 17:35:42.509 [C] [config.go:183]  D:/go/src/reflect/value.go:365
+2025/03/12 17:35:42.509 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2025/03/12 17:35:42.509 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/12 17:35:42.509 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/12 17:35:42.509 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/12 17:35:42.510 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/12 17:35:43.520 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:35:43.520 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:35:43.520 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:35:43.522 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0966ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:36:18.323 [C] [config.go:176]  the request url is  /main/role/is_active
+2025/03/12 17:36:18.323 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2025/03/12 17:36:18.323 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/12 17:36:18.323 [C] [config.go:183]  D:/go/src/runtime/map_faststr.go:225
+2025/03/12 17:36:18.323 [C] [config.go:183]  D:/ions_project/controllers/auth/role_controller.go:199
+2025/03/12 17:36:18.323 [C] [config.go:183]  D:/go/src/reflect/value.go:581
+2025/03/12 17:36:18.323 [C] [config.go:183]  D:/go/src/reflect/value.go:365
+2025/03/12 17:36:18.323 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2025/03/12 17:36:18.323 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/12 17:36:18.323 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/12 17:36:18.323 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/12 17:36:18.323 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/12 17:36:18.330 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:36:18.330 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:36:18.331 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:36:18.333 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1404ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:37:47.299 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:37:53.546 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:37:53.546 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:37:53.547 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:37:53.549 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      2.636ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:37:56.637 [C] [config.go:176]  the request url is  /main/role/is_active
+2025/03/12 17:37:56.637 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2025/03/12 17:37:56.637 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/12 17:37:56.637 [C] [config.go:183]  D:/go/src/runtime/map_faststr.go:225
+2025/03/12 17:37:56.637 [C] [config.go:183]  D:/ions_project/controllers/auth/role_controller.go:196
+2025/03/12 17:37:56.637 [C] [config.go:183]  D:/go/src/reflect/value.go:581
+2025/03/12 17:37:56.637 [C] [config.go:183]  D:/go/src/reflect/value.go:365
+2025/03/12 17:37:56.637 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2025/03/12 17:37:56.637 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/12 17:37:56.637 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/12 17:37:56.637 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/12 17:37:56.638 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/12 17:37:57.667 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:37:57.667 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:37:57.669 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:37:57.671 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.4202ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:38:01.301 [C] [config.go:176]  the request url is  /main/role/is_active
+2025/03/12 17:38:01.301 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2025/03/12 17:38:01.301 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/12 17:38:01.301 [C] [config.go:183]  D:/go/src/runtime/map_faststr.go:225
+2025/03/12 17:38:01.301 [C] [config.go:183]  D:/ions_project/controllers/auth/role_controller.go:199
+2025/03/12 17:38:01.301 [C] [config.go:183]  D:/go/src/reflect/value.go:581
+2025/03/12 17:38:01.301 [C] [config.go:183]  D:/go/src/reflect/value.go:365
+2025/03/12 17:38:01.301 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2025/03/12 17:38:01.301 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/12 17:38:01.301 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/12 17:38:01.302 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/12 17:38:01.302 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/12 17:38:01.311 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:38:01.311 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:38:01.312 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:38:01.313 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1002ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:39:15.608 [C] [config.go:176]  the request url is  /main/role/is_active
+2025/03/12 17:39:15.608 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2025/03/12 17:39:15.608 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/12 17:39:15.608 [C] [config.go:183]  D:/go/src/runtime/map_faststr.go:225
+2025/03/12 17:39:15.608 [C] [config.go:183]  D:/ions_project/controllers/auth/role_controller.go:196
+2025/03/12 17:39:15.608 [C] [config.go:183]  D:/go/src/reflect/value.go:581
+2025/03/12 17:39:15.608 [C] [config.go:183]  D:/go/src/reflect/value.go:365
+2025/03/12 17:39:15.608 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2025/03/12 17:39:15.608 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/12 17:39:15.608 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/12 17:39:15.608 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/12 17:39:15.608 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/12 17:39:16.644 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:39:16.644 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:39:16.644 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:39:16.647 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.1575ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:39:22.802 [C] [config.go:176]  the request url is  /main/role/is_active
+2025/03/12 17:39:22.802 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2025/03/12 17:39:22.802 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/12 17:39:22.802 [C] [config.go:183]  D:/go/src/runtime/map_faststr.go:225
+2025/03/12 17:39:22.802 [C] [config.go:183]  D:/ions_project/controllers/auth/role_controller.go:199
+2025/03/12 17:39:22.802 [C] [config.go:183]  D:/go/src/reflect/value.go:581
+2025/03/12 17:39:22.802 [C] [config.go:183]  D:/go/src/reflect/value.go:365
+2025/03/12 17:39:22.802 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2025/03/12 17:39:22.802 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/12 17:39:22.802 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/12 17:39:22.802 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/12 17:39:22.803 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/12 17:39:22.812 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:39:22.812 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:39:22.812 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:39:22.815 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.7342ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:40:18.048 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:40:21.274 [C] [config.go:176]  the request url is  /main/role/is_active
+2025/03/12 17:40:21.274 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2025/03/12 17:40:21.274 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/12 17:40:21.274 [C] [config.go:183]  D:/go/src/runtime/map_faststr.go:225
+2025/03/12 17:40:21.274 [C] [config.go:183]  D:/ions_project/controllers/auth/role_controller.go:196
+2025/03/12 17:40:21.275 [C] [config.go:183]  D:/go/src/reflect/value.go:581
+2025/03/12 17:40:21.275 [C] [config.go:183]  D:/go/src/reflect/value.go:365
+2025/03/12 17:40:21.275 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2025/03/12 17:40:21.275 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/12 17:40:21.275 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/12 17:40:21.275 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/12 17:40:21.275 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/12 17:40:22.296 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:40:22.296 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:40:22.297 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:40:22.299 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.3377ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:40:25.203 [C] [config.go:176]  the request url is  /main/role/is_active
+2025/03/12 17:40:25.203 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2025/03/12 17:40:25.203 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/12 17:40:25.203 [C] [config.go:183]  D:/go/src/runtime/map_faststr.go:225
+2025/03/12 17:40:25.203 [C] [config.go:183]  D:/ions_project/controllers/auth/role_controller.go:199
+2025/03/12 17:40:25.203 [C] [config.go:183]  D:/go/src/reflect/value.go:581
+2025/03/12 17:40:25.203 [C] [config.go:183]  D:/go/src/reflect/value.go:365
+2025/03/12 17:40:25.203 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2025/03/12 17:40:25.203 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/12 17:40:25.203 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/12 17:40:25.203 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/12 17:40:25.203 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/12 17:40:25.211 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:40:25.211 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:40:25.212 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:40:25.213 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1132ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:42:21.808 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:42:28.677 [C] [config.go:176]  the request url is  /main/role/is_active
+2025/03/12 17:42:28.677 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2025/03/12 17:42:28.677 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/12 17:42:28.677 [C] [config.go:183]  D:/go/src/runtime/map_faststr.go:225
+2025/03/12 17:42:28.677 [C] [config.go:183]  D:/ions_project/controllers/auth/role_controller.go:196
+2025/03/12 17:42:28.677 [C] [config.go:183]  D:/go/src/reflect/value.go:581
+2025/03/12 17:42:28.677 [C] [config.go:183]  D:/go/src/reflect/value.go:365
+2025/03/12 17:42:28.677 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2025/03/12 17:42:28.677 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/12 17:42:28.677 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/12 17:42:28.677 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/12 17:42:28.678 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/12 17:42:29.690 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:42:29.690 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:42:29.691 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:42:29.692 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1928ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:43:50.743 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:43:55.060 [C] [config.go:176]  the request url is  /main/role/is_active
+2025/03/12 17:43:55.060 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2025/03/12 17:43:55.060 [C] [config.go:183]  D:/go/src/runtime/panic.go:785
+2025/03/12 17:43:55.060 [C] [config.go:183]  D:/go/src/runtime/map_faststr.go:225
+2025/03/12 17:43:55.060 [C] [config.go:183]  D:/ions_project/controllers/auth/role_controller.go:191
+2025/03/12 17:43:55.060 [C] [config.go:183]  D:/go/src/reflect/value.go:581
+2025/03/12 17:43:55.060 [C] [config.go:183]  D:/go/src/reflect/value.go:365
+2025/03/12 17:43:55.060 [C] [config.go:183]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2025/03/12 17:43:55.060 [C] [config.go:183]  D:/go/src/net/http/server.go:3210
+2025/03/12 17:43:55.060 [C] [config.go:183]  D:/go/src/net/http/server.go:2092
+2025/03/12 17:43:55.060 [C] [config.go:183]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/12 17:43:55.060 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/12 17:43:55.069 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:43:55.069 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:43:55.070 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:43:55.071 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0907ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:44:46.131 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:44:51.498 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.1616ms|   match|[46m POST    [0m /main/role/is_active   r:/main/role/is_active
+2025/03/12 17:44:52.509 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:44:52.509 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:44:52.510 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:44:52.511 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0669ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:45:09.204 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     4.1786ms|   match|[46m POST    [0m /main/role/is_active   r:/main/role/is_active
+2025/03/12 17:45:09.213 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:45:09.213 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:45:09.214 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:45:09.215 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.6312ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:45:33.613 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      4.473ms|   match|[46m POST    [0m /main/role/is_active   r:/main/role/is_active
+2025/03/12 17:45:34.627 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:45:34.627 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:45:34.627 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:45:34.628 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5426ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:45:57.319 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      6.184ms|   match|[46m POST    [0m /main/role/is_active   r:/main/role/is_active
+2025/03/12 17:45:57.327 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:45:57.327 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:45:57.328 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:45:57.329 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5708ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:46:01.572 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     6.0506ms|   match|[46m POST    [0m /main/role/is_active   r:/main/role/is_active
+2025/03/12 17:46:02.592 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:46:02.592 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:46:02.592 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:46:02.593 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5582ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:46:05.580 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.1022ms|   match|[46m POST    [0m /main/role/is_active   r:/main/role/is_active
+2025/03/12 17:46:05.591 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:46:05.591 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:46:05.591 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:46:05.592 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      1.576ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:46:47.228 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:46:47.672 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:46:47.672 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:46:47.673 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:46:47.674 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.3481ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:46:50.780 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     6.5437ms|   match|[46m POST    [0m /main/role/is_active   r:/main/role/is_active
+2025/03/12 17:46:50.813 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:46:50.813 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:46:50.814 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:46:50.815 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0919ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:47:10.491 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      4.855ms|   match|[46m POST    [0m /main/role/is_active   r:/main/role/is_active
+2025/03/12 17:47:11.507 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:47:11.507 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:47:11.508 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:47:11.509 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0992ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:47:26.571 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     5.3259ms|   match|[46m POST    [0m /main/role/is_active   r:/main/role/is_active
+2025/03/12 17:47:27.588 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:47:27.588 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:47:27.589 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:47:27.590 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0826ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:47:30.646 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     6.0475ms|   match|[46m POST    [0m /main/role/is_active   r:/main/role/is_active
+2025/03/12 17:47:30.656 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:47:30.656 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:47:30.657 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:47:30.658 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.1123ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:47:44.267 [I] [app.go:215]  http server Running on http://:8089
+2025/03/12 17:47:45.831 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:47:45.831 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:47:45.832 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:47:45.834 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     3.7489ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:47:48.399 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      5.801ms|   match|[46m POST    [0m /main/role/is_active   r:/main/role/is_active
+2025/03/12 17:47:49.422 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:47:49.422 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:47:49.422 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:47:49.423 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.6938ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:47:52.360 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     6.1023ms|   match|[46m POST    [0m /main/role/is_active   r:/main/role/is_active
+2025/03/12 17:47:52.369 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/12 17:47:52.369 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/12 17:47:52.369 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/12 17:47:52.370 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.5725ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/12 17:48:22.725 [I] [app.go:215]  http server Running on http://:8089

@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="/static/css/xadmin.css">
     <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
       <script type="text/javascript" src="/static/lib/layui/layui.js" charset="utf-8"></script>
-      <!--会冲突-->
-      <!--<script type="text/javascript" src="./js/xadmin.js"></script>-->
 
       <link rel="stylesheet" href="/static/css/bootstrap-chosen.css">
 
@@ -50,11 +48,6 @@
                 <label class="layui-form-label">添加用户</label>
                 <div class="layui-input-block">
                     <select data-placeholder="请选择..." class="chosen-select" multiple style="width:350px;" tabindex="4" id="role_user_select">
-                        {{/*<option value="用户1">用户1</option>*/}}
-                        {{/*<option value="用户2">用户2</option>*/}}
-                        {{/*<option value="用户3">用户3</option>*/}}
-                        {{/*<option value="用户4">用户4</option>*/}}
-                        {{/*<option value="用户5">用户5</option>*/}}
                         {{range .role.User}}
                             <option value="{{.Id}}" selected>{{.UserName}}</option>
                         {{end}}
@@ -62,7 +55,6 @@
                         {{range .users}}
                             <option value="{{.Id}}">{{.UserName}}</option>
                         {{end}}
-
                     </select>
                 </div>
             </div>

@@ -45,6 +45,7 @@ func init() {
 	beego.Router("/main/role/list", &auth.RoleController{}, "get:List")
 	beego.Router("/main/role/to_add", &auth.RoleController{}, "get:ToAdd")
 	beego.Router("/main/role/do_add", &auth.RoleController{}, "post:DoAdd")
+	beego.Router("/main/role/is_active", &auth.RoleController{}, "post:ActiveRole")
 	// 角色--用户
 	beego.Router("/main/role/to_role_user_add", &auth.RoleController{}, "get:ToRoleUser")
 	beego.Router("/main/role/do_role_user_add", &auth.RoleController{}, "post:DoRoleUser")

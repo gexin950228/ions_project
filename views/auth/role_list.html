@@ -82,7 +82,7 @@
                 {{date .CreateTime "Y-m-d H:m:s"}}
               </td>
               <td class="td-status">
-                  <input type="hidden" id="is_active_val" value="{{.IsActive}}">
+                  <input type="hidden" id="is_active_role" value="{{.IsActive}}">
                   {{if eq .IsActive 1}}
                       <span class="layui-btn layui-btn-normal layui-btn-mini">已启用</span>
                   {{else if eq .IsActive 0}}
@@ -100,21 +100,16 @@
                       <!--onClick="return confirm('请启用后配置用户');"-->
                       <i class="layui-icon" style="font-size: 20px; color: #0633dd;">&#xe770;</i>
                   </a>
-
-
               </td>
-
-              <td class="td-manage">
+              <td><input type="hidden" id="is_active_val" value="{{.IsActive}}">
                   {{if eq .IsActive 1}}
-                      <a onclick="is_active(this,'{{.Id}}')" href="javascript:;"  title="停用">
-                          <i class="layui-icon">&#xe601;</i>
-                      {{/*<i class="layui-icon">&#xe62f;</i>*/}}
-                      </a>
+                  <a onclick="is_active(this,'{{.Id}}')" href="javascript:;"  title="停用">
+                      <i class="layui-icon">&#xe601;</i>
+                  </a>
                   {{else if eq .IsActive 0}}
-                      <a onclick="is_active(this,'{{.Id}}')" href="javascript:;"  title="启用">
-                          {{/*<i class="layui-icon">&#xe601;</i>*/}}
+                  <a onclick="is_active(this,'{{.Id}}')" href="javascript:;"  title="启用">
                       <i class="layui-icon">&#xe62f;</i>
-                      </a>
+                  </a>
                   {{end}}
 
                   <a style="cursor: pointer" title="编辑" onclick="x_admin_show('编辑用户','',600,400)">
@@ -134,7 +129,6 @@
         <div class="page">
             <div>
                 <span>总页数:{{.countPage}}</span>
-
                 <a class="prev" href="{{urlfor "RoleController.List"}}?page={{.page_map.firstpage}}">首页</a>
                 <a class="prev" href="{{urlfor "RoleController.List"}}?page={{.prePage}}">上一页</a>
                 {{range .page_map.num_pages}}
@@ -152,81 +146,78 @@
 
     </div>
     <script>
-      layui.use('laydate', function(){
-        var laydate = layui.laydate;
-        
-        //执行一个laydate实例
-        laydate.render({
-          elem: '#start' //指定元素
+        layui.use('laydate', function(){
+            var laydate = layui.laydate;
+
+            //执行一个laydate实例
+            laydate.render({
+                elem: '#start' //指定元素
+            });
+
+            //执行一个laydate实例
+            laydate.render({
+                elem: '#end' //指定元素
+            });
         });
 
-        //执行一个laydate实例
-        laydate.render({
-          elem: '#end' //指定元素
-        });
-      });
+        /*用户-启用/停用*/
+        function is_active(obj,id){
+            let is_active_val = document.getElementById("is_active_val").value;
+            if(is_active_val == 1){
+                layer.confirm('确认要停用吗？',function(index){
+                    $.ajax({
+                        url:"{{urlfor "RoleController.ActiveRole"}}",
+                        type:"POST",
+                        data:{
+                            "is_active_val":is_active_val,
+                            "role_id":id
+                        },
+                        success:function (data) {
+                            ions_alert.alertSuccessToast(data["msg"]);
+                            window.location.reload();
+                        },
+                        fail:function (data) {
+                            ions_alert.alertErrorToast(data["msg"]);
+                            window.location.reload();
 
-       /*用户-启用/停用*/
-      function is_active(obj,id){
-          var is_active_val = document.getElementById("is_active_val").value;
-          if(is_active_val == 1){
-              layer.confirm('确认要停用吗？',function(index){
-                  layer.close(index);
-                  $.ajax({
-                      url:"{{urlfor "RoleController.IsActive"}}",
-                      type:"POST",
-                      data:{
-                          "is_active_val":is_active_val,
-                          "id":id
-                      },
-                      success:function (data) {
-                          ions_alert.alertSuccessToast(data["msg"]);
-                          setTimeout(reload_list,1000)
-                      },
-                      fail:function (data) {
-                          ions_alert.alertErrorToast("状态修改失败");
-                          setTimeout(reload_list,1000)
-                      }
+                        }
 
-                  })
-              });
-          }
+                    })
+                });
+            }
 
 
-          if(is_active_val == 0){
-              layer.confirm('确认要启用吗？',function(index){
-                  layer.close(index);
-                  $.ajax({
-                      url:"{{urlfor "RoleController.IsActive"}}",
-                      type:"POST",
-                      data:{
-                          "is_active_val":is_active_val,
-                          "id":id
-                      },
-                      success:function (data) {
-                          ions_alert.alertSuccessToast(data["msg"]);
-                          setTimeout(reload_list,1000)
-                      },
-                      fail:function (data) {
-                          ions_alert.alertErrorToast("状态修改失败");
-                          setTimeout(reload_list,1000)
-                      }
+            if(is_active_val == 0){
+                layer.confirm('确认要启用吗？',function(index){
+                    $.ajax({
+                        url:"/main/role/is_active",
+                        type:"POST",
+                        data:{
+                            "is_active_val":is_active_val,
+                            "role_id":id
+                        },
+                        success:function (data) {
+                            ions_alert.alertSuccessToast("11111111111111111");
+                            setTimeout(reload_list,1000)
+                        },
+                        fail:function (data) {
+                            ions_alert.alertErrorToast("hahahah");
+                            setTimeout(reload_list,1000)
+                        }
 
-                  })
-              });
-          }
+                    })
+                });
+            }
 
-      }
-      
-      
-      function reload_list() {
+        }
+        function reload_list() {
           window.location.href = "{{urlfor "RoleController.List"}}"
       }
 
 
       
       /*用户-删除*/
-      function member_del(obj,id){
+        function member_del(obj,id){
           layer.confirm('确认要删除吗？',function(index){
               //发异步删除数据
               $(obj).parents("tr").remove();
@@ -236,7 +227,7 @@
 
 
 
-      function delAll (argument) {
+        function delAll (argument) {
 
           // "3,7,8"   str[0]
           // var ids = [];
@@ -250,10 +241,7 @@
               }else {
                   ids = ids + "," + id
               }
-
               i ++
-
-
           });
           alert(ids);
 

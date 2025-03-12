@@ -11,7 +11,7 @@
  Target Server Version : 50740 (5.7.40-log)
  File Encoding         : 65001
 
- Date: 11/03/2025 17:56:13
+ Date: 12/03/2025 17:49:09
 */
 
 SET NAMES utf8mb4;
@@ -33,7 +33,7 @@ CREATE TABLE `sys_auth`  (
   `weight` int(11) NOT NULL DEFAULT 0 COMMENT '权重，数值越大，权重越大',
   `p_name` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 14 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 16 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of sys_auth
@@ -44,9 +44,10 @@ INSERT INTO `sys_auth` VALUES (3, '用户新增', 'UserController.ToAdd', 1, 'er
 INSERT INTO `sys_auth` VALUES (4, '用户展示', 'UserController.List', 1, '展示所有用户', '2025-01-14 13:51:49', 1, 0, 10, '用户');
 INSERT INTO `sys_auth` VALUES (5, '车辆', '#', 0, '车辆', '2025-02-10 14:02:33', 1, 0, 0, NULL);
 INSERT INTO `sys_auth` VALUES (6, '车辆租借', 'CarsController.List', 5, '车辆租赁展示', '2025-03-04 16:33:55', 1, 0, 0, '车辆');
-INSERT INTO `sys_auth` VALUES (11, '角色管理', 'RoleController.List', 1, '角色', '2025-02-06 09:55:02', 1, 0, 0, '用户');
-INSERT INTO `sys_auth` VALUES (12, '用户添加角色', 'RoleController.ToRoleUser', 1, '用户添加角色', '2025-03-05 17:51:38', 0, 0, 0, NULL);
-INSERT INTO `sys_auth` VALUES (13, '角色添加权限', 'RoleController.ToRoleAuth', 1, '角色添加权限', '2025-03-05 17:52:28', 0, 0, 0, NULL);
+INSERT INTO `sys_auth` VALUES (11, '角色管理', 'RoleController.List', 0, '角色', '2025-02-06 09:55:02', 1, 0, 0, '用户');
+INSERT INTO `sys_auth` VALUES (12, '用户添加角色', 'RoleController.ToRoleUser', 11, '用户添加角色', '2025-03-05 17:51:38', 1, 0, 0, '角色');
+INSERT INTO `sys_auth` VALUES (13, '角色添加权限', 'RoleController.ToRoleAuth', 11, '角色添加权限', '2025-03-05 17:52:28', 1, 0, 0, '角色');
+INSERT INTO `sys_auth` VALUES (14, '角色展示', 'RoleController.List', 11, '角色展示', '2025-03-06 10:00:59', 1, 0, 0, '角色');
 
 -- ----------------------------
 -- Table structure for sys_cars
@@ -140,13 +141,13 @@ CREATE TABLE `sys_role`  (
   `create_time` datetime NOT NULL COMMENT '创建时间',
   `desc` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '职位描述',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 14 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 26 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of sys_role
 -- ----------------------------
-INSERT INTO `sys_role` VALUES (1, '总经理', 1, 0, '2025-03-05 14:18:11', '公司总经理，拥有所有权限');
-INSERT INTO `sys_role` VALUES (2, '技术研发部主管', 1, 0, '2025-03-05 14:18:30', '技术研发部经理，拥有技术研发部权限');
+INSERT INTO `sys_role` VALUES (1, '总经理', 0, 0, '2025-03-12 17:47:52', '公司总经理，拥有所有权限');
+INSERT INTO `sys_role` VALUES (2, '技术研发部主管', 1, 0, '2025-03-12 17:47:10', '技术研发部经理，拥有技术研发部权限');
 INSERT INTO `sys_role` VALUES (3, '运营维护中心员工', 1, 0, '2025-03-04 14:18:55', '运营维护部员工，拥有部分权限');
 INSERT INTO `sys_role` VALUES (4, '人事部主管', 1, 0, '2025-03-05 14:20:08', NULL);
 INSERT INTO `sys_role` VALUES (5, '人事部员工', 1, 0, '2020-07-11 14:20:33', NULL);
@@ -156,8 +157,8 @@ INSERT INTO `sys_role` VALUES (8, '商务拓展部员工', 1, 0, '2025-03-06 14:
 INSERT INTO `sys_role` VALUES (9, '运营维护中心员工', 1, 0, '2025-03-06 14:22:31', NULL);
 INSERT INTO `sys_role` VALUES (10, '财务部主管', 1, 0, '2025-03-06 14:22:48', NULL);
 INSERT INTO `sys_role` VALUES (11, '财务部员工', 1, 0, '2022-03-11 14:23:01', NULL);
-INSERT INTO `sys_role` VALUES (12, '党建中心主管', 1, 0, '2025-03-01 14:23:19', '党建中心主管，拥有党建部门所有权限');
-INSERT INTO `sys_role` VALUES (13, '党建中心员工', 1, 0, '2025-02-01 14:23:33', NULL);
+INSERT INTO `sys_role` VALUES (24, '后勤保障部主管', 1, 0, '2025-03-12 15:35:01', '后勤保障部主管');
+INSERT INTO `sys_role` VALUES (25, '后期保障部员工', 1, 0, '2025-03-12 15:37:14', '后勤保障部员工');
 
 -- ----------------------------
 -- Table structure for sys_role_sys_auths
@@ -179,7 +180,7 @@ INSERT INTO `sys_role_sys_auths` VALUES (3, 1, 2);
 INSERT INTO `sys_role_sys_auths` VALUES (4, 2, 1);
 INSERT INTO `sys_role_sys_auths` VALUES (5, 2, 2);
 INSERT INTO `sys_role_sys_auths` VALUES (6, 2, 3);
-INSERT INTO `sys_role_sys_auths` VALUES (7, 1, 5);
+INSERT INTO `sys_role_sys_auths` VALUES (7, 1, 11);
 
 -- ----------------------------
 -- Table structure for sys_role_sys_users
@@ -190,18 +191,21 @@ CREATE TABLE `sys_role_sys_users`  (
   `sys_role_id` int(11) NOT NULL,
   `sys_user_id` int(11) NOT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 8 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 16 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of sys_role_sys_users
 -- ----------------------------
-INSERT INTO `sys_role_sys_users` VALUES (1, 1, 1);
 INSERT INTO `sys_role_sys_users` VALUES (2, 2, 1);
 INSERT INTO `sys_role_sys_users` VALUES (3, 3, 1);
 INSERT INTO `sys_role_sys_users` VALUES (4, 2, 2);
 INSERT INTO `sys_role_sys_users` VALUES (5, 3, 2);
 INSERT INTO `sys_role_sys_users` VALUES (6, 3, 3);
 INSERT INTO `sys_role_sys_users` VALUES (7, 2, 3);
+INSERT INTO `sys_role_sys_users` VALUES (12, 1, 1);
+INSERT INTO `sys_role_sys_users` VALUES (13, 1, 11);
+INSERT INTO `sys_role_sys_users` VALUES (14, 1, 9);
+INSERT INTO `sys_role_sys_users` VALUES (15, 1, 8);
 
 -- ----------------------------
 -- Table structure for sys_user
@@ -221,7 +225,7 @@ CREATE TABLE `sys_user`  (
   `create_time` datetime NULL DEFAULT NULL COMMENT '创建时间',
   PRIMARY KEY (`id`) USING BTREE,
   UNIQUE INDEX `user_name`(`user_name`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 30 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 24 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of sys_user

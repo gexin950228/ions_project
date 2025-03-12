@@ -55,7 +55,6 @@
                 </label>
                 <div class="layui-input-inline">
                     <input type="radio" name="is_active" autocomplete="off" class="layui-input" value="1" title="启用" checked>
-
                     <input type="radio" name="is_active" required="" lay-verify="repass"
                            autocomplete="off" class="layui-input" value="0" title="停用">
                 </div>
@@ -81,28 +80,28 @@
                     var desc = document.getElementById("desc").value;
 
                     var is_active = $("input[name='is_active']:checked").val();
-
-
+                    console.log(role_name,desc,is_active);
                     $.ajax({
                         url:"{{urlfor "RoleController.DoAdd"}}",
                         type:"POST",
                         data:{
                             "role_name":role_name,
                             "desc":desc,
-                            "is_active":is_active
+                            "is_active":parseInt(is_active)
                         },
                         success:function (data) {
-                            var code = data["code"];
-                            if(code == 200){
+                            let code = data["code"];
+                            if(code === 200){
                                 ions_alert.alertSuccessToast(data["msg"]);
                                 setTimeout(reload_list,2000);  // 2s
-
                             }else {
                                 ions_alert.alertErrorToast(data["msg"])
+                                setTimeout(reload_list,2000);
                             }
                         },
                         fail:function (data) {
-                            alert(data)
+                            ions_alert.alertErrorToast(data["msg"])
+                            setTimeout(reload_list,2000);
                         }
                     });
 
@@ -113,7 +112,7 @@
                         //关闭当前frame
                         parent.layer.close(index);
                         window.location.href = "{{urlfor "RoleController.List"}}";
-                        windowl.href.reload();
+                        window.href.reload();
                     }
 
 

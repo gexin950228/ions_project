@@ -97,7 +97,8 @@ func (c *RoleController) ToAdd() {
 func (c *RoleController) DoAdd() {
 	role_name := c.GetString("role_name")
 	desc := c.GetString("desc")
-	role := auth.Role{RoleName: role_name, Desc: desc, CreateTime: time.Now()}
+	is_active, _ := c.GetInt("is_active")
+	role := auth.Role{RoleName: role_name, Desc: desc, CreateTime: time.Now(), IsActive: is_active}
 	o := orm.NewOrm()
 	_, err := o.Insert(&role)
 	message_map := map[string]interface{}{}
@@ -108,20 +109,23 @@ func (c *RoleController) DoAdd() {
 		message_map["code"] = 200
 		message_map["msg"] = "添加成功"
 	}
-	c.Data["message"] = message_map
+	fmt.Println(message_map)
+	c.Data["json"] = message_map
 	c.ServeJSON()
 }
 
 // ToRoleUser 给用户分配角色
 func (c *RoleController) ToRoleUser() {
-	id, _ := c.GetInt("id")
+	id, _ := c.GetInt("role_id")
 	o := orm.NewOrm()
 	role := auth.Role{}
 	o.QueryTable("sys_role").Filter("id", id).One(&role)
 
 	// 已绑定的用户
-	o.LoadRelated(&role, "User")
-
+	_, err := o.LoadRelated(&role, "User")
+	if err != nil {
+		logs.Error(err.Error())
+	}
 	// 未绑定的用户
 	var users []auth.User
 	if len(role.User) > 0 {
@@ -159,6 +163,52 @@ func (c *RoleController) DoRoleUser() {
 	c.ServeJSON()
 }
 
+func (c *RoleController) ActiveRole() {
+	role_id, _ := c.GetInt("role_id")
+	var errMap []string
+	var role auth.Role
+	fmt.Println("================================")
+	fmt.Println(role_id)
+	o := orm.NewOrm()
+	qs := o.QueryTable("sys_role")
+	err := qs.Filter("id", role_id).One(&role)
+	if err != nil {
+		errMap = append(errMap, err.Error())
+		logs.Error(err.Error())
+	}
+	if role.IsActive == 1 {
+		role.IsActive = 0
+	} else {
+		role.IsActive = 1
+	}
+	_, err = o.Update(&role)
+
+	if err != nil {
+		errMap = append(errMap, err.Error())
+		logs.Error(err.Error())
+	}
+	rep := make(map[string]string)
+	rep["code"] = "200"
+	rep["msg"] = "操作成功"
+	if len(errMap) > 0 {
+		fmt.Println("case 1")
+		rep["code"] = "10001"
+		rep["msg"] = "操作失败"
+	} else {
+		if role.IsActive == 1 {
+			fmt.Println("case 2")
+			rep["code"] = "200"
+			rep["msg"] = "启用成功"
+		} else {
+			fmt.Println("case 3")
+			rep["code"] = "200"
+			rep["msg"] = "停用成功"
+		}
+	}
+	c.Data["json"] = rep
+	c.ServeJSON()
+}
+
 // 角色，用户配置
 
 func (c *RoleController) ToRoleAuth() {
@@ -169,30 +219,35 @@ func (c *RoleController) ToRoleAuth() {
 	role := auth.Role{}
 	o := orm.NewOrm()
 	qs := o.QueryTable("sys_role")
-	qs.Filter("id", role_id).One(&role)
+	qs.Filter("id", role_id).RelatedSel().One(&role)
+
+	fmt.Printf("auth: %v\n", role.Auth)
 	c.Data["role"] = role
 	c.TplName = "auth/role-auth-add.html"
 }
 
 func (c *RoleController) GetAuthJson() {
-	role_id, _ := c.GetInt("role_id")
+	roleId, _ := c.GetInt("role_id")
 
 	o := orm.NewOrm()
 	qs := o.QueryTable("sys_auth")
-	role := auth.Role{Id: role_id}
+	role := auth.Role{Id: roleId}
 	_, err := o.LoadRelated(&role, "Auth")
 	if err != nil {
 		logs.Error(err)
 	}
 
-	authIdsHas := []int{}
+	var authIdsHas []int
 	for _, authData := range role.Auth {
 		authIdsHas = append(authIdsHas, authData.Id)
 	}
 
 	//	 所有权限
 	var auths []auth.Auth
-	qs.Filter("is_delete", 0).All(&auths)
+	_, err = qs.Filter("is_delete", 0).All(&auths)
+	if err != nil {
+		logs.Error(err.Error())
+	}
 
 	var authArrMap []map[string]interface{}
 	for _, authData := range auths {
