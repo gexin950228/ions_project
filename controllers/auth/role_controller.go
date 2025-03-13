@@ -116,13 +116,24 @@ func (c *RoleController) DoAdd() {
 
 // ToRoleUser 给用户分配角色
 func (c *RoleController) ToRoleUser() {
-	id, _ := c.GetInt("role_id")
+	uid := c.GetSession("id")
+	fmt.Println("==========================")
+	fmt.Printf("uid: %s\n", uid)
+	userId := uid.(int)
+	if userId != 1 {
+		c.TplName = "auth/403.html"
+	}
+	id, err := c.GetInt("role_id")
+	if err != nil {
+		id = 1
+	}
 	o := orm.NewOrm()
 	role := auth.Role{}
 	o.QueryTable("sys_role").Filter("id", id).One(&role)
 
 	// 已绑定的用户
-	_, err := o.LoadRelated(&role, "User")
+	_, err = o.LoadRelated(&role, "User")
+
 	if err != nil {
 		logs.Error(err.Error())
 	}
@@ -220,7 +231,7 @@ func (c *RoleController) ToRoleAuth() {
 	o := orm.NewOrm()
 	qs := o.QueryTable("sys_role")
 	qs.Filter("id", role_id).RelatedSel().One(&role)
-
+	fmt.Println("=======================================================")
 	fmt.Printf("auth: %v\n", role.Auth)
 	c.Data["role"] = role
 	c.TplName = "auth/role-auth-add.html"
@@ -265,9 +276,7 @@ func (c *RoleController) GetAuthJson() {
 	authMaps := map[string]interface{}{}
 	authMaps["auth_arr_map"] = authArrMap
 	authMaps["auth_ids_has"] = authIdsHas
-
-	c.Data["auth_arr_map"] = authArrMap
-	c.Data["auth_ids_has"] = authIdsHas
+	c.Data["json"] = authMaps
 	c.ServeJSON()
 }
 

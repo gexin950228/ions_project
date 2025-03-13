@@ -18,7 +18,7 @@ func init() {
 	// 必须登录才可请求的url
 
 	// 后台首页
-	beego.Router("/main/index", &controllers.HomeController{})
+	beego.Router("/main/index/", &controllers.HomeController{})
 	beego.Router("/main/index/notify", &controllers.HomeController{}, "get:NotifyList")
 	beego.Router("/main/index/read_notify", &controllers.HomeController{}, "get:ReadNotify")
 	beego.Router("/main/welcome", &controllers.HomeController{}, "get:Welcome")

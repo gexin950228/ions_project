@@ -79,7 +79,7 @@
         };
 
         $(function  () {
-            layui.use('form', function(){
+            layui.use('form', function (message){
               var form = layui.form;
               // layer.msg('玩命卖萌中', function(){
               //   //关闭后的操作
@@ -105,9 +105,10 @@
                           "captcha_id":captcha_id
                       },
                       success:function (data) {
+                          alert(data["code"])
+                          alert(data["msg"])
                           var code = data["code"];
-                          console.log(code, data);
-                          if(code === "200"){
+                          if(code == "200"){
                               // alert(data["msg"])
                               window.location.href="{{urlfor "HomeController.Get"}}"
                           }else {
