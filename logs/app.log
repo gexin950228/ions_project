@@ -3837,3 +3837,421 @@
 2025/03/13 16:51:46.880 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
 2025/03/13 16:57:49.512 [I] [app.go:214]  http server Running on http://:8089
 2025/03/13 16:57:50.497 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 09:41:00.944 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 09:41:01.928 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 11:26:21.447 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 11:26:22.134 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 11:27:57.601 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    32.3078ms|   match|[44m GET     [0m /     r:/
+2025/03/17 11:27:57.609 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      526.6µs|   match|[44m GET     [0m /static/css/font.css
+2025/03/17 11:27:57.609 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|        536µs|   match|[44m GET     [0m /static/css/xadmin.css
+2025/03/17 11:27:57.613 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      529.4µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2025/03/17 11:27:57.641 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      723.4µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2025/03/17 11:27:57.641 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      723.4µs|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/03/17 11:27:57.646 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      865.8µs|   match|[44m GET     [0m /static/js/xadmin.js
+2025/03/17 11:27:57.646 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      561.3µs|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2025/03/17 11:27:57.651 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      526.6µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2025/03/17 11:27:58.977 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|      508.7µs| nomatch|[44m GET     [0m /main/user/salary_slip
+2025/03/17 11:27:59.011 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    29.7012ms|   match|[44m GET     [0m /     r:/
+2025/03/17 11:27:59.058 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      506.1µs|   match|[44m GET     [0m /static/images/bg.png
+2025/03/17 11:27:59.058 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      520.5µs|   match|[44m GET     [0m /static/images/aiwrap.png
+2025/03/17 11:28:15.914 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    25.2739ms|   match|[44m GET     [0m /     r:/
+2025/03/17 11:28:39.626 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    25.6809ms|   match|[44m GET     [0m /     r:/
+2025/03/17 11:28:39.802 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|     1.0355ms|   match|[44m GET     [0m /static/images/zlkt.ico
+2025/03/17 11:28:39.808 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|      529.8µs| nomatch|[44m GET     [0m /favicon.ico
+2025/03/17 11:32:03.798 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    27.7456ms|   match|[44m GET     [0m /     r:/
+2025/03/17 11:32:04.517 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      504.5µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2025/03/17 11:32:04.523 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|     1.0622ms|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2025/03/17 11:32:04.547 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|     1.3192ms|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2025/03/17 11:32:04.588 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      704.7µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2025/03/17 11:32:15.921 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/17 11:32:15.921 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.1816ms|   match|[46m POST    [0m /     r:/
+2025/03/17 11:32:17.881 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     12.044ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 11:32:18.276 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0317ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 11:32:18.290 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|     1.2868ms|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2025/03/17 11:32:18.348 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      705.5µs|   match|[44m GET     [0m /static/lib/layui/font/iconfont.woff
+2025/03/17 11:32:29.118 [C] [config.go:187]  the request url is  /main/user/salary_slip
+2025/03/17 11:32:29.118 [C] [config.go:188]  Handler crashed with error unknown field/column name `pay_data`
+2025/03/17 11:32:29.118 [C] [config.go:194]  D:/go/src/runtime/panic.go:785
+2025/03/17 11:32:29.118 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/db_tables.go:368
+2025/03/17 11:32:29.118 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/db.go:1001
+2025/03/17 11:32:29.118 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm_queryset.go:226
+2025/03/17 11:32:29.118 [C] [config.go:194]  D:/ions_project/controllers/user/salary_slip_controller.go:31
+2025/03/17 11:32:29.118 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:877
+2025/03/17 11:32:29.118 [C] [config.go:194]  D:/go/src/net/http/server.go:3210
+2025/03/17 11:32:29.118 [C] [config.go:194]  D:/go/src/net/http/server.go:2092
+2025/03/17 11:32:29.118 [C] [config.go:194]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/17 11:32:29.119 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/17 11:33:28.531 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 11:33:43.845 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 11:33:50.676 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 11:33:54.427 [C] [config.go:187]  the request url is  /main/user/salary_slip
+2025/03/17 11:33:54.427 [C] [config.go:188]  Handler crashed with error can't find templatefile in the path:views/user/salary_slip.html
+2025/03/17 11:33:54.427 [C] [config.go:194]  D:/go/src/runtime/panic.go:785
+2025/03/17 11:33:54.427 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/template.go:75
+2025/03/17 11:33:54.427 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/controller.go:306
+2025/03/17 11:33:54.427 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/controller.go:257
+2025/03/17 11:33:54.427 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/controller.go:237
+2025/03/17 11:33:54.427 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:909
+2025/03/17 11:33:54.427 [C] [config.go:194]  D:/go/src/net/http/server.go:3210
+2025/03/17 11:33:54.427 [C] [config.go:194]  D:/go/src/net/http/server.go:2092
+2025/03/17 11:33:54.427 [C] [config.go:194]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/17 11:33:54.427 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/17 11:35:07.697 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 11:35:10.502 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.2889ms|   match|[44m GET     [0m /main/user/salary_slip   r:/main/user/salary_slip
+2025/03/17 11:39:25.763 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 11:39:30.891 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.2347ms|   match|[44m GET     [0m /main/user/salary_slip   r:/main/user/salary_slip
+2025/03/17 11:39:49.282 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 11:39:50.954 [D] [template.go:71]  template Execute err: template: user/salary_slip_detail.html:46:87: executing "user/salary_slip_detail.html" at <.salary_slip.PayDate>: can't evaluate field PayDate in type interface {}
+2025/03/17 11:39:50.954 [E] [router.go:910]  template: user/salary_slip_detail.html:46:87: executing "user/salary_slip_detail.html" at <.salary_slip.PayDate>: can't evaluate field PayDate in type interface {}
+2025/03/17 11:39:50.954 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.6807ms|   match|[44m GET     [0m /main/user/salary_slip   r:/main/user/salary_slip
+2025/03/17 11:39:53.381 [D] [template.go:71]  template Execute err: template: user/salary_slip_detail.html:46:87: executing "user/salary_slip_detail.html" at <.salary_slip.PayDate>: can't evaluate field PayDate in type interface {}
+2025/03/17 11:39:53.381 [E] [router.go:910]  template: user/salary_slip_detail.html:46:87: executing "user/salary_slip_detail.html" at <.salary_slip.PayDate>: can't evaluate field PayDate in type interface {}
+2025/03/17 11:39:53.381 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0339ms|   match|[44m GET     [0m /main/user/salary_slip   r:/main/user/salary_slip
+2025/03/17 11:39:54.709 [D] [template.go:71]  template Execute err: template: user/salary_slip_detail.html:46:87: executing "user/salary_slip_detail.html" at <.salary_slip.PayDate>: can't evaluate field PayDate in type interface {}
+2025/03/17 11:39:54.709 [E] [router.go:910]  template: user/salary_slip_detail.html:46:87: executing "user/salary_slip_detail.html" at <.salary_slip.PayDate>: can't evaluate field PayDate in type interface {}
+2025/03/17 11:39:54.709 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.2587ms|   match|[44m GET     [0m /main/user/salary_slip   r:/main/user/salary_slip
+2025/03/17 11:39:55.577 [D] [template.go:71]  template Execute err: template: user/salary_slip_detail.html:46:87: executing "user/salary_slip_detail.html" at <.salary_slip.PayDate>: can't evaluate field PayDate in type interface {}
+2025/03/17 11:39:55.577 [E] [router.go:910]  template: user/salary_slip_detail.html:46:87: executing "user/salary_slip_detail.html" at <.salary_slip.PayDate>: can't evaluate field PayDate in type interface {}
+2025/03/17 11:39:55.577 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.2409ms|   match|[44m GET     [0m /main/user/salary_slip   r:/main/user/salary_slip
+2025/03/17 11:40:20.797 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 11:40:24.733 [D] [template.go:71]  template Execute err: template: user/salary_slip_detail.html:118:87: executing "user/salary_slip_detail.html" at <.salary_slip.TransSubsidy>: can't evaluate field TransSubsidy in type interface {}
+2025/03/17 11:40:24.733 [E] [router.go:910]  template: user/salary_slip_detail.html:118:87: executing "user/salary_slip_detail.html" at <.salary_slip.TransSubsidy>: can't evaluate field TransSubsidy in type interface {}
+2025/03/17 11:40:24.733 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.6485ms|   match|[44m GET     [0m /main/user/salary_slip   r:/main/user/salary_slip
+2025/03/17 11:40:26.359 [D] [template.go:71]  template Execute err: template: user/salary_slip_detail.html:118:87: executing "user/salary_slip_detail.html" at <.salary_slip.TransSubsidy>: can't evaluate field TransSubsidy in type interface {}
+2025/03/17 11:40:26.359 [E] [router.go:910]  template: user/salary_slip_detail.html:118:87: executing "user/salary_slip_detail.html" at <.salary_slip.TransSubsidy>: can't evaluate field TransSubsidy in type interface {}
+2025/03/17 11:40:26.359 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5744ms|   match|[44m GET     [0m /main/user/salary_slip   r:/main/user/salary_slip
+2025/03/17 11:40:27.214 [D] [template.go:71]  template Execute err: template: user/salary_slip_detail.html:118:87: executing "user/salary_slip_detail.html" at <.salary_slip.TransSubsidy>: can't evaluate field TransSubsidy in type interface {}
+2025/03/17 11:40:27.214 [E] [router.go:910]  template: user/salary_slip_detail.html:118:87: executing "user/salary_slip_detail.html" at <.salary_slip.TransSubsidy>: can't evaluate field TransSubsidy in type interface {}
+2025/03/17 11:40:27.214 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5356ms|   match|[44m GET     [0m /main/user/salary_slip   r:/main/user/salary_slip
+2025/03/17 13:24:15.525 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 13:24:16.526 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 13:24:20.545 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|     1.0504ms| nomatch|[44m GET     [0m /main/user/salary_slip
+2025/03/17 13:24:20.584 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    33.3805ms|   match|[44m GET     [0m /     r:/
+2025/03/17 13:24:30.253 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/17 13:24:30.253 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.4422ms|   match|[46m POST    [0m /     r:/
+2025/03/17 13:24:33.214 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    10.6594ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 13:24:33.801 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5379ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 13:24:39.274 [D] [template.go:71]  template Execute err: template: user/salary_slip_detail.html:139:87: executing "user/salary_slip_detail.html" at <.salary_slip.HousProvidentFund>: can't evaluate field HousProvidentFund in type interface {}
+2025/03/17 13:24:39.274 [E] [router.go:910]  template: user/salary_slip_detail.html:139:87: executing "user/salary_slip_detail.html" at <.salary_slip.HousProvidentFund>: can't evaluate field HousProvidentFund in type interface {}
+2025/03/17 13:24:39.274 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.6108ms|   match|[44m GET     [0m /main/user/salary_slip   r:/main/user/salary_slip
+2025/03/17 13:24:49.663 [D] [template.go:71]  template Execute err: template: user/salary_slip_detail.html:139:87: executing "user/salary_slip_detail.html" at <.salary_slip.HousProvidentFund>: can't evaluate field HousProvidentFund in type interface {}
+2025/03/17 13:24:49.663 [E] [router.go:910]  template: user/salary_slip_detail.html:139:87: executing "user/salary_slip_detail.html" at <.salary_slip.HousProvidentFund>: can't evaluate field HousProvidentFund in type interface {}
+2025/03/17 13:24:49.663 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      1.557ms|   match|[44m GET     [0m /main/user/salary_slip   r:/main/user/salary_slip
+2025/03/17 13:29:20.458 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 13:29:25.751 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.4236ms|   match|[44m GET     [0m /main/user/salary_slip   r:/main/user/salary_slip
+2025/03/17 13:29:57.276 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     9.0372ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 13:29:58.021 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0438ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 13:30:00.390 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      508.5µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/loading-1.gif
+2025/03/17 13:30:00.390 [C] [config.go:187]  the request url is  /main/user/my_center
+2025/03/17 13:30:00.391 [C] [config.go:188]  Handler crashed with error can't find templatefile in the path:views/user/my_center.html
+2025/03/17 13:30:00.391 [C] [config.go:194]  D:/go/src/runtime/panic.go:785
+2025/03/17 13:30:00.391 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/template.go:75
+2025/03/17 13:30:00.391 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/controller.go:306
+2025/03/17 13:30:00.391 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/controller.go:257
+2025/03/17 13:30:00.391 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/controller.go:237
+2025/03/17 13:30:00.391 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:909
+2025/03/17 13:30:00.391 [C] [config.go:194]  D:/go/src/net/http/server.go:3210
+2025/03/17 13:30:00.391 [C] [config.go:194]  D:/go/src/net/http/server.go:2092
+2025/03/17 13:30:00.391 [C] [config.go:194]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/17 13:30:00.391 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/17 13:30:00.392 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.1253ms|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/icon.png
+2025/03/17 13:36:27.889 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 13:36:32.859 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     11.666ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 13:36:33.509 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.1475ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 13:36:36.472 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.1587ms|   match|[44m GET     [0m /main/user/my_center   r:/main/user/my_center
+2025/03/17 13:36:44.939 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      2.094ms|   match|[44m GET     [0m /main/cars/list   r:/main/cars/list
+2025/03/17 13:36:44.945 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//css/xadmin.css
+2025/03/17 13:36:44.945 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//css/font.css
+2025/03/17 13:36:44.946 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/layui.js
+2025/03/17 13:36:44.946 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//js/xadmin.js
+2025/03/17 13:36:44.949 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/css/layui.css
+2025/03/17 13:36:45.538 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|     1.0347ms|   match|[44m GET     [0m /static//lib/layui/lay/modules/laydate.js
+2025/03/17 13:36:45.542 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/font/iconfont.woff
+2025/03/17 13:36:45.544 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      522.1µs|   match|[44m GET     [0m /static//lib/layui/lay/modules/form.js
+2025/03/17 13:36:45.547 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|     1.0703ms|   match|[44m GET     [0m /static//lib/layui/css/modules/laydate/default/laydate.css
+2025/03/17 13:36:45.550 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|        525µs|   match|[44m GET     [0m /static//lib/layui/lay/modules/layer.js
+2025/03/17 13:36:45.565 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/css/modules/layer/default/layer.css
+2025/03/17 13:36:45.566 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      523.4µs|   match|[44m GET     [0m /static//lib/layui/lay/modules/element.js
+2025/03/17 13:41:13.519 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    28.2793ms|   match|[44m GET     [0m /     r:/
+2025/03/17 13:41:13.845 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    27.5613ms|   match|[44m GET     [0m /     r:/
+2025/03/17 13:41:24.213 [E] [login_controller.go:39]  <QuerySeter> no row found
+2025/03/17 13:41:24.213 [I] [login_controller.go:47]  登录的post请求，用户名密码错误，登录信息：username:刘映芳;pwd:c585e9df568f06a179c0cf1a21995a32
+2025/03/17 13:41:24.213 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.6436ms|   match|[46m POST    [0m /     r:/
+2025/03/17 13:43:24.393 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    24.4421ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/17 13:43:26.746 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:刘映芳;pwd:c585e9df568f06a179c0cf1a21995a32
+2025/03/17 13:43:26.746 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.1499ms|   match|[46m POST    [0m /     r:/
+2025/03/17 13:43:28.480 [C] [config.go:187]  the request url is  /main/index
+2025/03/17 13:43:28.480 [C] [config.go:188]  Handler crashed with error operator `in` need at least one args
+2025/03/17 13:43:28.480 [C] [config.go:194]  D:/go/src/runtime/panic.go:785
+2025/03/17 13:43:28.480 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/db.go:1184
+2025/03/17 13:43:28.480 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/db_tables.go:380
+2025/03/17 13:43:28.480 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/db.go:1001
+2025/03/17 13:43:28.480 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm_queryset.go:219
+2025/03/17 13:43:28.480 [C] [config.go:194]  D:/ions_project/controllers/home_controller.go:43
+2025/03/17 13:43:28.480 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:877
+2025/03/17 13:43:28.480 [C] [config.go:194]  D:/go/src/net/http/server.go:3210
+2025/03/17 13:43:28.480 [C] [config.go:194]  D:/go/src/net/http/server.go:2092
+2025/03/17 13:43:28.480 [C] [config.go:194]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/17 13:43:28.481 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/17 13:44:13.166 [C] [config.go:187]  the request url is  /main/index
+2025/03/17 13:44:13.166 [C] [config.go:188]  Handler crashed with error operator `in` need at least one args
+2025/03/17 13:44:13.166 [C] [config.go:194]  D:/go/src/runtime/panic.go:785
+2025/03/17 13:44:13.166 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/db.go:1184
+2025/03/17 13:44:13.166 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/db_tables.go:380
+2025/03/17 13:44:13.166 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/db.go:1001
+2025/03/17 13:44:13.166 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm_queryset.go:219
+2025/03/17 13:44:13.166 [C] [config.go:194]  D:/ions_project/controllers/home_controller.go:43
+2025/03/17 13:44:13.166 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:877
+2025/03/17 13:44:13.166 [C] [config.go:194]  D:/go/src/net/http/server.go:3210
+2025/03/17 13:44:13.166 [C] [config.go:194]  D:/go/src/net/http/server.go:2092
+2025/03/17 13:44:13.166 [C] [config.go:194]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/17 13:44:13.166 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/17 13:44:14.368 [C] [config.go:187]  the request url is  /main/index
+2025/03/17 13:44:14.368 [C] [config.go:188]  Handler crashed with error operator `in` need at least one args
+2025/03/17 13:44:14.368 [C] [config.go:194]  D:/go/src/runtime/panic.go:785
+2025/03/17 13:44:14.368 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/db.go:1184
+2025/03/17 13:44:14.368 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/db_tables.go:380
+2025/03/17 13:44:14.368 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/db.go:1001
+2025/03/17 13:44:14.368 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm_queryset.go:219
+2025/03/17 13:44:14.368 [C] [config.go:194]  D:/ions_project/controllers/home_controller.go:43
+2025/03/17 13:44:14.368 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:877
+2025/03/17 13:44:14.368 [C] [config.go:194]  D:/go/src/net/http/server.go:3210
+2025/03/17 13:44:14.368 [C] [config.go:194]  D:/go/src/net/http/server.go:2092
+2025/03/17 13:44:14.368 [C] [config.go:194]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/17 13:44:14.368 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/17 13:48:26.602 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     7.3357ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 13:48:27.221 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.2288ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 13:48:31.236 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.8471ms|   match|[44m GET     [0m /main/user/my_center   r:/main/user/my_center
+2025/03/17 13:48:37.585 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      2.862ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/17 13:48:37.593 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|     2.6444ms|   match|[44m GET     [0m /static/css/bootstrap-chosen.css
+2025/03/17 13:48:37.594 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|     3.7047ms|   match|[44m GET     [0m /static/js/chosen.jquery.js
+2025/03/17 13:48:38.160 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|     2.1783ms|   match|[44m GET     [0m /static/css/chosen-sprite@2x.png
+2025/03/17 13:48:41.529 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/17 13:48:41.529 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/17 13:48:41.532 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.6024ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/17 13:55:43.260 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      507.3µs|   match|[44m GET     [0m /static//lib/layui/css/modules/layer/default/icon.png
+2025/03/17 13:55:43.260 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      507.3µs|   match|[44m GET     [0m /static//lib/layui/css/modules/layer/default/loading-1.gif
+2025/03/17 13:55:43.263 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9633ms|   match|[44m GET     [0m /main/user/to_edit   r:/main/user/to_edit
+2025/03/17 13:55:50.838 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      3.137ms|   match|[44m GET     [0m /main/user/to_edit   r:/main/user/to_edit
+2025/03/17 13:56:53.645 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 13:56:59.780 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.3446ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 13:57:02.090 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      2.258ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 13:57:04.758 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      3.313ms|   match|[44m GET     [0m /main/user/my_center   r:/main/user/my_center
+2025/03/17 13:57:12.242 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.2912ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 13:57:12.733 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.1474ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 13:57:15.145 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.2849ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 13:57:15.743 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5647ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 13:57:24.716 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.2206ms|   match|[44m GET     [0m /main/user/my_center   r:/main/user/my_center
+2025/03/17 13:57:30.496 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    29.0101ms|   match|[44m GET     [0m /     r:/
+2025/03/17 13:57:40.672 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/17 13:57:40.672 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0259ms|   match|[46m POST    [0m /     r:/
+2025/03/17 13:57:42.939 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.9553ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 13:57:43.556 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.7027ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 13:58:41.469 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.9768ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 13:58:42.201 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0312ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 13:58:46.644 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.1667ms|   match|[44m GET     [0m /main/user/to_edit   r:/main/user/to_edit
+2025/03/17 13:58:50.384 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/17 13:58:50.384 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/17 13:58:50.388 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.9131ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/17 13:58:55.028 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.0749ms|   match|[44m GET     [0m /main/user/to_edit   r:/main/user/to_edit
+2025/03/17 14:01:14.417 [E] [template.go:227]  parse template err: user/user_list.html template: user/user_list.html:69: too many declarations in command
+2025/03/17 14:01:14.417 [W] [hooks.go:82]  template: user/user_list.html:69: too many declarations in command
+2025/03/17 14:01:42.783 [E] [template.go:227]  parse template err: user/user_list.html template: user/user_list.html:69: unexpected <range> in command
+2025/03/17 14:01:42.783 [W] [hooks.go:82]  template: user/user_list.html:69: unexpected <range> in command
+2025/03/17 14:02:50.267 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 14:03:12.427 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     7.0635ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 14:03:13.024 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0575ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 14:03:15.967 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/17 14:03:15.967 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/17 14:03:15.971 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.2909ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/17 14:03:54.519 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/17 14:03:54.519 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/17 14:03:54.523 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.2785ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/17 14:04:59.530 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.0928ms|   match|[44m GET     [0m /main/user/to_edit   r:/main/user/to_edit
+2025/03/17 14:06:25.291 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 14:06:30.630 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/17 14:06:30.630 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/17 14:06:30.633 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.4031ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/17 14:06:33.948 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.0671ms|   match|[44m GET     [0m /main/user/to_edit   r:/main/user/to_edit
+2025/03/17 14:06:36.689 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.3583ms|   match|[44m GET     [0m /main/user/to_edit   r:/main/user/to_edit
+2025/03/17 14:06:49.968 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    29.4299ms|   match|[44m GET     [0m /     r:/
+2025/03/17 14:06:59.619 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/17 14:06:59.620 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.7178ms|   match|[46m POST    [0m /     r:/
+2025/03/17 14:07:01.940 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     8.8924ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 14:07:02.463 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      1.036ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 14:08:08.862 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     6.0038ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 14:08:09.366 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5101ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 14:08:11.892 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    30.0003ms|   match|[44m GET     [0m /     r:/
+2025/03/17 14:08:20.946 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/17 14:08:20.946 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0562ms|   match|[46m POST    [0m /     r:/
+2025/03/17 14:08:23.040 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.5555ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 14:08:23.703 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0858ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 14:09:03.927 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    30.7733ms|   match|[44m GET     [0m /     r:/
+2025/03/17 14:09:44.419 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    31.3311ms|   match|[44m GET     [0m /     r:/
+2025/03/17 14:10:11.381 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    26.5377ms|   match|[44m GET     [0m /     r:/
+2025/03/17 14:10:11.396 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2025/03/17 14:10:11.397 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2025/03/17 14:10:11.398 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      522.4µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2025/03/17 14:10:11.398 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      522.4µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2025/03/17 14:10:11.398 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      522.4µs|   match|[44m GET     [0m /static/js/xadmin.js
+2025/03/17 14:10:11.398 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      522.4µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2025/03/17 14:10:11.398 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0462ms|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2025/03/17 14:10:11.400 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      536.3µs|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/03/17 14:10:12.912 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2025/03/17 14:10:12.912 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/aiwrap.png
+2025/03/17 14:10:12.923 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2025/03/17 14:10:12.923 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/zlkt.ico
+2025/03/17 14:10:12.925 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2025/03/17 14:10:12.929 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      524.7µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2025/03/17 14:10:12.931 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2025/03/17 14:11:11.566 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/17 14:11:11.566 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      677.9µs|   match|[46m POST    [0m /     r:/
+2025/03/17 14:11:16.406 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.2716ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 14:11:16.911 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      1.033ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 14:11:16.918 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      522.2µs|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2025/03/17 14:11:16.935 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/font/iconfont.woff
+2025/03/17 14:34:08.347 [D] [router.go:969]  | 10.161.252.114|[42m 200 [0m|    29.1631ms|   match|[44m GET     [0m /     r:/
+2025/03/17 14:34:09.046 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 14:34:09.736 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 14:35:02.561 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|    11.3514ms| nomatch|[44m GET     [0m /login.html
+2025/03/17 14:35:02.561 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|    11.3514ms| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/03/17 14:35:02.583 [D] [router.go:969]  | 10.161.252.114|[42m 200 [0m|    33.2281ms|   match|[44m GET     [0m /     r:/
+2025/03/17 14:35:04.367 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|      505.6µs| nomatch|[44m GET     [0m /web/index.html
+2025/03/17 14:35:04.861 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|        507µs| nomatch|[44m GET     [0m /cap.js
+2025/03/17 14:35:05.045 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/03/17 14:35:13.785 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/03/17 14:35:14.359 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/03/17 14:35:15.031 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/03/17 14:35:23.088 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/03/17 14:35:24.500 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|     1.0388ms| nomatch|[44m GET     [0m /rps/
+2025/03/17 14:35:24.521 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/03/17 14:35:25.704 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/03/17 14:35:26.305 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/03/17 14:35:26.708 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/03/17 14:35:30.281 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/03/17 14:35:37.524 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/03/17 14:35:40.796 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/03/17 14:42:39.469 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 14:42:46.196 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    28.9463ms|   match|[44m GET     [0m /     r:/
+2025/03/17 14:42:46.483 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    29.8087ms|   match|[44m GET     [0m /     r:/
+2025/03/17 14:42:57.421 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/17 14:42:57.421 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5665ms|   match|[46m POST    [0m /     r:/
+2025/03/17 14:42:57.465 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    11.0554ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 14:42:58.082 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      1.054ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 14:43:04.130 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.8812ms|   match|[44m GET     [0m /main/role/to_role_user_add   r:/main/role/to_role_user_add
+2025/03/17 14:43:04.136 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/bootstrap-chosen.css
+2025/03/17 14:43:04.136 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/chosen.jquery.js
+2025/03/17 14:43:04.624 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|      507.9µs| nomatch|[44m GET     [0m /static/css/chosen-sprite.png
+2025/03/17 14:43:11.084 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      2.995ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/17 14:43:11.094 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.1039ms|   match|[44m GET     [0m /static/js/ztree/jquery.min.js
+2025/03/17 14:43:11.094 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.1178ms|   match|[44m GET     [0m /static/js/ztree/jquery.ztree.excheck.js
+2025/03/17 14:43:11.095 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.6456ms|   match|[44m GET     [0m /static/js/ztree/jquery.ztree.core.js
+2025/03/17 14:43:11.095 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.6821ms|   match|[44m GET     [0m /static/css/bootstrapStyle/bootstrapStyle.css
+2025/03/17 14:43:11.096 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.2163ms|   match|[44m GET     [0m /static/js/ztree/jquery.ztree.exedit.js
+2025/03/17 14:43:11.104 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5956ms|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/17 14:43:11.113 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0461ms|   match|[44m GET     [0m /static/css/bootstrapStyle/img/bootstrap.png
+2025/03/17 14:43:11.114 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5816ms|   match|[44m GET     [0m /static/css/bootstrapStyle/img/line_conn.png
+2025/03/17 14:43:15.722 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     25.962ms|   match|[46m POST    [0m /main/role/do_role_auth_add   r:/main/role/do_role_auth_add
+2025/03/17 14:43:15.746 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5737ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/17 14:43:16.928 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0388ms|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/17 15:28:42.962 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    32.9754ms|   match|[44m GET     [0m /     r:/
+2025/03/17 15:28:44.773 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|      625.6µs| nomatch|[44m GET     [0m /main/user/salary_slip_detail
+2025/03/17 15:28:44.807 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    29.7438ms|   match|[44m GET     [0m /     r:/
+2025/03/17 15:28:55.324 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/17 15:28:55.324 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.1403ms|   match|[46m POST    [0m /     r:/
+2025/03/17 15:28:55.341 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.5681ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 15:28:55.857 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      506.8µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 15:29:01.667 [E] [salary_slip_controller.go:48]  <QuerySeter> no row found
+2025/03/17 15:29:01.667 [C] [config.go:187]  the request url is  /main/user/salary_slip_detail
+2025/03/17 15:29:01.667 [C] [config.go:188]  Handler crashed with error can't find templatefile in the path:views/user/salary_slip.html
+2025/03/17 15:29:01.668 [C] [config.go:194]  D:/go/src/runtime/panic.go:785
+2025/03/17 15:29:01.668 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/template.go:75
+2025/03/17 15:29:01.668 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/controller.go:306
+2025/03/17 15:29:01.668 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/controller.go:257
+2025/03/17 15:29:01.668 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/controller.go:237
+2025/03/17 15:29:01.668 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:909
+2025/03/17 15:29:01.668 [C] [config.go:194]  D:/go/src/net/http/server.go:3210
+2025/03/17 15:29:01.668 [C] [config.go:194]  D:/go/src/net/http/server.go:2092
+2025/03/17 15:29:01.668 [C] [config.go:194]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/17 15:29:01.668 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/17 15:29:41.546 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 15:29:41.943 [E] [salary_slip_controller.go:48]  <QuerySeter> no row found
+2025/03/17 15:29:41.944 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.5864ms|   match|[44m GET     [0m /main/user/salary_slip_detail   r:/main/user/salary_slip_detail
+2025/03/17 15:29:42.554 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 15:31:19.976 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 15:31:20.522 [E] [salary_slip_controller.go:48]  <QuerySeter> no row found
+2025/03/17 15:31:20.523 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.7763ms|   match|[44m GET     [0m /main/user/salary_slip_detail   r:/main/user/salary_slip_detail
+2025/03/17 15:31:23.569 [E] [salary_slip_controller.go:48]  <QuerySeter> no row found
+2025/03/17 15:31:23.570 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.0864ms|   match|[44m GET     [0m /main/user/salary_slip_detail   r:/main/user/salary_slip_detail
+2025/03/17 15:35:33.707 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 15:35:34.399 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 15:36:34.438 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 15:36:48.121 [E] [salary_slip_controller.go:48]  <QuerySeter> no row found
+2025/03/17 15:36:48.122 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.7642ms|   match|[44m GET     [0m /main/user/salary_slip_detail   r:/main/user/salary_slip_detail
+2025/03/17 15:37:10.185 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 15:37:10.469 [E] [salary_slip_controller.go:48]  <QuerySeter> no row found
+2025/03/17 15:37:10.470 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.2849ms|   match|[44m GET     [0m /main/user/salary_slip_detail   r:/main/user/salary_slip_detail
+2025/03/17 15:38:06.819 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 15:38:14.366 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.1756ms|   match|[44m GET     [0m /main/user/salary_slip_detail   r:/main/user/salary_slip_detail
+2025/03/17 15:38:36.787 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.1537ms|   match|[44m GET     [0m /main/user/salary_slip_detail   r:/main/user/salary_slip_detail
+2025/03/17 15:38:37.374 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 15:39:24.985 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 15:39:25.048 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.6251ms|   match|[44m GET     [0m /main/user/salary_slip_detail   r:/main/user/salary_slip_detail
+2025/03/17 15:45:29.677 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 15:45:29.931 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.0449ms|   match|[44m GET     [0m /main/user/salary_slip_detail   r:/main/user/salary_slip_detail
+2025/03/17 15:45:30.370 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 15:45:51.762 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    10.5684ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 15:45:52.390 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.2447ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 15:45:56.811 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.2849ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 15:45:57.386 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.3885ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 15:46:05.150 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5771ms|   match|[44m GET     [0m /main/user/my_center   r:/main/user/my_center
+2025/03/17 15:46:13.746 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.1686ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/17 15:46:13.753 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/bootstrapStyle/bootstrapStyle.css
+2025/03/17 15:46:13.753 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/js/ztree/jquery.min.js
+2025/03/17 15:46:13.753 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/js/ztree/jquery.ztree.core.js
+2025/03/17 15:46:13.754 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      521.7µs|   match|[44m GET     [0m /static/js/ztree/jquery.ztree.excheck.js
+2025/03/17 15:46:13.754 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/js/ztree/jquery.ztree.exedit.js
+2025/03/17 15:46:13.766 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      506.3µs|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/17 15:46:13.774 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/bootstrapStyle/img/bootstrap.png
+2025/03/17 15:46:13.779 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      536.2µs|   match|[44m GET     [0m /static/css/bootstrapStyle/img/line_conn.png
+2025/03/17 15:46:21.879 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    33.1997ms|   match|[46m POST    [0m /main/role/do_role_auth_add   r:/main/role/do_role_auth_add
+2025/03/17 15:46:21.916 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.3068ms|   match|[44m GET     [0m /main/role/to_role_auth_add   r:/main/role/to_role_auth_add
+2025/03/17 15:46:22.967 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      768.5µs|   match|[44m GET     [0m /main/role/get_auth_json   r:/main/role/get_auth_json
+2025/03/17 15:46:26.370 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|       4.49ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 15:46:26.954 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      507.4µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 15:46:29.731 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/17 15:46:29.731 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/17 15:46:29.734 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.8252ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/17 15:54:48.704 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.6066ms|   match|[44m GET     [0m /main/cars/list   r:/main/cars/list
+2025/03/17 15:54:50.666 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|      508.8µs| nomatch|[44m GET     [0m /main/cars/404.html
+2025/03/17 16:06:07.891 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.7559ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/17 16:06:09.073 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      507.7µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/17 16:06:10.908 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|      505.5µs| nomatch|[44m GET     [0m /main/undefined
+2025/03/17 16:27:09.793 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 16:32:25.063 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 16:32:26.089 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 16:36:17.400 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 16:36:18.094 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 16:57:25.979 [D] [router.go:969]  | 10.161.252.112|[42m 200 [0m|    29.7429ms|   match|[44m GET     [0m /     r:/
+2025/03/17 16:57:26.686 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 16:57:27.379 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 16:59:01.256 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|     1.0353ms| nomatch|[44m GET     [0m //login.asp
+2025/03/17 16:59:01.256 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|     1.0353ms| nomatch|[44m GET     [0m /func/web_main/validate
+2025/03/17 16:59:02.709 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/03/17 16:59:03.440 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|      649.1µs| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/03/17 16:59:06.700 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/03/17 16:59:12.895 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/03/17 16:59:15.035 [D] [router.go:969]  | 10.161.252.112|[42m 200 [0m|    26.5597ms|   match|[44m GET     [0m /     r:/
+2025/03/17 16:59:15.874 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/03/17 16:59:16.009 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/03/17 16:59:19.768 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/03/17 16:59:21.791 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/03/17 16:59:22.790 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/03/17 16:59:44.791 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|      700.2µs| nomatch|[44m GET     [0m /index.html
+2025/03/17 16:59:52.049 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/03/17 16:59:55.593 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/03/17 17:00:02.566 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/03/17 17:00:04.836 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/03/17 17:00:08.502 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/03/17 17:11:18.791 [I] [app.go:214]  http server Running on http://:8089
+2025/03/17 17:24:10.854 [I] [app.go:214]  http server Running on http://:8089

@@ -23,5 +23,9 @@ func (m *MyCenterController) Get() {
 		logs.Error(fmt.Sprintf("get user err: %s", err.Error()))
 	}
 	m.Data["user"] = user
-	m.TplName = "user/my_center.html"
+	m.TplName = "user/my_center_edit.html"
+}
+
+func (m *MyCenterController) Post() {
+
 }

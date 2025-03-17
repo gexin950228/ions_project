@@ -165,13 +165,12 @@ func (u *UserController) ResetPassword() {
 }
 
 func (u *UserController) ToUpdate() {
-	userId := u.GetSession("id")
+	userId, _ := u.GetInt("id")
 	var uid int
-	if userId == nil {
+	if userId == 0 {
 		uid = 1
 	} else {
-		fmt.Println(userId)
-		uid = userId.(int)
+		uid = userId
 	}
 	o := orm.NewOrm()
 	userData := auth.User{}

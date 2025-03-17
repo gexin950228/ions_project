@@ -4,7 +4,7 @@ import (
 	"github.com/astaxie/beego"
 	"ions_project/controllers"
 	"ions_project/controllers/auth"
-	"ions_project/controllers/cars"
+	"ions_project/controllers/caiwu"
 	"ions_project/controllers/login"
 	"ions_project/controllers/user"
 )
@@ -55,7 +55,16 @@ func init() {
 	beego.Router("/main/role/get_auth_json", &auth.RoleController{}, "get:GetAuthJson")
 	beego.Router("/main/role/do_role_auth_add", &auth.RoleController{}, "post:DoRoleAuth")
 
-	// cars
-	beego.Router("/main/cars/list", &cars.CarsController{}, "get:List")
+	// 个人中心
+	beego.Router("/main/user/my_center", &user.MyCenterController{})
+	beego.Router("/main/user/salary_slip", &user.SalarySlipController{})
+	beego.Router("/main/user/salary_slip_detail", &user.SalarySlipController{}, "get:Detail")
 
+	// 财务中心
+	beego.Router("/main/caiwu/salary_slip_list", &caiwu.CaiwuEchartDataController{})
+	beego.Router("/main/caiwu/to_echart_data_import", &caiwu.CaiwuEchartDataController{}, "get:ToImportExcel")
+	beego.Router("/main/caiwu/do_echart_data_import", &caiwu.CaiwuEchartDataController{}, "post:DoImportExcel")
+	beego.Router("/main/caiwu/salary_slip_list", &caiwu.CaiwuSalarySlipController{})
+	beego.Router("/main/caiwu/to_salary_slip_import", &caiwu.CaiwuSalarySlipController{}, "get:ToImportExcel")
+	beego.Router("/main/caiwu/do_salary_slip_import", &caiwu.CaiwuSalarySlipController{}, "post:DoImportExcel")
 }
