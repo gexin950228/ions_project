@@ -67,4 +67,16 @@ func init() {
 	beego.Router("/main/caiwu/salary_slip_list", &caiwu.CaiwuSalarySlipController{})
 	beego.Router("/main/caiwu/to_salary_slip_import", &caiwu.CaiwuSalarySlipController{}, "get:ToImportExcel")
 	beego.Router("/main/caiwu/do_salary_slip_import", &caiwu.CaiwuSalarySlipController{}, "post:DoImportExcel")
+
+	// 内容管理
+	//beego.Router("/main/news/category_list", &news.CategoryController{})
+	//beego.Router("/main/news/to_add_category", &news.CategoryController{}, "get:ToAdd")
+	//beego.Router("/main/news/do_add_category", &news.CategoryController{}, "post:DoAdd")
+	//beego.Router("/main/news/news_list", &news.NewsController{})
+	//beego.Router("/main/news/to_news_addt", &news.NewsController{}, "get:ToAdd")
+	//beego.Router("/main/news/do_news_addt", &news.NewsController{}, "post:DoAdd")
+	//beego.Router("/main/news/upload_img", &news.NewsController{}, "post:UploadImg")
+	//beego.Router("/main/news/to_edit", &news.NewsController{}, "get:ToEdit")
+	//beego.Router("/main/news/do_edit", &news.NewsController{}, "post:DoEdit")
+
 }

@@ -8,6 +8,7 @@ require (
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/mojocn/base64Captcha v1.3.1
 	github.com/smartystreets/goconvey v1.6.4
+	github.com/xuri/excelize/v2 v2.9.0
 )
 
 require (
@@ -31,7 +32,6 @@ require (
 	github.com/shiena/ansicolor v0.0.0-20230509054315-a9deabde6e02 // indirect
 	github.com/smartystreets/assertions v0.0.0-20180927180507-b2de0cb4f26d // indirect
 	github.com/xuri/efp v0.0.0-20240408161823-9ad904a10d6d // indirect
-	github.com/xuri/excelize/v2 v2.9.0 // indirect
 	github.com/xuri/nfp v0.0.0-20240318013403-ab9948c2c4a7 // indirect
 	golang.org/x/crypto v0.28.0 // indirect
 	golang.org/x/image v0.18.0 // indirect
