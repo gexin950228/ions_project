@@ -75,7 +75,6 @@ func (u *UserController) ToAdd() {
 }
 
 func (u *UserController) DoAdd() {
-	fmt.Println("进入")
 	username := u.GetString("username")
 	password := u.GetString("password")
 	age, _ := u.GetInt("age")
@@ -89,7 +88,6 @@ func (u *UserController) DoAdd() {
 	userData := auth.User{UserName: username, Password: new_password, Age: age, Gender: gender, Phone: phoneInt64, Addr: addr, IsActive: is_active}
 	_, err := o.Insert(&userData)
 	message_map := make(map[string]interface{})
-	fmt.Println(age, username, gender, addr, new_password, phoneInt64, is_active)
 	if err != nil {
 		ret1 := fmt.Sprintf("插入数据信息：username:%s|md5_password:%s|age:%d|gender:%d|phone:%s|"+
 			"addr:%s;is_active:%d", username, new_password, age, gender, phone, addr, is_active)
@@ -175,7 +173,6 @@ func (u *UserController) ToUpdate() {
 	o := orm.NewOrm()
 	userData := auth.User{}
 	err := o.QueryTable("sys_user").Filter("id", uid).One(&userData)
-	fmt.Printf("user_data:%v\n", userData)
 	if err != nil {
 		logs.Error(fmt.Sprintf("查询id为%d的用户出错，错误信息: %s", uid, err.Error()))
 	}

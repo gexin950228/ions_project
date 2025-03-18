@@ -4660,3 +4660,7 @@
 2025/03/18 16:55:51.731 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
 2025/03/18 16:55:55.544 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|      506.4µs| nomatch|[46m POST    [0m /web_config.do
 2025/03/18 16:56:02.200 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/03/18 22:04:15.991 [I] [app.go:214]  http server Running on http://:8089
+2025/03/18 23:16:10.360 [I] [app.go:214]  http server Running on http://:8089
+2025/03/18 23:16:16.337 [I] [app.go:214]  http server Running on http://:8089
+2025/03/18 23:25:14.455 [I] [app.go:214]  http server Running on http://:8089

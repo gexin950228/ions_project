@@ -109,7 +109,6 @@ func (c *RoleController) DoAdd() {
 		message_map["code"] = 200
 		message_map["msg"] = "添加成功"
 	}
-	fmt.Println(message_map)
 	c.Data["json"] = message_map
 	c.ServeJSON()
 }
@@ -117,8 +116,6 @@ func (c *RoleController) DoAdd() {
 // ToRoleUser 给用户分配角色
 func (c *RoleController) ToRoleUser() {
 	uid := c.GetSession("id")
-	fmt.Println("==========================")
-	fmt.Printf("uid: %s\n", uid)
 	userId := uid.(int)
 	if userId != 1 {
 		c.TplName = "auth/403.html"
@@ -178,8 +175,6 @@ func (c *RoleController) ActiveRole() {
 	role_id, _ := c.GetInt("role_id")
 	var errMap []string
 	var role auth.Role
-	fmt.Println("================================")
-	fmt.Println(role_id)
 	o := orm.NewOrm()
 	qs := o.QueryTable("sys_role")
 	err := qs.Filter("id", role_id).One(&role)
@@ -202,16 +197,13 @@ func (c *RoleController) ActiveRole() {
 	rep["code"] = "200"
 	rep["msg"] = "操作成功"
 	if len(errMap) > 0 {
-		fmt.Println("case 1")
 		rep["code"] = "10001"
 		rep["msg"] = "操作失败"
 	} else {
 		if role.IsActive == 1 {
-			fmt.Println("case 2")
 			rep["code"] = "200"
 			rep["msg"] = "启用成功"
 		} else {
-			fmt.Println("case 3")
 			rep["code"] = "200"
 			rep["msg"] = "停用成功"
 		}
@@ -231,8 +223,6 @@ func (c *RoleController) ToRoleAuth() {
 	o := orm.NewOrm()
 	qs := o.QueryTable("sys_role")
 	qs.Filter("id", role_id).RelatedSel().One(&role)
-	fmt.Println("=======================================================")
-	fmt.Printf("auth: %v\n", role.Auth)
 	c.Data["role"] = role
 	c.TplName = "auth/role-auth-add.html"
 }

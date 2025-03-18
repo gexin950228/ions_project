@@ -1,7 +1,6 @@
 package auth
 
 import (
-	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 	"ions_project/models/auth"
@@ -46,7 +45,6 @@ func (a *AuthController) List() {
 		qs2.Filter("id", pid).One(&pAuth)
 		sAuth.PName = pAuth.AuthName
 	}
-	fmt.Println(auths)
 	a.Data["auths"] = auths
 	a.Data["nextPage"] = nextPage
 	a.Data["page_map"] = page_map
@@ -99,7 +97,6 @@ func (a *AuthController) DoAdd() {
 	if err != nil {
 		errArr = append(errArr, err)
 	}
-	fmt.Println(auth)
 	if len(errArr) > 0 {
 		repInfo["code"] = "500"
 		repInfo["msg"] = errArr
