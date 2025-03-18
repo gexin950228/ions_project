@@ -11,7 +11,7 @@
  Target Server Version : 50740 (5.7.40-log)
  File Encoding         : 65001
 
- Date: 17/03/2025 17:12:00
+ Date: 18/03/2025 16:20:11
 */
 
 SET NAMES utf8mb4;
@@ -33,7 +33,7 @@ CREATE TABLE `sys_auth`  (
   `weight` int(11) NOT NULL DEFAULT 0 COMMENT '权重，数值越大，权重越大',
   `p_name` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 16 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 28 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of sys_auth
@@ -49,6 +49,17 @@ INSERT INTO `sys_auth` VALUES (12, '用户添加角色', 'RoleController.ToRoleU
 INSERT INTO `sys_auth` VALUES (13, '角色添加权限', 'RoleController.ToRoleAuth', 11, '角色添加权限', '2025-03-05 17:52:28', 1, 0, 0, '角色');
 INSERT INTO `sys_auth` VALUES (14, '角色展示', 'RoleController.List', 11, '角色展示', '2025-03-06 10:00:59', 1, 0, 0, '角色');
 INSERT INTO `sys_auth` VALUES (15, '财务', '#', 0, '财务', '2025-03-18 16:05:39', 0, 0, 0, NULL);
+INSERT INTO `sys_auth` VALUES (16, '薪资信息展示', 'CaiwuEchartDataController.Get', 15, '财务信息展示', '2025-03-05 08:50:29', 0, 0, 0, NULL);
+INSERT INTO `sys_auth` VALUES (17, '薪资报表导入', 'CaiwuSalarySlipController.ToImportExcel', 15, '财务报表导入', '2025-03-13 09:01:29', 0, 0, 0, NULL);
+INSERT INTO `sys_auth` VALUES (18, '财务Echart报表导入', 'CaiwuEchartDataController.ToImportExcel', 15, '财务echart报表导入', '2025-03-12 09:02:59', 0, 0, 0, NULL);
+INSERT INTO `sys_auth` VALUES (19, '财务Echart报表展示', 'CaiwuEchartDataController.Get', 15, '财务echart信息展示', '2025-03-13 09:04:52', 0, 0, 0, NULL);
+INSERT INTO `sys_auth` VALUES (20, '新闻', '#', 0, '新闻', '2025-03-05 15:11:19', 0, 0, 0, NULL);
+INSERT INTO `sys_auth` VALUES (21, '新闻列表', 'NewsController.Get', 20, '新闻列表', '2025-03-06 15:12:55', 0, 0, 0, NULL);
+INSERT INTO `sys_auth` VALUES (22, '增加新闻', 'NewsController.ToAdd', 20, '增加新闻', '2025-03-13 15:13:47', 0, 0, 0, NULL);
+INSERT INTO `sys_auth` VALUES (24, '权限', '#', 0, '权限', '2025-03-13 15:19:31', 0, 0, 0, NULL);
+INSERT INTO `sys_auth` VALUES (25, '权限展示', 'AuthController.List', 24, '权限列表', '2025-03-12 15:20:01', 0, 0, 0, NULL);
+INSERT INTO `sys_auth` VALUES (26, '新增栏目', 'CategoryController.ToAdd', 20, '新增栏目', '2025-03-13 15:55:11', 0, 0, 0, NULL);
+INSERT INTO `sys_auth` VALUES (27, '栏目展示', 'CategoryController.Get', 20, '所有栏目', '2025-03-06 15:55:43', 0, 0, 0, NULL);
 
 -- ----------------------------
 -- Table structure for sys_caiwu_data
@@ -133,6 +144,29 @@ CREATE TABLE `sys_cars_brand`  (
 -- ----------------------------
 
 -- ----------------------------
+-- Table structure for sys_category
+-- ----------------------------
+DROP TABLE IF EXISTS `sys_category`;
+CREATE TABLE `sys_category`  (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL DEFAULT '' COMMENT '分类名称',
+  `desc` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL DEFAULT '' COMMENT '分类描述',
+  `is_active` int(11) NOT NULL DEFAULT 1,
+  `is_delete` int(11) NOT NULL DEFAULT 0 COMMENT '删除:1；未删除:0',
+  `create_time` datetime NOT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of sys_category
+-- ----------------------------
+INSERT INTO `sys_category` VALUES (1, '时事', '社会热点', 1, 0, '2025-03-12 15:10:13');
+INSERT INTO `sys_category` VALUES (2, '科技', '科技进展', 1, 0, '2025-03-01 15:10:31');
+INSERT INTO `sys_category` VALUES (3, '社会', '社会热点事件', 1, 0, '2025-03-05 15:10:50');
+INSERT INTO `sys_category` VALUES (4, '数码', '数码科技新闻', 1, 0, '2025-03-18 15:59:07');
+INSERT INTO `sys_category` VALUES (5, '人文', '人文', 1, 0, '2025-03-18 15:59:52');
+
+-- ----------------------------
 -- Table structure for sys_message_notify
 -- ----------------------------
 DROP TABLE IF EXISTS `sys_message_notify`;
@@ -149,6 +183,27 @@ CREATE TABLE `sys_message_notify`  (
 -- ----------------------------
 -- Records of sys_message_notify
 -- ----------------------------
+
+-- ----------------------------
+-- Table structure for sys_news
+-- ----------------------------
+DROP TABLE IF EXISTS `sys_news`;
+CREATE TABLE `sys_news`  (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL DEFAULT '' COMMENT '新闻标题',
+  `content` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '新闻内容',
+  `is_active` int(11) NOT NULL DEFAULT 1 COMMENT '启用:1,停用:0',
+  `is_delete` int(11) NOT NULL DEFAULT 0 COMMENT '删除:1,未删除:0',
+  `category_id` int(11) NOT NULL,
+  `create_time` datetime NOT NULL COMMENT '创建时间',
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of sys_news
+-- ----------------------------
+INSERT INTO `sys_news` VALUES (1, '习近平在贵州黔东南州考察调研', '<p><span style=\"color: rgba(0, 0, 0, 0.95); font-family: MyFont; font-size: 36px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">17日下午，习近平总书记在贵州省黔东南苗族侗族自治州考察了黎平县肇兴侗寨，了解当地加强基层党组织建设和社会治理、保护传承民族传统文化、推进乡村全面振兴等情况。</span> </p><p data-f-id=\"pbf\" style=\"text-align: center; font-size: 14px; margin-top: 30px; opacity: 0.65; font-family: sans-serif;\">Powered by <a href=\"https://www.froala.com/wysiwyg-editor?pb=1\" title=\"Froala Editor\">Froala Editor</a></p>', 1, 0, 1, '2025-03-18 15:31:49');
+INSERT INTO `sys_news` VALUES (2, '信团鼓楼话振兴，习近平：祝你们的日子越过越红火', '<p style=\"margin: 0.53rem 0px 0px; padding: 0px; text-size-adjust: none; user-select: text; -webkit-tap-highlight-color: transparent; font-size: 36px; text-align: justify; color: rgba(0, 0, 0, 0.95); font-family: MyFont; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-indent: 2em;\">【信团鼓楼话振兴，习近平：祝你们的日子越过越红火】17日下午，习近平总书记来到贵州黎平县肇兴侗寨考察。在村寨的信团鼓楼，习近平同村干部和村民代表围坐在火塘边共话乡村全面振兴。大家你一言、我一语，争相向总书记讲述近年来的村寨变化和幸福生活。习近平高兴地说，从你们的讲述、你们的神情可以看出，村寨这些年欣欣向荣。现在旅游是一个很大的产业，乡村旅游如火如荼，民族地区要保留自己的特色文化，在文旅融合中更加彰显它的光彩。祝你们的日子越过越红火！（文字记者：朱基钗；摄影记者：谢环驰、燕雁、申宏、翟健岚）</p><p style=\"margin: 0.53rem 0px 0px; padding: 0px; text-size-adjust: none; user-select: text; -webkit-tap-highlight-color: transparent; font-size: 36px; text-align: justify; color: rgba(0, 0, 0, 0.95); font-family: MyFont; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><br></p><p data-f-id=\"pbf\" style=\"text-align: center; font-size: 14px; margin-top: 30px; opacity: 0.65; font-family: sans-serif;\">Powered by <a href=\"https://www.froala.com/wysiwyg-editor?pb=1\" title=\"Froala Editor\">Froala Editor</a></p>', 1, 0, 1, '2025-03-18 15:49:42');
 
 -- ----------------------------
 -- Table structure for sys_role
@@ -190,7 +245,7 @@ CREATE TABLE `sys_role_sys_auths`  (
   `sys_role_id` int(11) NOT NULL,
   `sys_auth_id` int(11) NOT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 53 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 55 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of sys_role_sys_auths
@@ -218,6 +273,8 @@ INSERT INTO `sys_role_sys_auths` VALUES (49, 1, 3);
 INSERT INTO `sys_role_sys_auths` VALUES (50, 1, 2);
 INSERT INTO `sys_role_sys_auths` VALUES (51, 1, 1);
 INSERT INTO `sys_role_sys_auths` VALUES (52, 1, 15);
+INSERT INTO `sys_role_sys_auths` VALUES (53, 1, 20);
+INSERT INTO `sys_role_sys_auths` VALUES (54, 1, 24);
 
 -- ----------------------------
 -- Table structure for sys_role_sys_users
