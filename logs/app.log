@@ -4623,3 +4623,40 @@
 2025/03/18 16:07:10.503 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.6165ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
 2025/03/18 16:07:12.777 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.5979ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
 2025/03/18 16:09:47.936 [I] [app.go:214]  http server Running on http://:8089
+2025/03/18 16:43:48.462 [I] [app.go:214]  http server Running on http://:8089
+2025/03/18 16:43:49.151 [I] [app.go:214]  http server Running on http://:8089
+2025/03/18 16:43:50.269 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    13.9042ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/18 16:43:51.110 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0328ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/18 16:43:54.182 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.8748ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
+2025/03/18 16:43:56.341 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.1214ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
+2025/03/18 16:43:58.809 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.1387ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
+2025/03/18 16:44:01.734 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9834ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
+2025/03/18 16:44:04.521 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      2.393ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
+2025/03/18 16:45:18.210 [E] [user_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/18 16:45:18.210 [I] [user_controller.go:34]  当前页;1,查询条件：
+2025/03/18 16:45:18.213 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.1757ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/18 16:45:30.145 [I] [user_controller.go:34]  当前页;5,查询条件：
+2025/03/18 16:45:30.148 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.8465ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/18 16:45:34.281 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.2623ms|   match|[44m GET     [0m /main/user/to_edit   r:/main/user/to_edit
+2025/03/18 16:45:40.727 [I] [user_controller.go:34]  当前页;4,查询条件：
+2025/03/18 16:45:40.730 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      4.148ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2025/03/18 16:45:42.627 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.2599ms|   match|[44m GET     [0m /main/user/to_edit   r:/main/user/to_edit
+2025/03/18 16:54:02.399 [D] [router.go:969]  | 10.161.252.112|[42m 200 [0m|    25.9738ms|   match|[44m GET     [0m /     r:/
+2025/03/18 16:55:38.996 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|      511.9µs| nomatch|[44m GET     [0m //login.asp
+2025/03/18 16:55:38.997 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|      561.4µs| nomatch|[44m GET     [0m /login.asp
+2025/03/18 16:55:38.997 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|      561.4µs| nomatch|[44m GET     [0m /cap.js
+2025/03/18 16:55:38.997 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|      561.4µs| nomatch|[44m GET     [0m /rps/
+2025/03/18 16:55:39.119 [D] [router.go:969]  | 10.161.252.112|[42m 200 [0m|    25.8343ms|   match|[44m GET     [0m /     r:/
+2025/03/18 16:55:39.254 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/03/18 16:55:39.696 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/03/18 16:55:39.804 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/03/18 16:55:39.958 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/03/18 16:55:39.996 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/03/18 16:55:40.332 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/03/18 16:55:41.752 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/03/18 16:55:41.938 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/03/18 16:55:42.141 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/03/18 16:55:49.449 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/03/18 16:55:51.731 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/03/18 16:55:55.544 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|      506.4µs| nomatch|[46m POST    [0m /web_config.do
+2025/03/18 16:56:02.200 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
