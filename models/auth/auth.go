@@ -141,11 +141,11 @@ func init() {
 	err := orm.RegisterDriver("mysql", orm.DRMySQL)
 	orm.Debug = true
 	if err != nil {
-		fmt.Println(err)
+		logs.Error(err)
 	}
 	err = orm.RegisterDataBase("default", "mysql", dataSource)
 	if err != nil {
-		fmt.Println(err)
+		logs.Error(err)
 	}
 
 	ret := fmt.Sprintf("host:%s|port:%s|db:%s", host, port, db)

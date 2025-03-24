@@ -19,7 +19,6 @@ func (c *SalarySlipController) Get() {
 	if month == "" {
 		month = time.Now().Format("2006-01")
 	}
-	fmt.Printf("month:%s\n", month)
 	id := c.GetSession("id")
 	if id == "" {
 		id = "1"
@@ -27,14 +26,12 @@ func (c *SalarySlipController) Get() {
 	o := orm.NewOrm()
 	user := auth.User{}
 	o.QueryTable("sys_user").Filter("id", id).One(&user)
-	fmt.Printf("user card_id:%#v, %T\n", user.CardId, user.CardId)
 	cardId := user.CardId
 	salarySlip := my_center.SalarySlip{}
 	err := o.QueryTable("sys_salary_slip").Filter("card_id", cardId).Filter("pay_date", month).One(&salarySlip)
 	if err != nil {
 		logs.Error(fmt.Sprintf("查询当月工资出错，错误信息: %s", err.Error()))
 	}
-	fmt.Println(salarySlip)
 	c.Data["salary_slip"] = salarySlip
 	c.TplName = "user/salary_slip_detail.html"
 }

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
 	"github.com/astaxie/beego/orm"
@@ -23,7 +22,7 @@ func main() {
 	// 开启日志
 	err := logs.SetLogger(logs.AdapterFile, `{"filename":"logs/app.log", "separate":["error", "info", "panic"]}`)
 	if err != nil {
-		fmt.Println(err)
+		logs.Error(err)
 	}
 	logs.SetLogFuncCallDepth(3)
 	beego.SetStaticPath("/upload", "upload")

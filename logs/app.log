@@ -4660,6 +4660,7 @@
 2025/03/18 16:55:51.731 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
 2025/03/18 16:55:55.544 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|      506.4µs| nomatch|[46m POST    [0m /web_config.do
 2025/03/18 16:56:02.200 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+<<<<<<< HEAD
 2025/03/24 10:02:31.403 [I] [app.go:214]  http server Running on http://:8089
 2025/03/24 10:02:32.326 [I] [app.go:214]  http server Running on http://:8089
 2025/03/24 10:14:31.407 [I] [app.go:214]  http server Running on http://:8089
@@ -5068,3 +5069,9 @@
 2025/03/24 17:20:58.966 [D] [template.go:71]  template Execute err: template: cars/audit_apply_list.html:62:25: executing "cars/audit_apply_list.html" at <.Cars.CarBrand.Name>: nil pointer evaluating *auth.CarBrand.Name
 2025/03/24 17:20:58.966 [E] [router.go:910]  template: cars/audit_apply_list.html:62:25: executing "cars/audit_apply_list.html" at <.Cars.CarBrand.Name>: nil pointer evaluating *auth.CarBrand.Name
 2025/03/24 17:20:58.966 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.6942ms|   match|[44m GET     [0m /main/cars/audit_apply   r:/main/cars/audit_apply
+=======
+2025/03/18 22:04:15.991 [I] [app.go:214]  http server Running on http://:8089
+2025/03/18 23:16:10.360 [I] [app.go:214]  http server Running on http://:8089
+2025/03/18 23:16:16.337 [I] [app.go:214]  http server Running on http://:8089
+2025/03/18 23:25:14.455 [I] [app.go:214]  http server Running on http://:8089
+>>>>>>> 1663240a2f093b40e0c6717f7ae42e6f2ed3f056

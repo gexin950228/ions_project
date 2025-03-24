@@ -43,8 +43,6 @@ func (c *CategoryController) Get() {
 			logs.Error(fmt.Sprintf("查询categoty出错，错误信息: %s", err.Error()))
 		}
 	}
-	fmt.Println("==================================================")
-	fmt.Printf("categories: %v\n", categories)
 	countPage := int(math.Ceil(float64(count) / float64(pagePerNum)))
 	prePage := 1
 	if currentPage == 1 {
