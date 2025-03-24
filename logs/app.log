@@ -4660,3 +4660,411 @@
 2025/03/18 16:55:51.731 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
 2025/03/18 16:55:55.544 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|      506.4µs| nomatch|[46m POST    [0m /web_config.do
 2025/03/18 16:56:02.200 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/03/24 10:02:31.403 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 10:02:32.326 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 10:14:31.407 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 10:14:32.386 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 10:43:46.521 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 10:55:16.325 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 10:55:46.806 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 10:57:54.756 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 10:59:27.334 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 11:15:58.739 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 11:15:59.423 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 12:44:19.221 [D] [router.go:969]  | 10.161.252.112|[42m 200 [0m|    42.1289ms|   match|[44m GET     [0m /     r:/
+2025/03/24 12:44:19.913 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 12:44:20.596 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 14:30:17.584 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    29.2956ms|   match|[44m GET     [0m /     r:/
+2025/03/24 14:30:17.591 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      528.7µs|   match|[44m GET     [0m /static/css/font.css
+2025/03/24 14:30:17.592 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      524.9µs|   match|[44m GET     [0m /static/css/xadmin.css
+2025/03/24 14:30:17.618 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      506.1µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2025/03/24 14:30:17.619 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|     1.0274ms|   match|[44m GET     [0m /static/lib/layui/layui.js
+2025/03/24 14:30:17.625 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|     1.8702ms|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/03/24 14:30:17.626 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      528.2µs|   match|[44m GET     [0m /static/js/xadmin.js
+2025/03/24 14:30:17.633 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      531.3µs|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2025/03/24 14:30:17.633 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      538.1µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2025/03/24 14:30:18.281 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 14:30:18.972 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 14:30:19.383 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|     1.0428ms|   match|[44m GET     [0m /static/images/bg.png
+2025/03/24 14:30:19.405 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|        786µs|   match|[44m GET     [0m /static/images/aiwrap.png
+2025/03/24 14:30:39.264 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    28.4559ms|   match|[44m GET     [0m /     r:/
+2025/03/24 14:30:39.338 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|     1.0269ms|   match|[44m GET     [0m /static/images/zlkt.ico
+2025/03/24 14:30:39.346 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|      528.9µs| nomatch|[44m GET     [0m /favicon.ico
+2025/03/24 14:31:00.066 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|           0s| nomatch|[44m GET     [0m /main/index
+2025/03/24 14:31:00.098 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    25.5879ms|   match|[44m GET     [0m /     r:/
+2025/03/24 14:31:13.264 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 14:31:14.269 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 14:31:17.672 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    28.4917ms|   match|[44m GET     [0m /     r:/
+2025/03/24 14:33:53.084 [D] [router.go:969]  | 10.161.252.114|[42m 200 [0m|    24.1615ms|   match|[44m GET     [0m /     r:/
+2025/03/24 14:35:15.566 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|      504.6µs| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/03/24 14:35:16.906 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/03/24 14:35:17.121 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|      503.7µs| nomatch|[46m POST    [0m /web_config.do
+2025/03/24 14:35:26.531 [D] [router.go:969]  | 10.161.252.114|[42m 200 [0m|    25.4932ms|   match|[44m GET     [0m /     r:/
+2025/03/24 14:35:27.396 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|      505.1µs| nomatch|[44m GET     [0m /func/web_main/validate
+2025/03/24 14:35:27.762 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|      508.8µs| nomatch|[44m GET     [0m //login.asp
+2025/03/24 14:35:29.647 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/03/24 14:35:36.171 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    29.6527ms|   match|[44m GET     [0m /     r:/
+2025/03/24 14:35:36.496 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    28.0952ms|   match|[44m GET     [0m /     r:/
+2025/03/24 14:35:36.718 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 14:35:42.563 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|      505.6µs| nomatch|[44m GET     [0m /rps/
+2025/03/24 14:35:43.381 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/03/24 14:35:47.479 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|      805.3µs| nomatch|[44m GET     [0m /cap.js
+2025/03/24 14:35:49.453 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/03/24 14:35:52.814 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|      371.1µs| nomatch|[46m POST    [0m /favicon.ico
+2025/03/24 14:35:54.314 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/03/24 14:35:54.938 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/03/24 14:35:56.021 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/03/24 14:35:56.424 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/03/24 14:35:56.675 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/03/24 14:36:00.725 [D] [router.go:969]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/03/24 14:37:33.364 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 14:38:41.076 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    31.0536ms|   match|[44m GET     [0m /     r:/
+2025/03/24 14:38:41.095 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|     1.1433ms|   match|[44m GET     [0m /static/js/jquery.min.js
+2025/03/24 14:38:41.146 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      506.7µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2025/03/24 14:38:41.165 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      781.6µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2025/03/24 14:38:41.195 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      707.8µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2025/03/24 14:38:41.201 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|        530µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2025/03/24 14:38:41.596 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 14:38:53.923 [I] [login_controller.go:53]  登录的post请求验证码错误，验证码信息:23
+2025/03/24 14:38:53.923 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.0819ms|   match|[46m POST    [0m /     r:/
+2025/03/24 14:38:55.946 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    30.1706ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/03/24 14:38:58.881 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/24 14:38:58.881 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0393ms|   match|[46m POST    [0m /     r:/
+2025/03/24 14:38:58.911 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2025/03/24 14:38:58.912 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    21.0077ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 14:38:58.969 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5069ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 14:38:58.977 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      525.5µs|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2025/03/24 14:39:25.786 [E] [role_controller.go:27]  strconv.Atoi: parsing "": invalid syntax
+2025/03/24 14:39:25.786 [I] [role_controller.go:35]  当前页;1,查询条件：
+2025/03/24 14:39:25.786 [I] [role_controller.go:48]  当前页;1,查询条件：
+2025/03/24 14:39:25.790 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.0145ms|   match|[44m GET     [0m /main/auth/role_list   r:/main/auth/role_list
+2025/03/24 14:39:25.798 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      531.4µs|   match|[44m GET     [0m /static//css/font.css
+2025/03/24 14:39:25.798 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      531.4µs|   match|[44m GET     [0m /static//css/xadmin.css
+2025/03/24 14:39:29.542 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.5241ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
+2025/03/24 14:39:29.557 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/layui.js
+2025/03/24 14:39:29.559 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//js/xadmin.js
+2025/03/24 14:39:29.571 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/css/layui.css
+2025/03/24 14:39:29.582 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|     1.0576ms|   match|[44m GET     [0m /static//lib/layui/lay/modules/laydate.js
+2025/03/24 14:39:29.597 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      507.8µs|   match|[44m GET     [0m /static//lib/layui/font/iconfont.woff
+2025/03/24 14:39:29.604 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      536.2µs|   match|[44m GET     [0m /static//lib/layui/css/modules/laydate/default/laydate.css
+2025/03/24 14:39:31.629 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.9529ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
+2025/03/24 14:39:34.316 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2025/03/24 14:39:34.316 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.4818ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
+2025/03/24 14:39:39.059 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.2855ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
+2025/03/24 14:40:26.315 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.2673ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
+2025/03/24 14:40:30.666 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.3777ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
+2025/03/24 14:40:36.472 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.6261ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
+2025/03/24 14:40:39.011 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.7247ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
+2025/03/24 14:40:40.381 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.6462ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
+2025/03/24 14:40:40.964 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.4695ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
+2025/03/24 14:40:41.275 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.1749ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
+2025/03/24 14:40:41.510 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.1832ms|   match|[44m GET     [0m /main/auth/list   r:/main/auth/list
+2025/03/24 14:40:56.682 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     7.6733ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 14:40:56.736 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5619ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 14:41:01.180 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     8.0639ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 14:41:01.237 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      1.569ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 14:42:30.565 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 14:42:32.080 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    15.0007ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 14:42:32.131 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.1158ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 14:43:33.508 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     6.8317ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 14:43:33.559 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5542ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 14:43:33.781 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/font/iconfont.woff
+2025/03/24 14:43:34.065 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 14:43:39.429 [I] [car_brand_controller.go:31]  当前页码:1，查询条件: 
+2025/03/24 14:43:39.432 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.7795ms|   match|[44m GET     [0m /main/cars/car_brand_list   r:/main/cars/car_brand_list
+2025/03/24 14:43:56.652 [I] [car_brand_controller.go:31]  当前页码:1，查询条件: 
+2025/03/24 14:43:56.654 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9203ms|   match|[44m GET     [0m /main/cars/car_brand_list   r:/main/cars/car_brand_list
+2025/03/24 14:45:09.658 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    12.7416ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 14:45:09.718 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      506.1µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 14:45:10.214 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 14:45:10.976 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    13.7904ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 14:45:11.024 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0361ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 14:45:14.773 [I] [cars_controller.go:34]  当前页;1,查询条件：
+2025/03/24 14:45:14.777 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.2896ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 14:46:00.533 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     6.6235ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 14:46:00.593 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0455ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 14:46:01.052 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 14:46:07.806 [I] [cars_controller.go:34]  当前页;1,查询条件：
+2025/03/24 14:46:07.809 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.7921ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 14:46:15.558 [I] [car_brand_controller.go:31]  当前页码:1，查询条件: 
+2025/03/24 14:46:15.560 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.0852ms|   match|[44m GET     [0m /main/cars/car_brand_list   r:/main/cars/car_brand_list
+2025/03/24 14:47:48.794 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 14:47:50.543 [I] [car_brand_controller.go:31]  当前页码:1，查询条件: 
+2025/03/24 14:47:50.547 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.1918ms|   match|[44m GET     [0m /main/cars/car_brand_list   r:/main/cars/car_brand_list
+2025/03/24 14:47:50.568 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/laydate.js
+2025/03/24 14:47:50.576 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      537.7µs|   match|[44m GET     [0m /static/lib/layui/css/modules/laydate/default/laydate.css
+2025/03/24 14:47:51.232 [I] [car_brand_controller.go:31]  当前页码:1，查询条件: 
+2025/03/24 14:47:51.234 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.1093ms|   match|[44m GET     [0m /main/cars/car_brand_list   r:/main/cars/car_brand_list
+2025/03/24 14:47:53.428 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      508.4µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/loading-1.gif
+2025/03/24 14:47:53.430 [C] [config.go:187]  the request url is  /main/cars/to_car_brand_add
+2025/03/24 14:47:53.430 [C] [config.go:188]  Handler crashed with error can't find templatefile in the path:views/cars/car_brand_add.html
+2025/03/24 14:47:53.430 [C] [config.go:194]  D:/go/src/runtime/panic.go:785
+2025/03/24 14:47:53.430 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/template.go:75
+2025/03/24 14:47:53.430 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/controller.go:306
+2025/03/24 14:47:53.430 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/controller.go:257
+2025/03/24 14:47:53.430 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/controller.go:237
+2025/03/24 14:47:53.430 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:909
+2025/03/24 14:47:53.430 [C] [config.go:194]  D:/go/src/net/http/server.go:3210
+2025/03/24 14:47:53.430 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.6359ms|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/icon.png
+2025/03/24 14:47:53.430 [C] [config.go:194]  D:/go/src/net/http/server.go:2092
+2025/03/24 14:47:53.431 [C] [config.go:194]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/24 14:47:53.431 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/24 14:51:42.726 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 14:51:49.988 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     13.442ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 14:51:50.036 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0408ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 14:51:52.503 [I] [cars_controller.go:34]  当前页;1,查询条件：
+2025/03/24 14:51:52.509 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     7.2155ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 14:53:16.036 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 14:53:17.404 [I] [cars_controller.go:34]  当前页;1,查询条件：
+2025/03/24 14:53:17.408 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.3167ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 14:53:17.421 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|      507.2µs| nomatch|[44m GET     [0m /static/jsjquery.min.js
+2025/03/24 14:53:18.220 [I] [cars_controller.go:34]  当前页;1,查询条件：
+2025/03/24 14:53:18.223 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.3123ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 14:53:18.236 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/jsjquery.min.js
+2025/03/24 14:53:20.151 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    13.1304ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 14:53:20.210 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      504.4µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 14:53:22.955 [I] [cars_controller.go:34]  当前页;1,查询条件：
+2025/03/24 14:53:22.957 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.6356ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 14:53:22.966 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|      526.3µs| nomatch|[44m GET     [0m /static/jsjquery.min.js
+2025/03/24 14:53:37.708 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     6.9513ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 14:53:37.762 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0503ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 14:53:38.295 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 14:53:40.992 [I] [car_brand_controller.go:31]  当前页码:1，查询条件: 
+2025/03/24 14:53:40.996 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.0967ms|   match|[44m GET     [0m /main/cars/car_brand_list   r:/main/cars/car_brand_list
+2025/03/24 14:53:43.480 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.6096ms|   match|[44m GET     [0m /main/cars/to_car_brand_add   r:/main/cars/to_car_brand_add
+2025/03/24 14:54:53.351 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    12.0228ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 14:54:53.408 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.2944ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 14:56:39.231 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     8.6785ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 14:56:39.283 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0332ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 14:56:44.338 [I] [car_brand_controller.go:31]  当前页码:1，查询条件: 
+2025/03/24 14:56:44.342 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.6498ms|   match|[44m GET     [0m /main/cars/car_brand_list   r:/main/cars/car_brand_list
+2025/03/24 14:56:46.668 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5947ms|   match|[44m GET     [0m /main/cars/to_car_brand_add   r:/main/cars/to_car_brand_add
+2025/03/24 14:57:19.799 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.0204ms|   match|[44m GET     [0m /main/cars/to_car_brand_add   r:/main/cars/to_car_brand_add
+2025/03/24 14:57:49.645 [C] [config.go:187]  the request url is  /main/cars/do_car_brand_add
+2025/03/24 14:57:49.645 [C] [config.go:188]  Handler crashed with error assignment to entry in nil map
+2025/03/24 14:57:49.645 [C] [config.go:194]  D:/go/src/runtime/panic.go:785
+2025/03/24 14:57:49.645 [C] [config.go:194]  D:/go/src/runtime/map_faststr.go:225
+2025/03/24 14:57:49.645 [C] [config.go:194]  D:/ions_project/controllers/cars/car_brand_controller.go:94
+2025/03/24 14:57:49.645 [C] [config.go:194]  D:/go/src/reflect/value.go:581
+2025/03/24 14:57:49.645 [C] [config.go:194]  D:/go/src/reflect/value.go:365
+2025/03/24 14:57:49.645 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:897
+2025/03/24 14:57:49.645 [C] [config.go:194]  D:/go/src/net/http/server.go:3210
+2025/03/24 14:57:49.645 [C] [config.go:194]  D:/go/src/net/http/server.go:2092
+2025/03/24 14:57:49.645 [C] [config.go:194]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/24 14:57:49.645 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/24 14:58:19.825 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.6151ms|   match|[44m GET     [0m /main/cars/to_cars_add   r:/main/cars/to_cars_add
+2025/03/24 14:58:38.940 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     8.4373ms|   match|[46m POST    [0m /main/cars/do_cars_add   r:/main/cars/do_cars_add
+2025/03/24 14:58:40.954 [I] [cars_controller.go:34]  当前页;1,查询条件：
+2025/03/24 14:58:40.958 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.4236ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 15:03:38.012 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 15:04:08.266 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    10.8781ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 15:04:08.316 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.7947ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 15:04:12.081 [I] [cars_controller.go:34]  当前页;1,查询条件：
+2025/03/24 15:04:12.085 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.1261ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 15:04:16.560 [I] [car_brand_controller.go:31]  当前页码:1，查询条件: 
+2025/03/24 15:04:16.564 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.6963ms|   match|[44m GET     [0m /main/cars/car_brand_list   r:/main/cars/car_brand_list
+2025/03/24 15:04:27.596 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.8896ms|   match|[44m GET     [0m /main/cars/to_car_brand_add   r:/main/cars/to_car_brand_add
+2025/03/24 15:04:46.199 [C] [config.go:187]  the request url is  /main/cars/do_car_brand_add
+2025/03/24 15:04:46.199 [C] [config.go:188]  Handler crashed with error assignment to entry in nil map
+2025/03/24 15:04:46.199 [C] [config.go:194]  D:/go/src/runtime/panic.go:785
+2025/03/24 15:04:46.199 [C] [config.go:194]  D:/go/src/runtime/map_faststr.go:225
+2025/03/24 15:04:46.199 [C] [config.go:194]  D:/ions_project/controllers/cars/car_brand_controller.go:94
+2025/03/24 15:04:46.199 [C] [config.go:194]  D:/go/src/reflect/value.go:581
+2025/03/24 15:04:46.199 [C] [config.go:194]  D:/go/src/reflect/value.go:365
+2025/03/24 15:04:46.199 [C] [config.go:194]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:897
+2025/03/24 15:04:46.199 [C] [config.go:194]  D:/go/src/net/http/server.go:3210
+2025/03/24 15:04:46.200 [C] [config.go:194]  D:/go/src/net/http/server.go:2092
+2025/03/24 15:04:46.200 [C] [config.go:194]  D:/go/src/runtime/asm_amd64.s:1700
+2025/03/24 15:04:46.200 [log.go:268]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/03/24 15:04:51.936 [I] [car_brand_controller.go:31]  当前页码:1，查询条件: 
+2025/03/24 15:04:51.939 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.1692ms|   match|[44m GET     [0m /main/cars/car_brand_list   r:/main/cars/car_brand_list
+2025/03/24 15:04:53.579 [I] [car_brand_controller.go:31]  当前页码:2，查询条件: 
+2025/03/24 15:04:53.583 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.7027ms|   match|[44m GET     [0m /main/cars/car_brand_list   r:/main/cars/car_brand_list
+2025/03/24 15:06:56.217 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 15:06:58.902 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    15.3299ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 15:06:58.962 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0332ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 15:07:05.082 [I] [cars_controller.go:34]  当前页;1,查询条件：
+2025/03/24 15:07:05.087 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.6501ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 15:07:08.040 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.1017ms|   match|[44m GET     [0m /main/cars/to_cars_add   r:/main/cars/to_cars_add
+2025/03/24 15:07:25.071 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     8.4379ms|   match|[46m POST    [0m /main/cars/do_cars_add   r:/main/cars/do_cars_add
+2025/03/24 15:07:27.096 [I] [cars_controller.go:34]  当前页;1,查询条件：
+2025/03/24 15:07:27.099 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.1808ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 15:07:31.173 [I] [cars_controller.go:34]  当前页;1,查询条件：
+2025/03/24 15:07:31.176 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.2975ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 15:07:33.520 [I] [cars_controller.go:34]  当前页;1,查询条件：
+2025/03/24 15:07:33.522 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      2.068ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 15:09:16.913 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     7.9738ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 15:09:16.986 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0368ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 15:09:20.117 [I] [cars_controller.go:34]  当前页;1,查询条件：
+2025/03/24 15:09:20.120 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.6524ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 15:09:23.346 [I] [cars_controller.go:34]  当前页;2,查询条件：
+2025/03/24 15:09:23.348 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.1405ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 15:09:24.880 [I] [cars_controller.go:34]  当前页;1,查询条件：
+2025/03/24 15:09:24.883 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.8188ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 15:09:35.465 [I] [cars_controller.go:34]  当前页;1,查询条件：奥迪
+2025/03/24 15:09:35.470 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.6742ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 15:16:00.866 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 15:16:11.101 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.7625ms|   match|[44m GET     [0m /main/cars/to_cars_add   r:/main/cars/to_cars_add
+2025/03/24 15:16:21.294 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     7.1226ms|   match|[46m POST    [0m /main/cars/do_cars_add   r:/main/cars/do_cars_add
+2025/03/24 15:16:23.315 [I] [cars_controller.go:34]  当前页;1,查询条件：
+2025/03/24 15:16:23.318 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.8208ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 15:16:25.190 [I] [cars_controller.go:34]  当前页;2,查询条件：
+2025/03/24 15:16:25.192 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.1657ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 15:47:03.583 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 15:47:04.544 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 16:54:17.547 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 16:54:18.244 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 16:55:38.172 [D] [router.go:969]  | 10.161.252.112|[42m 200 [0m|    29.8319ms|   match|[44m GET     [0m /     r:/
+2025/03/24 16:56:37.808 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 16:56:46.537 [D] [router.go:969]  | 10.161.252.112|[42m 200 [0m|    27.9248ms|   match|[44m GET     [0m /     r:/
+2025/03/24 16:56:46.726 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/03/24 16:56:48.549 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/03/24 16:56:48.971 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/03/24 16:56:54.033 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/03/24 16:56:56.621 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/03/24 16:56:56.859 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/03/24 16:56:57.636 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/03/24 16:57:00.314 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/03/24 16:57:01.406 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/03/24 16:57:04.094 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/03/24 16:57:11.919 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/03/24 16:57:12.542 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/03/24 16:57:14.983 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/03/24 16:57:15.578 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/03/24 16:57:15.777 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/03/24 16:57:15.965 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/03/24 16:57:16.182 [D] [router.go:969]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/03/24 16:58:30.460 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|           0s| nomatch|[44m GET     [0m /main/index
+2025/03/24 16:58:30.494 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    26.3885ms|   match|[44m GET     [0m /     r:/
+2025/03/24 16:58:38.638 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/24 16:58:38.638 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5581ms|   match|[46m POST    [0m /     r:/
+2025/03/24 16:58:38.666 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     9.4314ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 16:58:38.702 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.2076ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 16:58:41.231 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.7721ms|   match|[44m GET     [0m /main/cars/to_cars_apply   r:/main/cars/to_cars_apply
+2025/03/24 16:58:42.050 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/lay/modules/form.js
+2025/03/24 16:58:42.057 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/lay/modules/layer.js
+2025/03/24 16:58:42.069 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/css/modules/layer/default/layer.css
+2025/03/24 16:58:42.073 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static//lib/layui/lay/modules/element.js
+2025/03/24 16:58:46.338 [I] [car_apply_controller.go:32]  当前页;1,查询条件：
+2025/03/24 16:58:46.341 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      2.888ms|   match|[44m GET     [0m /main/cars/cars_apply_list   r:/main/cars/cars_apply_list
+2025/03/24 16:58:52.116 [I] [car_brand_controller.go:31]  当前页码:1，查询条件: 
+2025/03/24 16:58:52.118 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.6275ms|   match|[44m GET     [0m /main/cars/car_brand_list   r:/main/cars/car_brand_list
+2025/03/24 16:58:55.702 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      508.4µs|   match|[44m GET     [0m /static//lib/layui/css/modules/layer/default/loading-1.gif
+2025/03/24 16:58:55.702 [D] [router.go:969]  |      127.0.0.1|[47m 304 [0m|      508.4µs|   match|[44m GET     [0m /static//lib/layui/css/modules/layer/default/icon.png
+2025/03/24 16:58:55.703 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5601ms|   match|[44m GET     [0m /main/cars/to_cars_apply   r:/main/cars/to_cars_apply
+2025/03/24 16:59:24.093 [I] [car_apply_controller.go:32]  当前页;1,查询条件：
+2025/03/24 16:59:24.096 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|       3.16ms|   match|[44m GET     [0m /main/cars/cars_apply_list   r:/main/cars/cars_apply_list
+2025/03/24 16:59:26.179 [I] [car_apply_controller.go:32]  当前页;2,查询条件：
+2025/03/24 16:59:26.183 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.7276ms|   match|[44m GET     [0m /main/cars/cars_apply_list   r:/main/cars/cars_apply_list
+2025/03/24 17:00:22.608 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0301ms|   match|[44m GET     [0m /main/cars/to_cars_apply   r:/main/cars/to_cars_apply
+2025/03/24 17:00:37.799 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    13.8008ms|   match|[46m POST    [0m /main/cars/do_cars_apply   r:/main/cars/do_cars_apply
+2025/03/24 17:00:39.826 [I] [car_apply_controller.go:32]  当前页;1,查询条件：
+2025/03/24 17:00:39.828 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      3.962ms|   match|[44m GET     [0m /main/cars/cars_apply_list   r:/main/cars/cars_apply_list
+2025/03/24 17:03:49.453 [I] [car_apply_controller.go:32]  当前页;2,查询条件：
+2025/03/24 17:03:49.455 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.7226ms|   match|[44m GET     [0m /main/cars/cars_apply_list   r:/main/cars/cars_apply_list
+2025/03/24 17:03:51.618 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    14.9713ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 17:03:51.660 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0317ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 17:03:57.968 [I] [car_apply_controller.go:188]  当前页;1,查询条件：
+2025/03/24 17:03:57.970 [D] [template.go:71]  template Execute err: template: cars/audit_apply_list.html:59:18: executing "cars/audit_apply_list.html" at <.cars_apply>: range can't iterate over {1 0xc0001bd860 0xc0003471f0 时间到了 佰嘉城小区底下停车场 2025-03-24 00:00:00 +0800 CST 0 3 1 1 0 2025-03-24 14:38:59 +0800 CST 1}
+2025/03/24 17:03:57.970 [E] [router.go:910]  template: cars/audit_apply_list.html:59:18: executing "cars/audit_apply_list.html" at <.cars_apply>: range can't iterate over {1 0xc0001bd860 0xc0003471f0 时间到了 佰嘉城小区底下停车场 2025-03-24 00:00:00 +0800 CST 0 3 1 1 0 2025-03-24 14:38:59 +0800 CST 1}
+2025/03/24 17:03:57.970 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.2098ms|   match|[44m GET     [0m /main/cars/audit_apply   r:/main/cars/audit_apply
+2025/03/24 17:05:46.102 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     7.3511ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 17:05:46.169 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      714.9µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 17:05:47.468 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     8.5598ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 17:05:47.531 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      505.9µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 17:05:48.025 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 17:05:55.603 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 17:05:58.890 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    16.9263ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 17:05:58.942 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0266ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 17:06:00.634 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     8.2372ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 17:06:00.681 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0842ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 17:06:07.873 [I] [cars_controller.go:34]  当前页;1,查询条件：
+2025/03/24 17:06:07.878 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.5688ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 17:06:11.333 [I] [car_brand_controller.go:31]  当前页码:1，查询条件: 
+2025/03/24 17:06:11.336 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9265ms|   match|[44m GET     [0m /main/cars/car_brand_list   r:/main/cars/car_brand_list
+2025/03/24 17:06:12.708 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.8831ms|   match|[44m GET     [0m /main/cars/to_cars_apply   r:/main/cars/to_cars_apply
+2025/03/24 17:06:16.526 [I] [car_apply_controller.go:32]  当前页;1,查询条件：
+2025/03/24 17:06:16.528 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      2.104ms|   match|[44m GET     [0m /main/cars/cars_apply_list   r:/main/cars/cars_apply_list
+2025/03/24 17:06:18.449 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.6667ms|   match|[44m GET     [0m /main/cars/to_cars_apply   r:/main/cars/to_cars_apply
+2025/03/24 17:06:28.765 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    13.9393ms|   match|[46m POST    [0m /main/cars/do_cars_apply   r:/main/cars/do_cars_apply
+2025/03/24 17:06:30.778 [I] [car_apply_controller.go:32]  当前页;1,查询条件：
+2025/03/24 17:06:30.780 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      3.539ms|   match|[44m GET     [0m /main/cars/cars_apply_list   r:/main/cars/cars_apply_list
+2025/03/24 17:06:35.579 [I] [car_apply_controller.go:32]  当前页;2,查询条件：
+2025/03/24 17:06:35.581 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.7953ms|   match|[44m GET     [0m /main/cars/cars_apply_list   r:/main/cars/cars_apply_list
+2025/03/24 17:06:37.647 [I] [car_apply_controller.go:32]  当前页;1,查询条件：
+2025/03/24 17:06:37.650 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.8448ms|   match|[44m GET     [0m /main/cars/cars_apply_list   r:/main/cars/cars_apply_list
+2025/03/24 17:08:01.898 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 17:08:18.974 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 17:08:22.564 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    29.3605ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 17:08:22.612 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0303ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 17:08:25.563 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    30.7184ms|   match|[44m GET     [0m /     r:/
+2025/03/24 17:08:33.446 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/24 17:08:33.446 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.6873ms|   match|[46m POST    [0m /     r:/
+2025/03/24 17:08:33.468 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     8.2013ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 17:08:33.491 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0332ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 17:09:01.668 [E] [car_apply_controller.go:240]  <QuerySeter> no row found
+2025/03/24 17:09:01.669 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.8343ms|   match|[44m GET     [0m /main/cars/to_audit_apply   r:/main/cars/to_audit_apply
+2025/03/24 17:10:28.436 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 17:11:42.860 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    34.9934ms|   match|[44m GET     [0m /     r:/
+2025/03/24 17:11:52.534 [I] [login_controller.go:65]  登录的post请求，登录成功，登录信息：username:葛新;pwd:ca2f2d88e5b449688a0c8d7a03a216c8
+2025/03/24 17:11:52.534 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      1.037ms|   match|[46m POST    [0m /     r:/
+2025/03/24 17:11:52.566 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     9.1444ms|   match|[44m GET     [0m /main/index   r:/main/index/
+2025/03/24 17:11:52.592 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5438ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2025/03/24 17:11:55.586 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5672ms|   match|[44m GET     [0m /main/cars/to_cars_apply   r:/main/cars/to_cars_apply
+2025/03/24 17:11:58.818 [I] [car_brand_controller.go:31]  当前页码:1，查询条件: 
+2025/03/24 17:11:58.821 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.2456ms|   match|[44m GET     [0m /main/cars/car_brand_list   r:/main/cars/car_brand_list
+2025/03/24 17:12:00.862 [I] [car_brand_controller.go:31]  当前页码:2，查询条件: 
+2025/03/24 17:12:00.864 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9739ms|   match|[44m GET     [0m /main/cars/car_brand_list   r:/main/cars/car_brand_list
+2025/03/24 17:12:02.035 [I] [car_brand_controller.go:31]  当前页码:1，查询条件: 
+2025/03/24 17:12:02.037 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      2.636ms|   match|[44m GET     [0m /main/cars/car_brand_list   r:/main/cars/car_brand_list
+2025/03/24 17:12:06.841 [I] [car_apply_controller.go:32]  当前页;1,查询条件：
+2025/03/24 17:12:06.844 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.2708ms|   match|[44m GET     [0m /main/cars/cars_apply_list   r:/main/cars/cars_apply_list
+2025/03/24 17:12:10.753 [I] [car_apply_controller.go:188]  当前页;1,查询条件：
+2025/03/24 17:12:10.754 [D] [template.go:71]  template Execute err: template: cars/audit_apply_list.html:59:18: executing "cars/audit_apply_list.html" at <.cars_apply>: range can't iterate over {1 0xc0000132b0 0xc0000deb60 时间到了 佰嘉城小区底下停车场 2025-03-24 00:00:00 +0800 CST 0 3 1 1 0 2025-03-24 14:38:59 +0800 CST 1}
+2025/03/24 17:12:10.754 [E] [router.go:910]  template: cars/audit_apply_list.html:59:18: executing "cars/audit_apply_list.html" at <.cars_apply>: range can't iterate over {1 0xc0000132b0 0xc0000deb60 时间到了 佰嘉城小区底下停车场 2025-03-24 00:00:00 +0800 CST 0 3 1 1 0 2025-03-24 14:38:59 +0800 CST 1}
+2025/03/24 17:12:10.754 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.1021ms|   match|[44m GET     [0m /main/cars/audit_apply   r:/main/cars/audit_apply
+2025/03/24 17:13:44.963 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 17:14:03.324 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    33.0852ms|   match|[44m GET     [0m /     r:/
+2025/03/24 17:14:03.850 [I] [car_apply_controller.go:188]  当前页;1,查询条件：
+2025/03/24 17:14:03.854 [D] [template.go:71]  template Execute err: template: cars/audit_apply_list.html:59:18: executing "cars/audit_apply_list.html" at <.cars_apply>: range can't iterate over {1 0xc0004635f0 0xc0004c3110 时间到了 佰嘉城小区底下停车场 2025-03-24 00:00:00 +0800 CST 0 3 1 1 0 2025-03-24 14:38:59 +0800 CST 1}
+2025/03/24 17:14:03.854 [E] [router.go:910]  template: cars/audit_apply_list.html:59:18: executing "cars/audit_apply_list.html" at <.cars_apply>: range can't iterate over {1 0xc0004635f0 0xc0004c3110 时间到了 佰嘉城小区底下停车场 2025-03-24 00:00:00 +0800 CST 0 3 1 1 0 2025-03-24 14:38:59 +0800 CST 1}
+2025/03/24 17:14:03.854 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.2195ms|   match|[44m GET     [0m /main/cars/audit_apply   r:/main/cars/audit_apply
+2025/03/24 17:15:26.935 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 17:16:08.695 [I] [cars_controller.go:34]  当前页;1,查询条件：
+2025/03/24 17:16:08.701 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.8214ms|   match|[44m GET     [0m /main/cars/cars_list   r:/main/cars/cars_list
+2025/03/24 17:16:21.728 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    36.3072ms|   match|[44m GET     [0m /     r:/
+2025/03/24 17:16:22.225 [I] [car_apply_controller.go:32]  当前页;1,查询条件：
+2025/03/24 17:16:22.227 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.1055ms|   match|[44m GET     [0m /main/cars/cars_apply_list   r:/main/cars/cars_apply_list
+2025/03/24 17:16:26.289 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|       1.57ms|   match|[44m GET     [0m /main/cars/to_cars_apply   r:/main/cars/to_cars_apply
+2025/03/24 17:16:39.643 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    17.7477ms|   match|[46m POST    [0m /main/cars/do_cars_apply   r:/main/cars/do_cars_apply
+2025/03/24 17:16:41.657 [I] [car_apply_controller.go:32]  当前页;1,查询条件：
+2025/03/24 17:16:41.659 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5474ms|   match|[44m GET     [0m /main/cars/cars_apply_list   r:/main/cars/cars_apply_list
+2025/03/24 17:16:43.987 [I] [car_apply_controller.go:32]  当前页;2,查询条件：
+2025/03/24 17:16:43.991 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9516ms|   match|[44m GET     [0m /main/cars/cars_apply_list   r:/main/cars/cars_apply_list
+2025/03/24 17:16:48.617 [I] [car_apply_controller.go:188]  当前页;1,查询条件：
+2025/03/24 17:16:48.619 [D] [template.go:71]  template Execute err: template: cars/audit_apply_list.html:59:18: executing "cars/audit_apply_list.html" at <.cars_apply>: range can't iterate over {1 0xc0003bca90 0xc00017fc00 时间到了 佰嘉城小区底下停车场 2025-03-24 00:00:00 +0800 CST 0 3 1 1 0 2025-03-24 14:38:59 +0800 CST 1}
+2025/03/24 17:16:48.619 [E] [router.go:910]  template: cars/audit_apply_list.html:59:18: executing "cars/audit_apply_list.html" at <.cars_apply>: range can't iterate over {1 0xc0003bca90 0xc00017fc00 时间到了 佰嘉城小区底下停车场 2025-03-24 00:00:00 +0800 CST 0 3 1 1 0 2025-03-24 14:38:59 +0800 CST 1}
+2025/03/24 17:16:48.619 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5511ms|   match|[44m GET     [0m /main/cars/audit_apply   r:/main/cars/audit_apply
+2025/03/24 17:17:24.170 [I] [car_apply_controller.go:188]  当前页;1,查询条件：
+2025/03/24 17:17:24.172 [D] [template.go:71]  template Execute err: template: cars/audit_apply_list.html:59:18: executing "cars/audit_apply_list.html" at <.cars_apply>: range can't iterate over {1 0xc001519790 0xc000179dc0 时间到了 佰嘉城小区底下停车场 2025-03-24 00:00:00 +0800 CST 0 3 1 1 0 2025-03-24 14:38:59 +0800 CST 1}
+2025/03/24 17:17:24.172 [E] [router.go:910]  template: cars/audit_apply_list.html:59:18: executing "cars/audit_apply_list.html" at <.cars_apply>: range can't iterate over {1 0xc001519790 0xc000179dc0 时间到了 佰嘉城小区底下停车场 2025-03-24 00:00:00 +0800 CST 0 3 1 1 0 2025-03-24 14:38:59 +0800 CST 1}
+2025/03/24 17:17:24.172 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.6347ms|   match|[44m GET     [0m /main/cars/audit_apply   r:/main/cars/audit_apply
+2025/03/24 17:18:07.812 [I] [car_apply_controller.go:188]  当前页;1,查询条件：
+2025/03/24 17:18:07.816 [D] [template.go:71]  template Execute err: template: cars/audit_apply_list.html:59:18: executing "cars/audit_apply_list.html" at <.cars_apply>: range can't iterate over {1 0xc0003bd5f0 0xc0001b25b0 时间到了 佰嘉城小区底下停车场 2025-03-24 00:00:00 +0800 CST 0 3 1 1 0 2025-03-24 14:38:59 +0800 CST 1}
+2025/03/24 17:18:07.816 [E] [router.go:910]  template: cars/audit_apply_list.html:59:18: executing "cars/audit_apply_list.html" at <.cars_apply>: range can't iterate over {1 0xc0003bd5f0 0xc0001b25b0 时间到了 佰嘉城小区底下停车场 2025-03-24 00:00:00 +0800 CST 0 3 1 1 0 2025-03-24 14:38:59 +0800 CST 1}
+2025/03/24 17:18:07.816 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.1841ms|   match|[44m GET     [0m /main/cars/audit_apply   r:/main/cars/audit_apply
+2025/03/24 17:20:46.195 [I] [car_apply_controller.go:188]  当前页;1,查询条件：
+2025/03/24 17:20:46.197 [D] [template.go:71]  template Execute err: template: cars/audit_apply_list.html:59:18: executing "cars/audit_apply_list.html" at <.cars_apply>: range can't iterate over {1 0xc001518820 0xc0001ae700 时间到了 佰嘉城小区底下停车场 2025-03-24 00:00:00 +0800 CST 0 3 1 1 0 2025-03-24 14:38:59 +0800 CST 1}
+2025/03/24 17:20:46.197 [E] [router.go:910]  template: cars/audit_apply_list.html:59:18: executing "cars/audit_apply_list.html" at <.cars_apply>: range can't iterate over {1 0xc001518820 0xc0001ae700 时间到了 佰嘉城小区底下停车场 2025-03-24 00:00:00 +0800 CST 0 3 1 1 0 2025-03-24 14:38:59 +0800 CST 1}
+2025/03/24 17:20:46.197 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.1053ms|   match|[44m GET     [0m /main/cars/audit_apply   r:/main/cars/audit_apply
+2025/03/24 17:20:46.992 [I] [car_apply_controller.go:188]  当前页;1,查询条件：
+2025/03/24 17:20:46.994 [D] [template.go:71]  template Execute err: template: cars/audit_apply_list.html:59:18: executing "cars/audit_apply_list.html" at <.cars_apply>: range can't iterate over {1 0xc0015195f0 0xc0001a3420 时间到了 佰嘉城小区底下停车场 2025-03-24 00:00:00 +0800 CST 0 3 1 1 0 2025-03-24 14:38:59 +0800 CST 1}
+2025/03/24 17:20:46.995 [E] [router.go:910]  template: cars/audit_apply_list.html:59:18: executing "cars/audit_apply_list.html" at <.cars_apply>: range can't iterate over {1 0xc0015195f0 0xc0001a3420 时间到了 佰嘉城小区底下停车场 2025-03-24 00:00:00 +0800 CST 0 3 1 1 0 2025-03-24 14:38:59 +0800 CST 1}
+2025/03/24 17:20:46.995 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.5456ms|   match|[44m GET     [0m /main/cars/audit_apply   r:/main/cars/audit_apply
+2025/03/24 17:20:47.199 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 17:20:48.208 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 17:20:56.885 [I] [app.go:214]  http server Running on http://:8089
+2025/03/24 17:20:58.962 [I] [car_apply_controller.go:188]  当前页;1,查询条件：
+2025/03/24 17:20:58.966 [D] [template.go:71]  template Execute err: template: cars/audit_apply_list.html:62:25: executing "cars/audit_apply_list.html" at <.Cars.CarBrand.Name>: nil pointer evaluating *auth.CarBrand.Name
+2025/03/24 17:20:58.966 [E] [router.go:910]  template: cars/audit_apply_list.html:62:25: executing "cars/audit_apply_list.html" at <.Cars.CarBrand.Name>: nil pointer evaluating *auth.CarBrand.Name
+2025/03/24 17:20:58.966 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.6942ms|   match|[44m GET     [0m /main/cars/audit_apply   r:/main/cars/audit_apply

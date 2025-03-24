@@ -5,7 +5,9 @@ import (
 	"ions_project/controllers"
 	"ions_project/controllers/auth"
 	"ions_project/controllers/caiwu"
+	"ions_project/controllers/cars"
 	"ions_project/controllers/login"
+	"ions_project/controllers/news"
 	"ions_project/controllers/user"
 )
 
@@ -69,14 +71,32 @@ func init() {
 	beego.Router("/main/caiwu/do_salary_slip_import", &caiwu.CaiwuSalarySlipController{}, "post:DoImportExcel")
 
 	// 内容管理
-	//beego.Router("/main/news/category_list", &news.CategoryController{})
-	//beego.Router("/main/news/to_add_category", &news.CategoryController{}, "get:ToAdd")
-	//beego.Router("/main/news/do_add_category", &news.CategoryController{}, "post:DoAdd")
-	//beego.Router("/main/news/news_list", &news.NewsController{})
-	//beego.Router("/main/news/to_news_addt", &news.NewsController{}, "get:ToAdd")
-	//beego.Router("/main/news/do_news_addt", &news.NewsController{}, "post:DoAdd")
-	//beego.Router("/main/news/upload_img", &news.NewsController{}, "post:UploadImg")
-	//beego.Router("/main/news/to_edit", &news.NewsController{}, "get:ToEdit")
-	//beego.Router("/main/news/do_edit", &news.NewsController{}, "post:DoEdit")
+	beego.Router("/main/news/category_list", &news.CategoryController{})
+	beego.Router("/main/news/to_add_category", &news.CategoryController{}, "get:ToAdd")
+	beego.Router("/main/news/do_add_category", &news.CategoryController{}, "post:DoAdd")
+	beego.Router("/main/news/news_list", &news.NewsController{})
+	beego.Router("/main/news/to_news_audit", &news.NewsController{}, "get:ToAdd")
+	beego.Router("/main/news/do_news_audit", &news.NewsController{}, "post:DoAdd")
+	beego.Router("/main/news/upload_img", &news.NewsController{}, "post:UploadImg")
+	beego.Router("/main/news/to_edit", &news.NewsController{}, "get:ToEdit")
+	beego.Router("/main/news/do_edit", &news.NewsController{}, "post:DoEdit")
+
+	// 车辆管理
+	beego.Router("/main/cars/car_brand_list", &cars.CarBrandController{})
+	beego.Router("/main/cars/to_car_brand_add", &cars.CarBrandController{}, "get:ToAdd")
+	beego.Router("/main/cars/do_car_brand_add", &cars.CarBrandController{}, "post:DoAdd")
+
+	beego.Router("/main/cars/cars_list", &cars.CarsController{})
+	beego.Router("/main/cars/to_cars_add", &cars.CarsController{}, "get:ToAdd")
+	beego.Router("/main/cars/do_cars_add", &cars.CarsController{}, "post:DoAdd")
+
+	beego.Router("/main/cars/cars_apply_list", &cars.CarsApplyController{})
+	beego.Router("/main/cars/to_cars_apply", &cars.CarsApplyController{}, "get:ToApply")
+	beego.Router("/main/cars/do_cars_apply", &cars.CarsApplyController{}, "post:DoApply")
+	beego.Router("/main/cars/my_apply", &cars.CarsApplyController{}, "get:MyApply")
+	beego.Router("/main/cars/audit_apply", &cars.CarsApplyController{}, "get:AuditApply")
+	beego.Router("/main/cars/to_audit_apply", &cars.CarsApplyController{}, "get:ToAuditApply")
+	beego.Router("/main/cars/do_audit_apply", &cars.CarsApplyController{}, "post:DoAuditApply")
+	beego.Router("/main/cars/do_return", &cars.CarsApplyController{}, "get:DoReturn")
 
 }
